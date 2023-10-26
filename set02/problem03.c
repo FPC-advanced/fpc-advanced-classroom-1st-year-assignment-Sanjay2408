@@ -19,7 +19,7 @@ int input_number()
 }
 int is_composite(int n)
 {
-
+ for 
 }
 void output(int n, int result)
 {
@@ -32,8 +32,5 @@ void output(int n, int result)
     {
         printf("%d is not a composite number",n);
     }
-    else
-    {
-        printf()
-    }
+    
 }
