@@ -40,3 +40,22 @@ PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC
 
 PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exe
 
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exegcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exe" 2>&1
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exegcc : The term 
+'c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exegcc' is not recognized as the 
+name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\FPC_Advanced...roblem02.exegcc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exegcc : The term
+'c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem02.exegcc' is not recognized as the name of a cmdlet, function, script
+file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\FPC_Advanced...roblem02.exegcc:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
