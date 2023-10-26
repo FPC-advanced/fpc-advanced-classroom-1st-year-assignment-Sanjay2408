@@ -18,3 +18,7 @@ int input_number()
     scanf("%d",&n);
     return n;
 }
+int is_composite(int n)
+{
+    
+}
