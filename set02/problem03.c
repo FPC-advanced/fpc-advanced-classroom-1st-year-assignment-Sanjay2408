@@ -30,6 +30,6 @@ void output(int n, int result)
     }
     else if(result ==1)
     {
-        printf("%d ")
+        printf("%d is not a composite number",n)
     }
 }
