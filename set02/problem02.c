@@ -42,4 +42,4 @@ void output(int a, int b, int c, int isscalene)
     {
     printf("The triangle with the sides %d,%d and %d is not scalene",a,b,c);
     }
-}>
+}
