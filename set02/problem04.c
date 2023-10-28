@@ -33,13 +33,14 @@ int sum_composite_numbers(int n, int a[n])
 {
 int i,sum=0;
 for (i=2;i<=n/2;i++)
- (a[i]%i == 0);
+{
+ if (a[n]%i == 0)
  {
     sum = sum + a[i];
  }
  return sum;
 }
-
+}
 void output(int sum)
 {
     printf("sum of composite number is %d",sum);
