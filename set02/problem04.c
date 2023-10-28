@@ -7,7 +7,8 @@ int main()
 {
     int n,sum;
     n=input_array_size();
-
+    int a[n];
+    
     output(sum);
     return 0;
 }
@@ -17,4 +18,8 @@ int input_array_size()
  printf("Enter the size of array\n");
  scanf("%d",&n);
  return n;
+}
+void input_array(int n, int a[n])
+{
+
 }
