@@ -23,11 +23,11 @@ int i;
 for (i=2;i<=n/2;i++)
 {if (n <=1)
 {
-    return 1;
+    return 0;
 }
  if (n%i == 0)
  {
-    return 0;
+    return 1;
  }
 else 
 return 1;
@@ -35,12 +35,12 @@ return 1;
 }
 void output(int n, int result)
 {
-    if(result==0)
+    if(result==1)
     {
     printf("%d is a composite number",n);
     }
     else 
-    if(result ==1)
+    if(result ==0)
     {
         printf("%d is not a composite number",n);
     }
