@@ -24,7 +24,7 @@ void input_array(int n, int a[n])
 {
  int i;
  printf("Enter the array elements\n");
- for(i=0;i<a[/2;i++)
+ for(i=0;i<n;i++)
  {
     scanf("%d",&a[i]);
  }
@@ -36,7 +36,7 @@ for (i=2;i<=n/2;i++)
 {
  if (a[n]%i == 0)
  {
-    sum = sum + a[n];
+    sum = sum + a[i];
  }
  return sum;
 }
