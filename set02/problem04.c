@@ -8,7 +8,7 @@ int main()
     int n,sum;
     n=input_array_size();
     int a[n];
-    
+    input_array(n,a);
     output(sum);
     return 0;
 }
@@ -21,5 +21,5 @@ int input_array_size()
 }
 void input_array(int n, int a[n])
 {
-
+ int 
 }
