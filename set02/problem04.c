@@ -6,8 +6,9 @@ void output(int sum);
 int main()
 {
     int n,sum;
-    
-    output(sum)
+    n=input_array_size();
+
+    output(sum);
     return 0;
 }
 int input_array_size()
