@@ -9,6 +9,7 @@ int main()
     n=input_array_size();
     int a[n];
     input_array(n,a);
+    sum = sum_composite_numbers(n, int a[n]);
     output(sum);
     return 0;
 }
