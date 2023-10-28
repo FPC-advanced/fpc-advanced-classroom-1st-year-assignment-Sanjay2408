@@ -13,5 +13,7 @@ int main()
 int input_array_size()
 {
  int n;
- printf("")
+ printf("Enter the size of array\n");
+ scanf("%d",&n);
+ return n;
 }
