@@ -30,7 +30,7 @@ for (i=2;i<=n/2;i++)
     return 1;
  }
 else 
-return 1;
+return 0;
 }
 }
 void output(int n, int result)
