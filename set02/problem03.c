@@ -18,8 +18,9 @@ int input_number()
     return n;
 }
 int is_composite(int n)
+int i;
 {
- for 
+ for (i=0;i)
 }
 void output(int n, int result)
 {
