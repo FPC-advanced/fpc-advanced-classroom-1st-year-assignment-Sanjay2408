@@ -29,7 +29,8 @@ for (i=2;i<n;i++)
  {
     return 0;
  }
-else return 
+else 
+return 1;
 }
 }
 void output(int n, int result)
