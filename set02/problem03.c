@@ -35,12 +35,12 @@ return 1;
 }
 void output(int n, int result)
 {
-    if(result==1)
+    if(result==0)
     {
     printf("%d is a composite number",n);
     }
     else 
-    if(result ==0)
+    if(result ==1)
     {
         printf("%d is not a composite number",n);
     }
