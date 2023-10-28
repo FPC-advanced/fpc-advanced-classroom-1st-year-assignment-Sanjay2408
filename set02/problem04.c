@@ -30,12 +30,12 @@ void input_array(int n, int a[n])
 }
 int sum_composite_numbers(int n, int a[n])
 {
-int b;
-for (b=2;b<=n/2;i++)
+int i;
+for (i=2;i<=n/2;i++)
 {
  if (n%i == 0)
  {
-    return 0;
+    return 
  }
 }
 }
