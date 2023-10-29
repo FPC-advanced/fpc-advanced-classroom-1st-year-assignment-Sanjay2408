@@ -10,5 +10,7 @@ int main()
 int input()
 {
     int x;
-    
+    printf("Enter two numbers\n");
+    scanf("%d",&x)
+
 }
