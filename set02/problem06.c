@@ -7,3 +7,7 @@ int main()
 
     return 0;
 }
+void input_string(char *a)
+{
+  scanf()
+}
