@@ -4,9 +4,10 @@ int find_gcd(int a, int b);
 void output(int a, int b, int gcd);
 int main()
 {
-    int a,b,gcd;
-    a = input(x);
-    b = input(x)
+    int a,b,gcd,x;
+    a = input();
+    b = input();
+
 
     return 0;
 }
@@ -17,3 +18,4 @@ int input()
     scanf("%d",&x);
     return x;
 }
+void output(int a, int b, int gcd)
