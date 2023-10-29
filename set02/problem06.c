@@ -11,7 +11,7 @@ int main()
     {
         str[i]=a[i];
     }
-    str[i]=''
+    str[i]='\0';
     str_reverse(str, rev_str);
     output(a,rev_str);
     return 0;
