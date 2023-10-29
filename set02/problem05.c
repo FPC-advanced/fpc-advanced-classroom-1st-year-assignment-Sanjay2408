@@ -19,3 +19,6 @@ int input()
     return x;
 }
 void output(int a, int b, int gcd)
+{
+    printf("The HCF of %d and %d is %d")
+}
