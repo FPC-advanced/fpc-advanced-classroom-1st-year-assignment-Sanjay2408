@@ -23,7 +23,7 @@ int find_gcd(int a, int b)
     int gcd,i;
     for(i=1;i<a && i<b;i++)
     {
-        gcd = i%a ==  
+        gcd = i%a == i%b 
     }
 }
 void output(int a, int b, int gcd)
