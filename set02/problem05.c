@@ -8,7 +8,7 @@ int main()
     a = input();
     b = input();
 
-
+    output(a,b,gcd)
     return 0;
 }
 int input()
@@ -20,5 +20,5 @@ int input()
 }
 void output(int a, int b, int gcd)
 {
-    printf("The HCF of %d and %d is %d")
+    printf("The HCF of %d and %d is %d",a,b,gcd);
 }
