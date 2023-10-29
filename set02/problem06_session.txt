@@ -17,3 +17,22 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
+gcc : c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c: In function 'str_reverse':
+At line:1 char:1
++ gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\FPC_Advanced... 'str_reverse'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:21:16: warning: multi-character character constant
+[-Wmultichar]
+ for(;str[len]!='/0';len++);
+                ^~~~
+    + CategoryInfo          : NotSpecified: (c:\FPC_Advanced... 'str_reverse'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:21:16: warning: multi-character character constant
+[-Wmultichar]
+ for(;str[len]!='/0';len++);
+                ^~~~
