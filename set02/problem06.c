@@ -6,6 +6,8 @@ int main()
 {
     char str[100],rev_str[100],a[100];
     input_string(&a);
+
+    output()
     return 0;
 }
 void input_string(char *a)
@@ -13,3 +15,4 @@ void input_string(char *a)
   printf("Enter a string:\n");
   scanf("%s",a);
 }
+void str_reverse(char *str, char *rev_str)
