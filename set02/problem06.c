@@ -18,12 +18,12 @@ void input_string(char *a)
 void str_reverse(char *str, char *rev_str)
 {
 int len =0;
-for(str[len]!='/0';len++);
+for(;str[len]!='/0';len++);
 int i,j;
 for(i = len -1; i>= 0;i--)
 {
     rev_str[j] = str[i];
-    j++
+    j++;
 }
 rev_str[j] = '\0';
 
