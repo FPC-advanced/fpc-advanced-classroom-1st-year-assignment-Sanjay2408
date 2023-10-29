@@ -43,5 +43,5 @@ for (i=2;i<=n/2;i++)
 }
 void output(int sum)
 {
-    printf("sum of composite number is %d",sum);
+    printf("Sum of Composite Number is %d",sum);
 }
