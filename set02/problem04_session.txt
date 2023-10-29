@@ -19,3 +19,11 @@ SerializationVersion: 1.1.0.1
 Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04_session.txt
 PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe" 2>&1
 
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe
+Enter the size of array
+3
+Enter the array elements
+2
+4
+6
+sum of composite number is 1
