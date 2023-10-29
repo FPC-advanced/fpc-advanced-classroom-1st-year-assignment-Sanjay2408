@@ -17,3 +17,9 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
+
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe
+Enter a string:
+sanjay
+the reversed string of sanjay is ayajnas
