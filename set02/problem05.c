@@ -14,7 +14,7 @@ int main()
 int input()
 {
     int x;
-    printf("Enter two numbers:\n");
+    printf("Enter a number:\n");
     scanf("%d",&x);
     return x;
 }
