@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231029091646
+Start time: 20231029104246
 Username: SANJAY\Sanjay S G
 RunAs User: SANJAY\Sanjay S G
 Configuration Name: 
 Machine: SANJAY (Microsoft Windows NT 10.0.22621.0)
 Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Sanjay S G\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 10320
+Process ID: 1720
 PSVersion: 5.1.22621.2428
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
@@ -17,116 +17,3 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe" 2>&1
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe
-Enter the size of array
-3
-Enter the array elements
-2
-4
-6
-sum of composite number is 1
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe" 2>&1
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe
-sum of composite number is 1
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe" 2>&1
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe
-sum of composite number is 1
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05_session.txt"
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05_session.txt"
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> TerminatingError(Start-Transcript): "Transcription cannot be started."
-Start-Transcript : Transcription cannot be started.
-At line:1 char:1
-+ Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-ye ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
-    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
-Start-Transcript : Transcription cannot be started.
-At line:1 char:1
-+ Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-ye ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidOperation: (:) [Start-Transcript], PSInvalidOperationException
-    + FullyQualifiedErrorId : CannotStartTranscription,Microsoft.PowerShell.Commands.StartTranscriptCommand
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05_session.txt"
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05.exe" 2>&1
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem05.exe
-The HCF of 12 and 16 is 4
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git add .
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git commit -m "committed 10/29/2023, 9:36:50 AM"
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git push
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git add .
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git commit -m "committed 10/29/2023, 9:37:16 AM"
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git push
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt"
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
-gcc : c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c: In function 'main':
-At line:1 char:1
-+ gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sa ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (c:\FPC_Advanced...unction 'main'::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
-
-c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:8:18: warning: passing argument 1 of 'input_string'
-from incompatible pointer type [-Wincompatible-pointer-types]
-     input_string(&a);
-                  ^
-c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:2:6: note: expected 'char *' but argument is of
-type 'char (*)[100]'
- void input_string(char *a);
-      ^~~~~~~~~~~~
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Stop-Transcript
-Transcript stopped, output file is C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git add .
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git commit -m "committed 10/29/2023, 9:46:45 AM"
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git push
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt"
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Stop-Transcript
-Transcript stopped, output file is C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git add .
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git commit -m "committed 10/29/2023, 9:55:16 AM"
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> git push
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> Start-Transcript -Path "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt"
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
-gcc : c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c: In function 'str_reverse':
-At line:1 char:1
-+ gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sa ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (c:\FPC_Advanced... 'str_reverse'::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
-
-c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:21:16: warning: multi-character character constant
-[-Wmultichar]
- for(;str[len]!='/0';len++);
-                ^~~~
-    + CategoryInfo          : NotSpecified: (c:\FPC_Advanced... 'str_reverse'::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
-
-c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c:21:16: warning: multi-character character constant
-[-Wmultichar]
- for(;str[len]!='/0';len++);
-                ^~~~
