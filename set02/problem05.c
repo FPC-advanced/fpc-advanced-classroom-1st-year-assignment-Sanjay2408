@@ -7,8 +7,8 @@ int main()
     int a,b,gcd,x;
     a = input();
     b = input();
-
-    output(a,b,gcd)
+    gcd=find_gcd(a,b);
+    output(a,b,gcd);
     return 0;
 }
 int input()
