@@ -34,9 +34,9 @@ int sum_composite_numbers(int n, int a[n])
 int i,sum=0;
 for (i=2;i<=n/2;i++)
 {
- if (a[i]%i == 0)
+ if (a[n]%i == 0)
  {
-    sum =+ a[i];
+    sum =+ a[n];
  }
  return sum;
 }
