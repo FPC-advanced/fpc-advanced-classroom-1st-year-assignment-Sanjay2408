@@ -23,3 +23,11 @@ PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC
 
 PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe
 
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
+
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe
+
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe" 2>&1
+
+PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06.exe
+
