@@ -16,3 +16,4 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
+Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem06_session.txt

@@ -22,9 +22,10 @@ for(str[len]!='/0';len++);
 int i,j;
 for(i = len -1; i>= 0;i--)
 {
-    rev_str[j] = str[ji;
+    rev_str[j] = str[i];
     j++
 }
+rev_str[j] = '\0';
 
 
 
