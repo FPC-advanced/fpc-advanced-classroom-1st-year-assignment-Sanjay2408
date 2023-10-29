@@ -4,6 +4,8 @@ int find_gcd(int a, int b);
 void output(int a, int b, int gcd);
 int main()
 {
+    int a,b,gcd;
+    
 
     return 0;
 }
@@ -11,6 +13,6 @@ int input()
 {
     int x;
     printf("Enter two numbers\n");
-    scanf("%d",&x)
-
+    scanf("%d",&x);
+    return x;
 }
