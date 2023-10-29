@@ -6,7 +6,7 @@ int main()
 {
     char str[100],rev_str[100],a[100],reverse_a[100];
     input_string(&a);
-    str_reverse(&str, char *rev_str)
+    str_reverse(&str, &rev_str);
     output(&a,&reverse_a);
     return 0;
 }
@@ -16,3 +16,6 @@ void input_string(char *a)
   scanf("%s",a);
 }
 void str_reverse(char *str, char *rev_str)
+{
+    
+}
