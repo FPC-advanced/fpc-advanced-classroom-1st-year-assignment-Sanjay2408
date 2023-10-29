@@ -21,7 +21,10 @@ int input()
 int find_gcd(int a, int b)
 {
     int gcd,i;
-    for(i=1;)
+    for(i=1;i<a && i<b;i++)
+    {
+        
+    }
 }
 void output(int a, int b, int gcd)
 {
