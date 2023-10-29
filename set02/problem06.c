@@ -9,5 +9,6 @@ int main()
 }
 void input_string(char *a)
 {
-  scanf()
+  printf("Enter a string:\n");
+  scanf("%s",a)
 }
