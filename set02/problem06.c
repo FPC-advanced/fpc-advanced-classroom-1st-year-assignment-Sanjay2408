@@ -7,7 +7,7 @@ int main()
     char str[100],rev_str[100],a[100],reverse_a[100];
     input_string(a);
     int i;
-    for(i=0;a[i]!='\0';i++){
+    for(i=0;a[i]!= '\0';i++){
         str[i]=a[i];
     }
     str_reverse(str, rev_str);
