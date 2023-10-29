@@ -36,6 +36,5 @@ rev_str[j] ='\0';
 }
 void output(char *a, char *reverse_a)
 {
-    char rev_str;
-    printf("the reversed string of %s is %s\n",a,rev_str);
+    printf("the reversed string of %s is %s\n",a,reverse_a);
 }
