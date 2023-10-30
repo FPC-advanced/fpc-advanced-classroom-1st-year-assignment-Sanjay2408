@@ -28,5 +28,5 @@ int input_n()
 }
 Triangle input_triangle()
 {
-printf("Enter  ")
+printf("Enter the ")
 }
