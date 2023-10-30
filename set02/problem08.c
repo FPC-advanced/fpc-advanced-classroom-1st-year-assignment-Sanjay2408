@@ -16,5 +16,5 @@ int main()
 }
 int input_n()
 {
-    for()
+    
     }
