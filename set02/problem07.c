@@ -20,5 +20,5 @@ Triangle input_triangle()
 }
 void find_area(Triangle *t)
 {
-	t->
+	t->area=0.5 * t.
 }
