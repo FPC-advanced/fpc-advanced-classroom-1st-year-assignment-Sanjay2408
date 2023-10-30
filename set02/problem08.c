@@ -42,6 +42,7 @@ return t;
 }
 void input_n_triangles(int n, Triangle t[n])
 {
+ int i;
  for(i=0;i<n;i++)
  {
     t[i] = input_triangle();
@@ -54,5 +55,6 @@ void find_area(Triangle *t)
 }
 void find_n_areas(int n, Triangle t[n])
 {
+    int i=0;
     for()
 }
