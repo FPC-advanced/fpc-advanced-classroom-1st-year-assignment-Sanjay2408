@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231029105422
+Start time: 20231030091544
 Username: SANJAY\Sanjay S G
 RunAs User: SANJAY\Sanjay S G
 Configuration Name: 
 Machine: SANJAY (Microsoft Windows NT 10.0.22621.0)
 Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Sanjay S G\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
-Process ID: 1720
+Process ID: 20792
 PSVersion: 5.1.22621.2428
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2428
@@ -16,10 +16,3 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04_session.txt
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> gcc -g "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c" -o "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe" 2>&1
-
-PS C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408> c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.exe
-3
-4
-sum of composite number is 1
