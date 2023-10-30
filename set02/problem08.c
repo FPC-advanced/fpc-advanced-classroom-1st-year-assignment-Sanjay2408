@@ -52,3 +52,7 @@ void find_area(Triangle *t)
 {
     t->area=0.5 * t->base * t->altitude;
 }
+void find_n_areas(int n, Triangle t[n])
+{
+    for()
+}
