@@ -36,5 +36,6 @@ return t;
 }
 void input_n_triangles(int n, Triangle t[n])
 {
- for(i=0;i<n)   
+ for(i=0;i<n;i++)
+    
 }
