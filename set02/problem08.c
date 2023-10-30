@@ -21,7 +21,7 @@ int main()
  int n;
  n = input_n();
  Triangle triangles[n];
- input_n_triangles(n,t);
+ input_n_triangles(n,triangles);
 
 
 return 0;
