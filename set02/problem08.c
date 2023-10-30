@@ -24,7 +24,8 @@ int main()
  input_n_triangles(n,triangles);
  find_area(triangles);
  find_n_areas(n,triangles);
- Triangle smallest = find_smallest_triangle(n,triangles)
+ Triangle smallest = find_smallest_triangle(n,triangles);
+ output(n,triangles,smallest);
 return 0;
 }
 int input_n()
@@ -74,3 +75,4 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
     }
     return smallest;
 }
+void 
