@@ -28,5 +28,5 @@ int input_n()
 }
 Triangle input_triangle()
 {
-printf("Enter the ")
+printf("Enter the height of the ")
 }
