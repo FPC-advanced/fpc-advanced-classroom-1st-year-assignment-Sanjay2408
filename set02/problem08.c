@@ -22,7 +22,7 @@ int main()
  n = input_n();
  Triangle triangles[n];
  input_n_triangles(n,triangles);
-
+ find_area(triangles);
 
 return 0;
 }
