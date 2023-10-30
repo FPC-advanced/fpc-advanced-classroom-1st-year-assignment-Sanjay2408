@@ -39,7 +39,7 @@ Triangle input_triangle()
 {
     Triangle t;
 printf("Enter the base and altitude of the triangle:");
-scanf("%f,%f",&t.base,&t.altitude);
+scanf("%f %f",&t.base,&t.altitude);
 return t;
 }
 void input_n_triangles(int n, Triangle t[n])
@@ -86,5 +86,5 @@ for (int i=0;i<n;i++)
         printf(",");
     }
 }
-printf(" is the triangle having base %0.2f,height %0.2f , and area %0.2f \n",smallest.base,smallest.altitude,smallest.area);
+printf(" is the triangle having base %.2f,height %.2f , and area %0.2f \n",smallest.base,smallest.altitude,smallest.area);
 }
