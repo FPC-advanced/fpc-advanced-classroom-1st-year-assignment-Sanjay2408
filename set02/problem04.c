@@ -41,8 +41,9 @@ for (i=2;i<=a[i]/2;i++)
     sum = sum+a[i];
  }
 }
- return sum;
+ 
 }
+return sum;
 }
 void output(int sum)
 {
