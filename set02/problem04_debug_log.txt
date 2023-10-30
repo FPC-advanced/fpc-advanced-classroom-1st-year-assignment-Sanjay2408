@@ -29,3 +29,13 @@ warning: Source file is more recent than executable.
 28	 {
 29	    scanf("%d",&a[i]);
 30	 }
+31	}
+32	int sum_composite_numbers(int n, int a[n])
+33	{
+34	int i,j,sum=0;
+35	for(i=0;i<n;i++)
+36	{
+37	for (j=2;j<=a[j];j++)
+38	
+39	 if (a[j]%i == 0)
+40	 {
