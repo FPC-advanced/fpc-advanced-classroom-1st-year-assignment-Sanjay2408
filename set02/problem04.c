@@ -36,7 +36,7 @@ for(i=0;i<n;i++)
 {
 for (j=2;j<=a[j]/2;j++)
 {
- if (a[i]%i == 0)
+ if (a[i]%j == 0)
  {
     sum = sum+a[i];
  }
