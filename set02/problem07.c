@@ -16,8 +16,8 @@ Triangle input_triangle()
 {
 	Triangle t;
 	printf("Enter base and altitude of triangle\n");
-	scanf("%f",t->base);
-	scanf("%f",t->altitude);
+	scanf("%f",&t.base);
+	scanf("%f",&t.altitude);
 	return t;
 }
 void find_area(Triangle *t)
