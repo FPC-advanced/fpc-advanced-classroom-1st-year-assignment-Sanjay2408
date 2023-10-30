@@ -14,6 +14,7 @@ int main()
 {
     int n;
  n = input_n();
+ Triangle input_triangle();
 
 
 return 0;
@@ -25,3 +26,4 @@ int input_n()
     scanf("%d",&n);
     return n;
 }
+Triangle input_triangle();
