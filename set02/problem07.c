@@ -12,4 +12,7 @@ int main()
 	find_area(&t);
     output(t);
 }
-
+Triangle input_triangle()
+{
+	
+}
