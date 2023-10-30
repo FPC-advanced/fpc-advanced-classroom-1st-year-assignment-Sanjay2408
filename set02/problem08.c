@@ -28,5 +28,6 @@ int input_n()
 }
 Triangle input_triangle()
 {
-printf("Enter the height of the ")
+printf("Enter the base of the triangle:")
+scanf("%f",)
 }
