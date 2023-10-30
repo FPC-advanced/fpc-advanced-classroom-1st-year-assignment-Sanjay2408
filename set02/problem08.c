@@ -35,3 +35,7 @@ printf("Enter the altitude of the triangle:");
 scanf("%f",&t.altitude);
 return t;
 }
+void input_n_triangles(int n, Triangle t[n])
+{
+    
+}
