@@ -14,7 +14,7 @@ int main()
 {
     int n;
  n = input_n();
- Triangle input_triangle();
+ Triangle t =input_triangle();
 
 
 return 0;
