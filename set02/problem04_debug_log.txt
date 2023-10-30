@@ -39,3 +39,13 @@ warning: Source file is more recent than executable.
 38	
 39	 if (a[j]%i == 0)
 40	 {
+Breakpoint 1 at 0x40150b: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c, line 16.
+Breakpoint 2 at 0x40157e: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c, line 32.
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02/./problem04.exe 
+[New Thread 21824.0x4640]
+[New Thread 21824.0x6740]
+
+Breakpoint 1, input_array_size () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c:19
+19	 printf("Enter the size of array\n");
+The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
