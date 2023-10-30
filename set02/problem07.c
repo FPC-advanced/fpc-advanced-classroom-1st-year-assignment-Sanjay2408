@@ -11,5 +11,5 @@ int main()
     Triangle t = input_triangle();
 	find_area(&t);
     output(t);
-
 }
+
