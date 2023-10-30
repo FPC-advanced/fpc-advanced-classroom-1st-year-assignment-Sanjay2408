@@ -50,5 +50,5 @@ void input_n_triangles(int n, Triangle t[n])
 }
 void find_area(Triangle *t)
 {
-    t->area=t
+    t->area=0.5 * t->base * t->altitude;
 }
