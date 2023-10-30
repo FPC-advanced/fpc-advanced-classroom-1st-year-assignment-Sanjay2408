@@ -75,4 +75,7 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
     }
     return smallest;
 }
-void 
+void output(int n,Triangle t[n],Triangle smallest)
+{
+    printf("\n")
+}
