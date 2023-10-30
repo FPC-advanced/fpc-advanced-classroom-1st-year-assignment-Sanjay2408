@@ -20,7 +20,7 @@ int main()
 {
  int n;
  n = input_n();
- Triangle t =input_triangle();
+ Triangle triangles[n];
  input_n_triangles(n,t);
 
 
