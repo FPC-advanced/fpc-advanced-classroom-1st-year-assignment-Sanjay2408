@@ -26,4 +26,7 @@ int input_n()
     scanf("%d",&n);
     return n;
 }
-Triangle input_triangle();
+Triangle input_triangle()
+{
+
+}
