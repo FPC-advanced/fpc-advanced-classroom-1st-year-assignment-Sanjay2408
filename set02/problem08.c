@@ -12,7 +12,9 @@ Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
 int main()
 {
- 
+    int n;
+ n = input_n();
+
 
 return 0;
 }
@@ -22,4 +24,4 @@ int input_n()
     printf("Enter a number:");
     scanf("%d",&n);
     return n;
-    }
+}
