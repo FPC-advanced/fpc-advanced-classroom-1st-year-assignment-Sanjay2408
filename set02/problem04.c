@@ -38,8 +38,8 @@ for(i=2;i<=a[j]/2;i++){
  if (a[j]%i == 0)
  {
     sum = sum+a[j];
-   }  break;
-   
+   break;
+   }  
  }
 }
 return sum;
