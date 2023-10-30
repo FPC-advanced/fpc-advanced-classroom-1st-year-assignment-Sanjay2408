@@ -86,4 +86,5 @@ for (int i=0;i<n;i++)
         printf(",");
     }
 }
+printf(" is the triangle having base %")
 }
