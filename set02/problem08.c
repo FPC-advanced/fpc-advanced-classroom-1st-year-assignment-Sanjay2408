@@ -86,5 +86,5 @@ for (int i=0;i<n;i++)
         printf(",");
     }
 }
-printf(" is the triangle having base %")
+printf(" is the triangle having base %0.2f,height %0.2f , and area %o.2f")
 }
