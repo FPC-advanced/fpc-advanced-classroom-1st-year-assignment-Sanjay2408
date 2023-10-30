@@ -80,11 +80,11 @@ void output(int n,Triangle t[n],Triangle smallest)
     printf("The smallest triangle out of triangles with base and height ");
 for (int i=0;i<n;i++)
 {
-    printf("(0.2%f,0.2%f)",t[i].base,t[i].altitude);
+    printf("(%.2f,%.2f)",t[i].base,t[i].altitude);
     if(i<n-1)
     {
         printf(",");
     }
 }
-printf(" is the triangle having base %0.2f,height %0.2f , and area %0.2f \n",smallest.base,smallest.altitude,smallest.area);
+printf(" is the triangle having base %.2f,height %.2f , and area %.2f \n",smallest.base,smallest.altitude,smallest.area);
 }
