@@ -82,5 +82,8 @@ for (int i=0;i<n;i++)
 {
     printf("(0.2%f,0.2%f)",t[i].base,t[i].altitude);
     if(i<n-1)
+    {
+        printf(",");
+    }
 }
 }
