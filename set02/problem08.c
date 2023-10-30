@@ -28,7 +28,7 @@ return 0;
 int input_n()
 {
     int n;
-    printf("Enter number of triangles:");
+    printf("Enter the number of triangles:");
     scanf("%d",&n);
     return n;
 }
