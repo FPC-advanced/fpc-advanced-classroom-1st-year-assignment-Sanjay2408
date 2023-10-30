@@ -28,6 +28,8 @@ int input_n()
 }
 Triangle input_triangle()
 {
-printf("Enter the base of the triangle:")
-scanf("%f",)
+printf("Enter the base of the triangle:");
+scanf("%f",&t.base);
+printf()
+
 }
