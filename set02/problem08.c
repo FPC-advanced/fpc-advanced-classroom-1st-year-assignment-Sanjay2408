@@ -58,6 +58,6 @@ void find_n_areas(int n, Triangle t[n])
     int i;
     for(i=0;i<n;i++)
     {
-        find
+        find_area(&t[i]);
     }
 }
