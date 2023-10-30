@@ -78,5 +78,8 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
 void output(int n,Triangle t[n],Triangle smallest)
 {
     printf("The smallest triangle out of triangles with base and height ");
-
+for (int i=0;i<n;i++)
+{
+    
+}
 }
