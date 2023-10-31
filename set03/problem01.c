@@ -26,7 +26,7 @@ while((x*x-n) > epsilon || (n-x*x)> epsilon)
 {
     distance=0.5*(x+n/x);
 }
-    
+ return distance;   
 }
 void output(float x1, float y1, float x2, float y2, float distance)
 {
