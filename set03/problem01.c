@@ -19,10 +19,8 @@ void input(float *x1, float *y1, float *x2, float *y2)
 float find_distance(float x1, float y1, float x2, float y2)
 {
     float distance;
-   
-    n=(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
-    epsilon = 0.000001;
-    x=n/2;
+    distance=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+    
  return distance;   
 }
 void output(float x1, float y1, float x2, float y2, float distance)
