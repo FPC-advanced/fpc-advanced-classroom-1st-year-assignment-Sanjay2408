@@ -24,9 +24,9 @@ float find_distance(float x1, float y1, float x2, float y2)
     x=n/2;
 while((x*x-n) > epsilon || (n-x*x)> epsilon)
 {
-    x=0.5*(x+n/x);
+    distance=0.5*(x+n/x);
 }
-    x=(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
+    
 }
 void output(float x1, float y1, float x2, float y2, float distance)
 {
