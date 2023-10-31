@@ -12,5 +12,5 @@ int main()
 }
 void input(float *x1, float *y1, float *x2, float *y2)
 {
-    printf("Enter the values of ")
+    printf("Enter the values of x1,y")
 }
