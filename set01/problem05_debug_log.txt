@@ -2,4 +2,7 @@
 
 GDB debug log -   10/14/2023, 10:14:33 PM
 
-  
+  No symbol table is loaded.  Use the "file" command.
+No symbol table is loaded.  Use the "file" command.
+Undefined command: "gcc".  Try "help".
+Undefined command: "".  Try "help".
