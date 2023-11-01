@@ -6,6 +6,11 @@ int main()
 {
     int n,fibo;
     n = input();
-    fibo = 
+    fibo = find_fibo(n);
+    output(n,fibo);
     return 0;
+}
+int find_fibo()
+{
+    
 }
