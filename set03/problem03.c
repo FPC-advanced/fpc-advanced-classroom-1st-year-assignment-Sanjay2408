@@ -20,7 +20,10 @@ int input_number()
 int is_prime(int n)
 {
     int i,result;
-    if(n<=)
+    if(n<=1)
+    {
+        return 1;
+    }
     for(i=2;i<=n/2;i++)
     {
         if(n%i== 0)
