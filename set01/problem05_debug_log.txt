@@ -6,3 +6,47 @@ GDB debug log -   10/14/2023, 10:14:33 PM
 No symbol table is loaded.  Use the "file" command.
 Undefined command: "gcc".  Try "help".
 Undefined command: "".  Try "help".
+1	#include <stdio.h>
+2	int input();
+3	int compare(int a, int b, int c);
+4	void output(int a, int b, int c, int largest);
+5	int main()
+6	{
+7	    int a,b,c,largest,x;
+8	    a=input();
+9	    b=input();
+10	    c=input();
+Breakpoint 1 at 0x401504: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c, line 25.
+Breakpoint 2 at 0x40153a: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c, line 39.
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401504 in compare 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:25
+2       breakpoint     keep y   0x0040153a in compare 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:39
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem05.exe 
+[New Thread 17940.0x58ac]
+[New Thread 17940.0x1ae0]
+
+Breakpoint 1, compare (a=1, b=2, c=3) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:26
+26	    if(a>=b && a>=c)
+$1 = 1
+No symbol "larget" in current context.
+$2 = 488939003
+31	    if(b>=c && b>=a)
+37	        largest =c;   
+$3 = 488939003
+
+Breakpoint 2, compare (a=1, b=2, c=3) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:39
+39	    return largest;
+$4 = 3
+40	}
+main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:12
+12	    output(a,b,c,largest);
+output (a=1, b=2, c=3, largest=3) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:43
+43	        printf("The largest of %d ,%d and %d is %d",a,b,c,largest);
+44	    }
+main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem05.c:13
+13	    return 0;
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
+Undefined command: "git".  Try "help".
