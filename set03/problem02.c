@@ -25,5 +25,9 @@ int is_triangle(float x1, float y1, float x2, float y2,float x3, float y3)
     {
         return 1;
     }
-
+    else
+    {
+        return 0;
+    }
+    return result;
 }
