@@ -10,7 +10,8 @@ int main()
     output(n,fibo);
     return 0;
 }
-int find_fibo()
+int find_fibo(int n)
 {
-    
+
 }
+void output(int n)
