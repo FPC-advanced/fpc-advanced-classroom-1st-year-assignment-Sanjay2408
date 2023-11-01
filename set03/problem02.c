@@ -15,5 +15,7 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
 {
     printf("Enter the points of the triangle\n");
     scanf("%f %f",x1,y1);
-
+    scanf("%f %f",x2,y2);
+    scanf("%f %f",x3,y3);
 }
+int is_
