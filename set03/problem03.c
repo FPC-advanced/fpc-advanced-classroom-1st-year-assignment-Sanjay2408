@@ -20,3 +20,10 @@ int is_prime(int n)
     int result;
     return result;
 }
+void output(int n, int result)
+{
+    if (result=0);
+    {
+    printf
+    }
+}
