@@ -30,10 +30,7 @@ int is_prime(int n)
         {
         return 0;
         }
-        else
-        {
-            return 1;
-        }
+       
     }
     
 
