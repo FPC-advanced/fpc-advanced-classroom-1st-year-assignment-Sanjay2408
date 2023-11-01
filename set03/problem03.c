@@ -33,8 +33,6 @@ int is_prime(int n)
        
     }
     return 1;
-
-    return result;
 }
 void output(int n, int result)
 {
