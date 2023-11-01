@@ -9,5 +9,6 @@ int main()
 int input_number()
 {
     int n;
-    printf()
+    printf("Enter a number: ");
+    scanf("%d",&n);
 }
