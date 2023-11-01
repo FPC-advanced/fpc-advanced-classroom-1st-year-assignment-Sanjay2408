@@ -6,6 +6,7 @@ int main()
 {
  float x1,y1,x2,y2,x3,y3;
  int result;
+ input_triangle(x1,y1,x2,y2,x3,y3);
 
 
 
