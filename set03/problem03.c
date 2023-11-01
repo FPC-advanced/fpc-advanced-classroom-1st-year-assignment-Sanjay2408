@@ -28,6 +28,6 @@ void output(int n, int result)
     }
     else
     {
-        printf()
+        printf("%d is not a prime number",n);
     }
 }
