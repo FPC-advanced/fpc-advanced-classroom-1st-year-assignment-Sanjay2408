@@ -20,9 +20,9 @@ int input_number()
 int is_prime(int n)
 {
     int i,result;
-    for(i=0,i<n/2,i++)
+    for(i=2,i<n/2,i++)
     {
-        if()
+        if(i%)
     }
     
 
