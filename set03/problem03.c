@@ -22,7 +22,7 @@ int is_prime(int n)
     int i,result;
     if(n<=1)
     {
-        return 1;
+        return 0;
     }
     for(i=2;i*i<=n/2;i++)
     {
@@ -34,7 +34,6 @@ int is_prime(int n)
         {
             return 1;
         }
-        return result;
     }
     
 
