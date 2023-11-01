@@ -6,5 +6,6 @@ int main()
 {
     int n,fibo;
     n = input();
+    fibo = 
     return 0;
 }
