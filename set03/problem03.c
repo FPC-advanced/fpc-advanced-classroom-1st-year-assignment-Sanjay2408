@@ -22,7 +22,8 @@ int is_prime(int n)
     int i,result;
     for(i=2,i<n/2,i++)
     {
-        if(i%)
+        if(i%n/2 == 0)
+        return 0
     }
     
 
@@ -30,7 +31,7 @@ int is_prime(int n)
 }
 void output(int n, int result)
 {
-    if (result=0)
+    if (result==0)
     {
     printf("%d is a prime number",n);
     }
