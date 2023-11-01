@@ -36,5 +36,10 @@ void output(float x1, float y1, float x2, float y2,float x3, float y3, int resul
     if (result=1)
     {
     printf(" The points (%0.1f,%0.1f),(%0.1f,%0.1f) and (%0.1f,%0.1f) do not form a triangle");
+    }
+    else
+    {
+    printf(" The points (%0.1f,%0.1f),(%0.1f,%0.1f) and (%0.1f,%0.1f) do not form a triangle");
+    }
     
 }
