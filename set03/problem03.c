@@ -24,7 +24,7 @@ int is_prime(int n)
     {
         return 0;
     }
-    for(i=2;i*i<=n/2;i++)
+    for(i=2;i*i<=n;i++)
     {
         if(n%i== 0)
         {
