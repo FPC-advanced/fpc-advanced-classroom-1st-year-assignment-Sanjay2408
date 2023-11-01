@@ -6,8 +6,9 @@ int main()
 {
 float x1,y1,x2,y2,x3,y3;
 int result;
-input_triangle(&x1,&y1,x2,y2,x3,y3);
+input_triangle(&x1,&y1,&x2,&y2,&x3,&y3);
 result = is_triangle(x1,y1,x2,y2,x3,y3);
 output(x1,y1,x2,y2,x3,y3,result);
 return 0;
 }
+
