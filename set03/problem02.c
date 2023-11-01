@@ -6,10 +6,10 @@ int main()
 {
  float x1,y1,x2,y2,x3,y3;
  int result;
- 
 
 
 
 
+ output(x1,y1,x2,y2,x3,y3,result);
     return 0;
 }
