@@ -6,7 +6,8 @@ int main()
 {
     int n,result;
     n = input_number();
-    result=i
+    result=is_prime(n);
+    output(n,result);
     return 0;
 }
 int input_number()
@@ -19,7 +20,7 @@ int input_number()
 int is_prime(int n)
 {
     int result;
-
+    
 
     return result;
 }
