@@ -17,5 +17,6 @@ int input_number()
 }
 int is_prime(int n)
 {
-    return 
+    int result;
+    return result;
 }
