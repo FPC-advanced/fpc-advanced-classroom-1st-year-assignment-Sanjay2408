@@ -1,22 +1,21 @@
 #include <stdio.h>
-int input(int x);
-int add(int a,int b);
-void output( int sum,int a,int b);
+int input(int );
+int add(int ,int );
+void output( int ,int ,int );
 int main()
 {
     int a,b,sum,x;
-a=input(x);
-b=input(x);
-sum=add(a,b);
-output(sum,a,b);
-return 0;
-
+    a=input(x);
+    b=input(x);
+    sum=add(a,b);
+    output(sum,a,b);
+    return 0;
 }
 int input(int x)
 {
-printf("Input a Number\n");
-scanf("%d",&x);
-return x;
+    printf("Input a Number\n");
+    scanf("%d",&x);
+    return x;
 }
 int add(int a,int b)
 {
