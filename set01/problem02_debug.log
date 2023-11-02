@@ -1,0 +1,19 @@
++l
+1	//2. Write a C program to add two numbers.
+2	#include <stdio.h>
+3	int main()
+4	{
+5	    int a,b,c=0;
+6	    printf("Input two number a,b\n");
+7	    scanf("%d %d",&a,&b);
+8	    printf("The two numbers are %d and %d\n",a,b);
+9	    c=a+b;
+10	    printf("The sum of %d and %d is %d",a,b,c);
++l
+11	    return 0;
+12	}
++r
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem02.exe 
+[New Thread 19836.0x1908]
+[New Thread 19836.0x32b4]
+[Inferior 1 (process 19836) exited normally]
