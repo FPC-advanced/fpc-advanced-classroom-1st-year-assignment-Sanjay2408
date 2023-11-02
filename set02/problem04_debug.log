@@ -46,3 +46,7 @@ Num     Type           Disp Enb Address    What
                                            at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c:32
 2       breakpoint     keep y   0x004015fa in sum_composite_numbers 
                                            at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c:46
++r
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02/./problem04.exe 
+[New Thread 17844.0x2c8c]
+[New Thread 17844.0x4f04]
