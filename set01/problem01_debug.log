@@ -1,0 +1,22 @@
++l
+warning: Source file is more recent than executable.
+1	// 1. Write a C program to print your name.
+2	#include <stdio.h>
+3	int main()
+4	{
+5	    printf("Sanjay S G\n");
+6	    return 0;
+7	}+step
+The program is not being run.
++run
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem01.exe 
+[New Thread 23444.0x5b20]
+[New Thread 23444.0x4b8c]
+[Inferior 1 (process 23444) exited normally]
++n
+The program is not being run.
++r
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem01.exe 
+[New Thread 21732.0x2a70]
+[New Thread 21732.0x4410]
+[Inferior 1 (process 21732) exited normally]
