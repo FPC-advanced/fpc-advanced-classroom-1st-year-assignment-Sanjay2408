@@ -38,3 +38,11 @@ Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-San
 30	 }
 +b 32
 Breakpoint 1 at 0x40157e: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c, line 32.
++b 46
+Breakpoint 2 at 0x4015fa: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c, line 46.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040157e in sum_composite_numbers 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c:32
+2       breakpoint     keep y   0x004015fa in sum_composite_numbers 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02\problem04.c:46
