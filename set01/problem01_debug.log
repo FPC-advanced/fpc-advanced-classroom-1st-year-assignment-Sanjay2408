@@ -26,3 +26,8 @@ Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-San
 [New Thread 17980.0x51e0]
 [Inferior 1 (process 17980) exited normally]
 +q
++run
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem01.exe 
+[New Thread 11984.0x4fc8]
+[New Thread 11984.0x1080]
+[Inferior 1 (process 11984) exited normally]
