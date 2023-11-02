@@ -28,7 +28,7 @@ int compare(int a,int b,int c)
         largest = a;    
     }
     else 
-    if(b>=c)
+    if(b>=c && b>=a)
     {
         largest = b;
     }
