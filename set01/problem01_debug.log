@@ -31,3 +31,27 @@ Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-San
 [New Thread 11984.0x4fc8]
 [New Thread 11984.0x1080]
 [Inferior 1 (process 11984) exited normally]
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/2/2023, 9:26:56 PM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++gdb ./problem02
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem02_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++l
+warning: Source file is more recent than executable.
+1	// 1. Write a C program to print your name.
+2	#include <stdio.h>
+3	int main()
+4	{
+5	    printf("Sanjay S G\n");
+6	    }+q
