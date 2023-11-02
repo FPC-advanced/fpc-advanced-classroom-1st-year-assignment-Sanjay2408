@@ -2,3 +2,15 @@
 Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set02/./problem04.exe 
 [New Thread 18364.0x994]
 [New Thread 18364.0x2478]
+[Inferior 1 (process 18364) exited normally]
++l
+1	#include <stdio.h>
+2	int input_array_size();
+3	void input_array(int n, int a[n]);
+4	int sum_composite_numbers(int n, int a[n]);
+5	void output(int sum);
+6	int main()
+7	{
+8	    int n,sum;
+9	    n=input_array_size();
+10	    int a[n];
