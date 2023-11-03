@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c=0;
+    int a,b,c;
     printf("Input two number a,b\n");
     scanf("%d %d",&a,&b);
     printf("The two numbers are %d and %d\n",a,b);

@@ -16,14 +16,14 @@ int main()
 int input()
 {
     int x;
-    printf("Enter three  number\n");
+    printf("Enter a number\n");
     scanf("%d",&x);
     return x;
 }
 int compare(int a,int b,int c)
 {
     int largest;
-    if(a>=b && a>=c)
+    if(a>=b)
     {
         largest = a;    
     }
