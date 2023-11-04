@@ -12,12 +12,14 @@ int main()
 }
 int input()
 {
+    int n;
     printf("Enter a number:");
     scanf("%d",&n);
     return n;
 }
 int find_fibo(int n)
 {
+int fibo 
 
 }
 void output(int n,int fibo)
