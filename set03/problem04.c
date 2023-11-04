@@ -22,7 +22,7 @@ int find_fibo(int n)
 int fibo,i;
 for(i=0;i<n;i++)
 {
-    
+    fibo = 
 }
 
 }
