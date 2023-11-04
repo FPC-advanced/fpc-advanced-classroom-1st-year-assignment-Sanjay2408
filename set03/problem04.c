@@ -10,6 +10,10 @@ int main()
     output(n,fibo);
     return 0;
 }
+int input()
+{
+    
+}
 int find_fibo(int n)
 {
 
