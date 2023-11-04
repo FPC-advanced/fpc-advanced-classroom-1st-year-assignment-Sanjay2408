@@ -24,7 +24,7 @@ for(i=0;i<n;i++)
 {
     fibo = fibo + i;
 }
-
+return fibo;
 }
 void output(int n,int fibo)
 {
