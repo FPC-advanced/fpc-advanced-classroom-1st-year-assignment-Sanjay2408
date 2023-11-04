@@ -28,7 +28,8 @@ for(i=0;i<n;i++)
     }
     else{
         fibo = x1 +x2;
-        x1 = x2
+        x1 = x2;
+        x2 = fibo;
     }
 
 }
