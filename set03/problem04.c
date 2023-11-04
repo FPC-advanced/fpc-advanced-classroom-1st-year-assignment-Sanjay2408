@@ -24,7 +24,7 @@ for(i=0;i<n;i++)
 {
     if(i<=1)
     {
-        i=1;
+        fibo=1;
     }
     else{
         fibo = x1 +x2;
