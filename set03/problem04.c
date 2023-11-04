@@ -31,9 +31,7 @@ for(i=0;i<n;i++)
         x1 = x2;
         x2 = fibo;
     }
-
 }
-return fibo;
 }
 void output(int n,int fibo)
 {
