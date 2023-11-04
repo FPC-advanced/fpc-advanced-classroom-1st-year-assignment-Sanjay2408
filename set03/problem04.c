@@ -12,8 +12,10 @@ int main()
 }
 int input()
 {
-    printf("Enter a number:")
-    scanf()}
+    printf("Enter a number:");
+    scanf("%d",&n);
+    return n;
+}
 int find_fibo(int n)
 {
 
