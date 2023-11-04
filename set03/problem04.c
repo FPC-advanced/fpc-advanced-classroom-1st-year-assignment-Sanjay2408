@@ -19,7 +19,8 @@ int input()
 }
 int find_fibo(int n)
 {
-int fibo 
+int fibo,i;
+for(i=0;i<)
 
 }
 void output(int n,int fibo)
