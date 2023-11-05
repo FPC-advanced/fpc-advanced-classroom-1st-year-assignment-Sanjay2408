@@ -3,5 +3,5 @@
 int main()
 {
     printf("Sanjay S G\n");
-    
+    return 0;
 }
