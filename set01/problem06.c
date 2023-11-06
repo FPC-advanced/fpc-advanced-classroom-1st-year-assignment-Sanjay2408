@@ -14,7 +14,7 @@ int input(int *a, int *b, int *c)
 {
  int x;
  printf("Enter three numbers\n");
- scanf("%d %d %d",a,b,c);
+ scanf("%d%d%d",a,b,c);
  return 0;
 }
 void compare(int a, int b, int c, int *largest)
@@ -24,7 +24,7 @@ void compare(int a, int b, int c, int *largest)
       *largest=a;
   }
   else
-  if(b>=a && b>=c)
+  if(b>=c)
   {
       *largest=b;
   }
