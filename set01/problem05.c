@@ -27,18 +27,18 @@ int compare(int a,int b,int c)
     {
       largest = a;    
     }
-    else
+  else
     if(b>=c)
     {
        largest = b;
     }
-   else
+  else
     {
        largest = c;   
     }
    return largest;
 }
-    void output(int a, int b, int c, int largest)
-    {
-        printf("The largest of %d ,%d and %d is %d",a,b,c,largest);
-    }
+void output(int a, int b, int c, int largest)
+{
+    printf("The largest of %d ,%d and %d is %d",a,b,c,largest);
+}
