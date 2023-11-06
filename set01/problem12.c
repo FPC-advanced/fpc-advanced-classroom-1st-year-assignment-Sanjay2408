@@ -67,7 +67,7 @@ void output(int n, Complex c[n], Complex result)
  int i;
  for(i=0;i<n;i++)
   {
-    printf("%f + i%f +",c[i].real,c[i].imaginary);
+    ("%f + i%f +",c[i].real,c[i].imaginary);
   }
  printf("%f+i%f is %f+i%f",c[n-1].real,c[n-1].imaginary,result.real,result.imaginary);
 }
