@@ -12,12 +12,12 @@ int main()
 }
 void input(int *a, int *b)
 {
-    printf("Enter two number\n");
-    scanf("%d %d",a,b);
+ printf("Enter two number\n");
+ scanf("%d %d",a,b);
 }
 void add(int a,int b,int *sum)
 {
-    *sum=a+b;
+ *sum=a+b;
 }
 void output(int a,int b,int sum)
 {
