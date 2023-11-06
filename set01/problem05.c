@@ -32,10 +32,10 @@ int compare(int a,int b,int c)
        {
           largest = b;
        }
-      else 
-    {
+    if else 
+       {
         largest = c;   
-    }
+       }
     return largest;
 }
     void output(int a, int b, int c, int largest)
