@@ -1,0 +1,78 @@
++l
+1	#include <stdio.h>
+2	int input(int x );
+3	int add(int a,int b );
+4	void output( int sum,int a ,int b );
+5	int main()
+6	{
+7	 int a,b,sum,x;
+8	 a=input(x);
+9	 b=input(x);
+10	 sum=add(a,b);
++l
+11	 output(sum,a,b);
+12	 return 0;
+13	}
+14	int input(int x)
+15	{
+16	 printf("Input a Number\n");
+17	 scanf("%d",&x);
+18	 return x;
+19	}
+20	int add(int a,int b)
++l
+21	{
+22	 int sum;
+23	 sum=a+b;
+24	 return sum;
+25	}
+26	void output(int sum,int a,int b)
+27	{
+28	    printf("The sum of %d and %d is %d",a,b,sum);
+29	}+l
+Line number 30 out of range; c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c has 29 lines.
++b 19
+Breakpoint 1 at 0x4014f1: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c, line 19.
++b 28
+Breakpoint 2 at 0x40150f: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c, line 28.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x004014f1 in input 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:19
+2       breakpoint     keep y   0x0040150f in output 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:28
++r
+Starting program: C:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem03.exe 
+[New Thread 25436.0x2404]
+[New Thread 25436.0x8f8]
+
+Breakpoint 1, input (x=2) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:19
+19	}
++n
+main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:9
+9	 b=input(x);
++n
+
+Breakpoint 1, input (x=3) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:19
+19	}
++n
+main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:10
+10	 sum=add(a,b);
++n
+11	 output(sum,a,b);
++n
+
+Breakpoint 2, output (sum=5, a=2, b=3) at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:28
+28	    printf("The sum of %d and %d is %d",a,b,sum);
++n
+29	}+n
+main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem03.c:12
+12	 return 0;
++n
+13	}
++q
+A debugging session is active.
+
+	Inferior 1 [process 25436] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
