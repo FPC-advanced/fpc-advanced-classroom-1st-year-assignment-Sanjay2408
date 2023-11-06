@@ -19,9 +19,10 @@ int main()
 }
 Complex input_complex()
 {
-    Complex x;
-    scanf("%f %f",&x.real,&x.imaginary);
-    return x;
+ Complex x;
+ printf(""\n);
+ scanf("%f %f",&x.real,&x.imaginary);
+ return x;
 }
 Complex add_complex(Complex a,Complex b)
 {
