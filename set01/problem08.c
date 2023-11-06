@@ -41,7 +41,7 @@ void output(int n, int a[n],int sum)
 {
     {
         int i;
-        for(int i=0;i<n;i++)
+        for(int i=0;i<n-1;i++)
         {
             printf("%d+",a[i]);
         }
