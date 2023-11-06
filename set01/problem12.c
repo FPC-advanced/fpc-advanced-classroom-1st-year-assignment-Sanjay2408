@@ -22,16 +22,17 @@ int main()
 }
 int get_n()
 {
-    int n;
-    printf("Enter size:\n");
-    scanf("%d",&n);
-    return n;
+ int n;
+ printf("Enter size:\n");
+ scanf("%d",&n);
+ return n;
 }
 Complex input_complex()
 {
-    Complex x;
-    scanf("%f%f",&x.real,&x.imaginary);
-    return x;
+ Complex x;
+ printf("");
+ scanf("%f%f",&x.real,&x.imaginary);
+ return x;
 }
 
 void input_n_complex(int n, Complex c[n])
