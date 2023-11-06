@@ -30,18 +30,18 @@ int get_n()
 Complex input_complex()
 {
  Complex x;
- printf("Enter a real and imaginary number:");
+ printf("Enter real and imaginary number:");
  scanf("%f%f",&x.real,&x.imaginary);
  return x;
 }
 
 void input_n_complex(int n, Complex c[n])
 {
-    int i;
-    for(i=0;i<n;i++)
-    {
-        c[i]=input_complex();
-    }
+ int i;
+ for(i=0;i<n;i++)
+ {
+     c[i]=input_complex();
+ }
 }
 Complex add(Complex a, Complex b)
 {
