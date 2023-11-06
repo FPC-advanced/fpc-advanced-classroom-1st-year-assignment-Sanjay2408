@@ -1,7 +1,8 @@
 #include <stdio.h>
-struct _complex {
-	float real;
-	float imaginary;
+struct _complex 
+{
+ float real;
+ float imaginary;
 };
 typedef struct _complex Complex;
 
