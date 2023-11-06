@@ -34,7 +34,7 @@ int compare(int a,int b,int c)
     }
     else 
     {
-        largest =c;   
+        largest = c;   
     }
     return largest;
 }
