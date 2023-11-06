@@ -23,7 +23,7 @@ int add(int a,int b)
  sum=a+b;
  return sum;
 }
-void output(int  sum,int a,int b)
+void output(int sum,int a,int b)
 {
     printf("The sum of %d and %d is %d",a,b,sum);
 }
