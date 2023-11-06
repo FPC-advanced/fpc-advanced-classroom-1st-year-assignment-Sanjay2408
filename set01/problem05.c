@@ -15,27 +15,28 @@ int main()
 }
 int input()
 {
-    int x;
-    printf("Enter a number\n");
-    scanf("%d",&x);
-    return x;
+ int x;
+ printf("Enter a number\n");
+ scanf("%d",&x);
+ return x;
 }
 int compare(int a,int b,int c)
 {
-    int largest;
-     if(a>b && a>c)
-      {
-        largest = a;    
-      }
-      if(b>=c)
-       {
-          largest = b;
-       }
-      if 
-       {
-        largest = c;   
-       }
-    return largest;
+ int largest;
+  if(a>=b && a>=c)
+    {
+      largest = a;    
+    }
+    else
+    if(b>=c)
+    {
+       largest = b;
+    }
+   else
+    {
+       largest = c;   
+    }
+   return largest;
 }
     void output(int a, int b, int c, int largest)
     {
