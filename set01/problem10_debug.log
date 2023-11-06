@@ -1,0 +1,49 @@
++l
+warning: Source file is more recent than executable.
+1	#include <stdio.h>
+2	void input_two_strings(char *string1, char *string2);
+3	int stringcompare(char *string1, char *string2);
+4	void output(char *string1, char *string2, int result);
+5	int main()
+6	{
+7	 int result;
+8	 char string1[100],string2[100];
+9	 input_two_strings(string1,string2);
+10	 result=stringcompare(string1,string2);
++l
+11	 output(string1,string2,result);
+12	 return 0;
+13	}
+14	void input_two_strings(char *string1, char *string2)
+15	{
+16	 printf("Enter the first string\n");
+17	 scanf("%s",string1);
+18	 printf("Enter the second string\n");
+19	 scanf("%s",string2);
+20	}
++l
+21	int stringcompare(char *string1, char *string2)
+22	{
+23	 int i;
+24	 for(i=0;string1[i]==string2[i] && string1[i]!='\0' && string2[i]!='\0';i++);
+25	 {
+26	   if (string1[i]>string2[i])
+27	    {
+28	      return 1;
+29	    }
+30	   else 
++l
+31	   if(string1[i]<string2[i])
+32	    {
+33	      return 0;
+34	    }
+35	   else
+36	    {
+37	      return -1;
+38	    }
+39	 }
+40	}
++b 23
+Breakpoint 1 at 0x401513: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem10.c, line 23.
++b41
+Undefined command: "b41".  Try "help".
