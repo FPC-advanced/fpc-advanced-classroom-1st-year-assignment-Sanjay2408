@@ -41,11 +41,10 @@ void output(int n, int a[n],int sum)
 {
     {
         int i;
-        for(int i=0;i<n-1;i++)
-        {
+          for(int i=0;i<n-1;i++)
+          {
             printf("%d+",a[i]);
-        }
-        printf("%d=%d\n",a[n-1],sum);
-
+          }
+            printf("%d=%d\n",a[n-1],sum);
     }
 }
