@@ -31,8 +31,8 @@ int compare(int a,int b,int c)
       if(b>=c)
        {
           largest = b;
-        }
-    else 
+       }
+      else 
     {
         largest = c;   
     }
