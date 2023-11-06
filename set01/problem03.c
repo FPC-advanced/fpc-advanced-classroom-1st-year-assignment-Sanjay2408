@@ -1,7 +1,7 @@
 #include <stdio.h>
-int input(int );
-int add(int ,int );
-void output( int ,int ,int );
+int input(int x );
+int add(int a,int b );
+void output( int sum,int a ,int b );
 int main()
 {
     int a,b,sum,x;
