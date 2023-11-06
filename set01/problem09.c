@@ -4,18 +4,18 @@ float square_root(float n);
 void output(float n, float sqrroot);
 int main()
 {
-    float n,sqrroot;
-    n=input();
-    sqrroot=square_root(n);
-    output(n,sqrroot);
-    return 0;
+ float n,sqrroot;
+ n=input();
+ sqrroot=square_root(n);
+ output(n,sqrroot);
+ return 0;
 }
 float input()
 {
-    float n;
-    printf("Enter the number:\n");
-    scanf("%f",&n);
-    return n;
+ float n;
+ printf("Enter the number:\n");
+ scanf("%f",&n);
+ return n;
 }
 float square_root(float n)
 {
