@@ -76,7 +76,7 @@ void output(int n,Triangle t[n],Triangle smallest)
    printf("(%.2f,%.2f)",t[i].base,t[i].altitude);
    if(i<n-1)
   {
-    printf(",");
+    // printf(",");
   }
  }
  printf(" is the triangle having base %.2f,height %.2f , and area %.2f \n",smallest.base,smallest.altitude,smallest.area);
