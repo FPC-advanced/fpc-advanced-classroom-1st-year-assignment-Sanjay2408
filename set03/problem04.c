@@ -37,10 +37,10 @@ int find_fibo(int n)
       x1 = x2;
       x2 = fibo;
      }
- }
+   }
  return fibo;
 }
 void output(int n,int fibo)
 {
-    printf("fibo (%d)=%d",n,fibo);
+ printf("fibo (%d)=%d",n,fibo);
 }
