@@ -27,7 +27,7 @@ for(i=1;i<=n;i++)
      fibo=0;
     }
 else
-    if(i<=3)
+    if(i<=3 && i>1)
     {
         fibo=1;
     }
