@@ -54,3 +54,7 @@ void find_perimeter(Polygon* p)
 {
 
 }
+void output(Polygon p);
+{
+  printf("")
+}
