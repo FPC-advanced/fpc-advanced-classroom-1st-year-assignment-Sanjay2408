@@ -17,7 +17,7 @@ int main()
     Point p;
     Line l;
     l=input_line();
-
+    find_length(Line *l)
     
     return 0;
 }
@@ -33,4 +33,8 @@ Line input_line()
   l.p1=input_point();
   l.p2=input_point();
   return l;
+}
+void find_length(Line *l)
+{
+
 }
