@@ -12,3 +12,11 @@ Point input_point();
 Line input_line();
 void find_length(Line *l);
 void output(Line l);
+int main()
+{
+    return 0;
+}
+Point input_point()
+{
+    
+}
