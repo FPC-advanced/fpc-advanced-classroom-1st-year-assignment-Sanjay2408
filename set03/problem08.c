@@ -1,10 +1,12 @@
-typedef struct point {
-    float x,y;
+typedef struct point 
+{
+ float x,y;
 } Point;
-typedef struct polygon {
-    int sides;
-    Point p[100];
-    float perimeter;
+typedef struct polygon 
+{
+ int sides;
+ Point p[100];
+ float perimeter;
 } Polygon;
 int input_n();
 Point input_point(char *promt_msg);
@@ -15,4 +17,8 @@ void output(Polygon p);
 int main()
 {
 
+}
+int input_n()
+{
+    printf("Enter the ")
 }
