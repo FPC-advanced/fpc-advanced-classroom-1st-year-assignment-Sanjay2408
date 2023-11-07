@@ -27,3 +27,7 @@ int input_n()
  scanf("%d",&n);
  return n;
 }
+int input_polygon(Polygon *p)
+{
+    
+}
