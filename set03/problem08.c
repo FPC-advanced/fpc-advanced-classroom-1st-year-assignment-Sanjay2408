@@ -29,5 +29,5 @@ int input_n()
 }
 int input_polygon(Polygon *p)
 {
-    
+    for()
 }
