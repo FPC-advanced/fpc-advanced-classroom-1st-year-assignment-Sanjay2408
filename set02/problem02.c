@@ -27,11 +27,11 @@ int check_scalene(int a, int b, int c)
         return 0;
     }
 else 
-if(a!=b || b!=c || a!=c)
-{
-  return 1;
-}
-}
+  if(a!=b || b!=c || a!=c)
+   {
+     return 1;
+   }
+   }
 void output(int a, int b, int c, int isscalene)
 {
     if(isscalene==0)
