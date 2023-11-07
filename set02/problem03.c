@@ -20,7 +20,18 @@ int input_number()
 int is_composite(int n)
 {
   int i;
+  if (n <= 1)
+     {
+       return 0;
+     }
+     if(n==2)
+     {
+        return 0;
+     }
   for (i=2;i<=n/2;i++)
+{
+    
+}
   
     
      else
@@ -31,7 +42,7 @@ int is_composite(int n)
     else 
        return 0;
   }
-}
+
 void output(int n, int result)
 {
  if(result==1)
