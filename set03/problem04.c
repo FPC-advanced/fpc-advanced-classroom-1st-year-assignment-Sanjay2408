@@ -24,10 +24,10 @@ for(i=1;i<=n;i++)
 {
     if(n=1)
     {
-        fibo=0;
+     fibo=0;
     }
 else
-    if(i<=2)
+    if(i<=3)
     {
         fibo=1;
     }
