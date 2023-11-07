@@ -18,5 +18,5 @@ int main()
 }
 Point input_point()
 {
-    scanf("%f",p1.x)
+    scanf("%f %f",p1.x,p1.y)
 }
