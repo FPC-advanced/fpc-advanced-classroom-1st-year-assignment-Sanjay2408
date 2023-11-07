@@ -12,6 +12,5 @@ int main()
 void input_string(char* a, char* b)
 {
  printf("Enter two strings\n");
- scanf("%c",a);
- scanf("%c",b); 
+ scanf("%c %c",a);
 }
