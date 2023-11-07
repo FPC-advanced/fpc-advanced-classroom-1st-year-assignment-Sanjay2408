@@ -20,7 +20,8 @@ int main()
 Polygon p;
 p.sides=input_n();
 input_polygon(&p);
-find_perimeter()
+find_perimeter(&p);
+output(p);
 return 0;
 }
 int input_n()
@@ -44,4 +45,8 @@ void input_polygon(Polygon *p)
     printf("Enter the coordinates of point %d (x,y)\n",i);
     p->p[i] = input_point();
   }
+}
+float find_distance(Point a, Point b)
+{
+  
 }
