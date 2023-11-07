@@ -20,5 +20,5 @@ int main()
 }
 int input_n()
 {
-    printf("Enter the ")
+    printf("Enter the Number of sides in the polyg")
 }
