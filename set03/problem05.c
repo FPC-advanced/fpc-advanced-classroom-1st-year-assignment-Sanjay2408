@@ -6,7 +6,7 @@ void output(int n, int a[n]);
 int main()
 {
  int n = input_array_size(); 
- int a[n];
+ int a[n + 1];
  init_array(n,a);
  erotosthenes_sieve(n,a);
  output(n,a);
@@ -22,10 +22,9 @@ int input_array_size()
 void init_array(int n, int a[n])
 {
     int i;
-    printf("Enter the array elements:");
-    for(i=0;i<n;i++)
+    for(i=2;i<n;i++)
     {
-     scanf("%d",&a[i]);
+     a[i]=i;
     }
 }
 void erotosthenes_sieve(int n, int a[n])
@@ -48,7 +47,7 @@ void output(int n, int a[n])
  {
   if(a[i] != 0)
    {
-    printf("%d",i);
+    printf("%d ",i);
    }
  }
  printf("\n");
