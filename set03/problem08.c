@@ -18,7 +18,7 @@ int main()
 {
 Polygon p;
 p.sides=input_n();
-
+return 0;
 }
 int input_n()
 {
@@ -29,5 +29,5 @@ int input_n()
 }
 int input_polygon(Polygon *p)
 {
-    for(i=0;i<n;i++)
+    
 }
