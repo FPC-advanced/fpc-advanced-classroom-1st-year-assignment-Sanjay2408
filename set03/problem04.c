@@ -24,6 +24,7 @@ if(n=1)
 {
     fibo=0;
 }
+else
 for(i=1;i<=n;i++)
 {
     if(i<=2)
