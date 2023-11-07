@@ -26,6 +26,10 @@ int is_composite(int n)
      {
        return 0;
      }
+     if(n==2)
+     {
+        return 0;
+     }
      else
      if (n%i == 0)
     {
