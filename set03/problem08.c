@@ -16,7 +16,7 @@ void find_perimeter(Polygon* p);
 void output(Polygon p);
 int main()
 {
-int n;
+int ;
 n=input_n();
 
 }
