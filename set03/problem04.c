@@ -25,7 +25,7 @@ if(n=1)
 {
     fibo=0;
 }
-for(i=2;i<=n;i++)
+for(i=1;i<=n;i++)
 {
     if(i<=2)
     {
