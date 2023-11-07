@@ -19,6 +19,7 @@ int main()
 {
 Polygon p;
 p.sides=input_n();
+input
 return 0;
 }
 int input_n()
