@@ -58,20 +58,20 @@ void find_n_areas(int n, Triangle t[n])
 }
 Triangle find_smallest_triangle(int n, Triangle t[n])
 {
-    Triangle smallest=t[0];
-    for(int i=0;i<n;i++)
-    {
-        if(t[i].area < smallest.area)
-        {
-            smallest = t[i];
-        }
-    }
-    return smallest;
+ Triangle smallest=t[0];
+ for(int i=0;i<n;i++)
+ {
+  if(t[i].area < smallest.area)
+   {
+     smallest = t[i];
+   }
+ }
+ return smallest;
 }
 void output(int n,Triangle t[n],Triangle smallest)
 {
-    printf("The smallest triangle out of triangles with base and height ");
-for (int i=0;i<n;i++)
+ printf("The smallest triangle out of triangles with base and height ");
+ for (int i=0;i<n;i++)
 {
     printf("(%.2f,%.2f)",t[i].base,t[i].altitude);
     if(i<n-1)
