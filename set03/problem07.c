@@ -15,7 +15,6 @@ void find_length(Line *l);
 void output(Line l);
 int main()
 {
- Point p;
  Line l;
  l=input_line();
  find_length(&l);
