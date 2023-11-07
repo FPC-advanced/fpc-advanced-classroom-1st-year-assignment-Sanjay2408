@@ -21,6 +21,7 @@ int find_fibo(int n)
 {
     
 int fibo,i,x1=0,x2=1;
+if(n=1)
 for(i=1;i<=n;i++)
 {
     if(i<=2)
