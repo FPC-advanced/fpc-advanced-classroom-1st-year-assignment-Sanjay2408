@@ -15,7 +15,7 @@ void output(Line l);
 int main()
 {
     Point p;
-    p = input_point();
+    
 
 
     return 0;
@@ -28,5 +28,5 @@ Point input_point()
 }
 Line input_line()
 {
-    
+
 }
