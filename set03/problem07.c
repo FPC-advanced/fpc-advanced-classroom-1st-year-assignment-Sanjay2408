@@ -36,9 +36,9 @@ Line input_line()
 }
 void find_length(Line *l)
 {
- l.distance=sqrt((l->p2.x - l->p1.x)*(l->p2.x - l->p1.x) + (l->p2.y - l->p1.y)*(l->p2.y-l->p1.y));
+ l->distance=sqrt((l->p2.x - l->p1.x)*(l->p2.x - l->p1.x) + (l->p2.y - l->p1.y)*(l->p2.y-l->p1.y));
 }
 void output(Line l)
 {
- printf("The distance between the points (%f,%f) and (%f,%f) is %f",l.p1.x,l.p1.y,l.p2.x,l.p2.y,l);
+ printf("The distance between the points (%f,%f) and (%f,%f) is %f",l.p1.x,l.p1.y,l.p2.x,l.p2.y,l.distance);
 }
