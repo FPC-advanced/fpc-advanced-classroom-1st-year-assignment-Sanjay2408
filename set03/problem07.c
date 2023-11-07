@@ -27,3 +27,6 @@ Point input_point()
  scanf("%f %f",p2.x,p2.y);
 }
 Line input_line()
+{
+    
+}
