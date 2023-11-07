@@ -41,5 +41,6 @@ void input_polygon(Polygon *p)
   {
     printf("Enter the coordinates of point %d (x,y)\n",i);
     
+    
   }
 }
