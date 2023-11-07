@@ -6,7 +6,7 @@ int main()
 {
  char a,b;
  input_string(&a,&b);
-
+ sub_str_index
  return 0;
 }
 void input_string(char* a, char* b)
@@ -14,3 +14,4 @@ void input_string(char* a, char* b)
  printf("Enter two strings\n");
  scanf("%c %c",a ,b);
 }
+int sub_str_index(char* string, char* substring)
