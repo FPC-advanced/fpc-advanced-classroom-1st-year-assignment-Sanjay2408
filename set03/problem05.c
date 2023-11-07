@@ -5,14 +5,15 @@ void erotosthenes_sieve(int n, int a[n]);
 void output(int n, int a[n]);
 int main()
 {
-
-    return 0;
+int n = input_array_size();
+return 0;
 }
 int input_array_size()
 {
     int n;
     printf("Enter the size of the array:");
     scanf("%d",&n);
+    return n;
 }
 void init_array(int n, int a[n])
 {
