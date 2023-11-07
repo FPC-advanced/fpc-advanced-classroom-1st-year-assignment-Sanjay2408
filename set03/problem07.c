@@ -29,5 +29,6 @@ Point input_point()
 Line input_line()
 {
     Line l;
-  p1.l=
+  p1.l=input_point();
+  p2.l=input_point()
 }
