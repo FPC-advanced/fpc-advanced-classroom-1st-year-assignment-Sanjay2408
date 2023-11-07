@@ -20,12 +20,13 @@ int input()
 int find_fibo(int n)
 {
 int fibo,i,x1=0,x2=1;
-if(n=1)
+for(i=1;i<=n;i++)
+{
+    if(n=1)
 {
     fibo=0;
 }
-for(i=1;i<=n;i++)
-{
+else
     if(i<=2)
     {
         fibo=1;
