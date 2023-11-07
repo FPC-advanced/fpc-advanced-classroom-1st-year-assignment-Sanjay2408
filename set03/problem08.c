@@ -20,5 +20,6 @@ int main()
 }
 int input_n()
 {
-    printf("Enter the Number of sides in the polyg")
+    printf("Enter the Number of sides in the polygon\n")
+    
 }
