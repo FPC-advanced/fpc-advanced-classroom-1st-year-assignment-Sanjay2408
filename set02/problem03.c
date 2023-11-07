@@ -22,7 +22,7 @@ int is_composite(int n)
   int i;
   for (i=2;i<=n/2;i++)
   {
-    if (n <=1)
+    if (n <= 1)
      {
        return 1;
      }
