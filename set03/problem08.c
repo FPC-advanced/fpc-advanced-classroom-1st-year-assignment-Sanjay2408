@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 typedef struct point 
 {
  float x,y;
@@ -48,13 +49,15 @@ void input_polygon(Polygon *p)
 }
 float find_distance(Point a, Point b)
 {
-
+ return sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
 }
 void find_perimeter(Polygon* p)
 {
-
+  int i;
+  for (i=0;i<p->sides;i++)
+p->perimeter=+find_distance(p->p[i],p->p[(i+1) % p->sides]);
 }
-void output(Polygon p);
+void output(Polygon p)
 {
-  printf("The perimeter of the polynomial is %d",p);
+  printf("The perimeter of the polynomial is %d",p.perimeter);
 }
