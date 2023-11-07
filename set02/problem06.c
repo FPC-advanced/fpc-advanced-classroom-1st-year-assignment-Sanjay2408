@@ -23,18 +23,18 @@ void input_string(char *a)
 }
 void str_reverse(char *str, char *rev_str)
 {
-int len=0;
-while(str[len] != '\0')
-{
+ int len=0;
+ while(str[len] != '\0')
+  {
     len++;
-}
-int i,j  = 0;
-for(i = len - 1; i >= 0;i--)
-{
-    rev_str[j] = str[i];
-    j++;
-}
-rev_str[j] ='\0';
+  }
+ int i,j  = 0;
+ for(i = len - 1; i >= 0;i--)
+ {
+     rev_str[j] = str[i];
+     j++;
+ }
+ rev_str[j] ='\0';
 }
 void output(char *a, char *reverse_a)
 {
