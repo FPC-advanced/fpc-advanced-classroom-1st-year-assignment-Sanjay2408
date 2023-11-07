@@ -40,7 +40,8 @@ void input_polygon(Polygon *p)
   for(i=0;i<p->sides;i++)
   {
     printf("Enter the coordinates of point %d (x,y)\n",i);
-    
+    p
+
     
   }
 }
