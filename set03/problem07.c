@@ -32,8 +32,6 @@ Line input_line()
   Line l;
   l.p1=input_point();
   l.p2=input_point();
-  find_length(&l);
-  output(l);
   return l;
 }
 void find_length(Line *l)
