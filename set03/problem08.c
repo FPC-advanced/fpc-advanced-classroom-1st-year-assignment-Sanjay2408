@@ -56,5 +56,5 @@ void find_perimeter(Polygon* p)
 }
 void output(Polygon p);
 {
-  printf("")
+  printf("The perimeter of the polynomial is %d",)
 }
