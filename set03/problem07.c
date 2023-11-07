@@ -36,7 +36,7 @@ Line input_line()
 }
 void find_length(Line *l)
 {
- l.=sqrt((l->p2.x - l->p1.x)*(l->p2.x - l->p1.x) + (l->p2.y - l->p1.y)*(l->p2.y-l->p1.y));
+ l.distance=sqrt((l->p2.x - l->p1.x)*(l->p2.x - l->p1.x) + (l->p2.y - l->p1.y)*(l->p2.y-l->p1.y));
 }
 void output(Line l)
 {
