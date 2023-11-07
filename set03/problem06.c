@@ -5,9 +5,10 @@ void output(char *string, char *substring, int index);
 int main()
 {
  char a,b,string,substring;
+ int index;
  input_string(a,b);
  sub_str_index(string,substring);
- 
+ output(string,substring,index);
  return 0;
 }
 void input_string(char* a, char* b)
