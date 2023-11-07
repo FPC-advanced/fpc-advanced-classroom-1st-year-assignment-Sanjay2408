@@ -17,6 +17,7 @@ void output(Polygon p);
 int main()
 {
 int n;
+n=input_n();
 
 }
 int input_n()
