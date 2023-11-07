@@ -8,6 +8,7 @@ int main()
  int n = input_array_size(); 
  int a[n];
  init_array(n,a);
+ 
  return 0;
 }
 int input_array_size()
