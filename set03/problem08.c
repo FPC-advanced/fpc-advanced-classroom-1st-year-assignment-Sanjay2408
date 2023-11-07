@@ -48,5 +48,9 @@ void input_polygon(Polygon *p)
 }
 float find_distance(Point a, Point b)
 {
-  
+
+}
+void find_perimeter(Polygon* p)
+{
+
 }
