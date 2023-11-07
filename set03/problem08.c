@@ -30,7 +30,8 @@ int input_n()
 }
 Point input_point()
 {
-
+scanf("%f",p-x);
+    scanf("%f",p->y);
 }
 void input_polygon(Polygon *p)
 {
@@ -38,7 +39,6 @@ void input_polygon(Polygon *p)
   for(i=0;i<p->sides;i++)
   {
     printf("Enter the coordinates of point %d (x,y)\n",i);
-    scanf("%f",p-x);
-    scanf("%f",p->y);
+    
   }
 }
