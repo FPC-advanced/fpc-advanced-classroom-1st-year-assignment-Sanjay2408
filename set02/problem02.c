@@ -34,12 +34,12 @@ else
    }
 void output(int a, int b, int c, int isscalene)
 {
-    if(isscalene==0)
-    {
-    printf("The triangle with the sides %d,%d and %d is scalene",a,b,c);
-    }
-    else 
-    {
-    printf("The triangle with the sides %d,%d and %d is not scalene",a,b,c);
-    }
+ if(isscalene==0)
+  {
+   printf("The triangle with the sides %d,%d and %d is scalene",a,b,c);
+  }
+ else 
+  {
+   printf("The triangle with the sides %d,%d and %d is not scalene",a,b,c);
+  }
 }
