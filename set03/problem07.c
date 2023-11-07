@@ -15,10 +15,10 @@ void output(Line l);
 int main()
 {
     Point p;
-    l=Line input_line();
+    Line l;
+    l=input_line();
+
     
-
-
     return 0;
 }
 Point input_point()
