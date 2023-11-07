@@ -3,8 +3,6 @@ typedef struct _triangle
 {
  float base, altitude, area;
 } Triangle;
-
-
 int input_n();
 Triangle input_triangle();
 void input_n_triangles(int n, Triangle t[n]);
@@ -12,9 +10,6 @@ void find_area(Triangle *t);
 void find_n_areas(int n, Triangle t[n]);
 Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
-
-
-
 int main()
 {
  int n;
@@ -25,14 +20,14 @@ int main()
  find_n_areas(n,triangles);
  Triangle smallest = find_smallest_triangle(n,triangles);
  output(n,triangles,smallest);
-return 0;
+ return 0;
 }
 int input_n()
 {
-    int n;
-    printf("Enter the number of triangles:");
-    scanf("%d",&n);
-    return n;
+ int n;
+ printf("Enter the number of triangles:");
+ scanf("%d",&n);
+ return n;
 }
 Triangle input_triangle()
 {
