@@ -25,14 +25,14 @@ int main()
 int input_n()
 {
  int n;
- printf("Enter the number of triangles:");
+ printf("Enter the number of triangles:\n");
  scanf("%d",&n);
  return n;
 }
 Triangle input_triangle()
 {
  Triangle t;
- printf("Enter the base and altitude of the triangle:");
+ printf("Enter the base and altitude of the triangle:\n");
  scanf("%f %f",&t.base,&t.altitude);
  return t;
 }
@@ -79,5 +79,5 @@ void output(int n,Triangle t[n],Triangle smallest)
     // printf(",");
   }
  }
- printf(" is the triangle having base %.2f,height %.2f , and area %.2f \n",smallest.base,smallest.altitude,smallest.area);
+ printf(" is the triangle having base %.2f,height %.2f , and area %.2f ",smallest.base,smallest.altitude,smallest.area);
 }
