@@ -5,8 +5,8 @@ void output(char *string, char *substring, int index);
 int main()
 {
  char a,b;
- input_string(&a,&b);
- sub_str_index
+ input_string(a,b);
+ sub_str_index(string,substring)
  return 0;
 }
 void input_string(char* a, char* b)
