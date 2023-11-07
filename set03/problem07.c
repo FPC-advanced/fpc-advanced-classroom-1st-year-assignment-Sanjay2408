@@ -28,5 +28,6 @@ Point input_point()
 }
 Line input_line()
 {
-
+    Line l;
+  p1.l=
 }
