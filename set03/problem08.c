@@ -32,6 +32,7 @@ int input_polygon(Polygon *p)
  int i;
   for(i=0;i<p;i++)
   {
-    printf("Enter the coordinates of point %d");
+    printf("Enter the coordinates of point %d (x,y)",i);
+    scanf(%d,)
   }
 }
