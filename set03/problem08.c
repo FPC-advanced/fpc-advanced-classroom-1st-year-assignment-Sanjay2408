@@ -16,10 +16,13 @@ void find_perimeter(Polygon* p);
 void output(Polygon p);
 int main()
 {
+int n;
 
 }
 int input_n()
 {
+ int n;
  printf("Enter the Number of sides in the polygon\n");
- scanf("%d",n)
+ scanf("%d",&n);
+ return n;
 }
