@@ -23,9 +23,9 @@ int fibo,i,x1=0,x2=1;
 for(i=1;i<=n;i++)
 {
     if(n=1)
-{
-    fibo=0;
-}
+    {
+        fibo=0;
+    }
 else
     if(i<=2)
     {
