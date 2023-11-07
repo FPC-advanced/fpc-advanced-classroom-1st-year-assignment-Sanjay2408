@@ -15,6 +15,7 @@ void output(Line l);
 int main()
 {
     Point p;
+    l=Line input_line();
     
 
 
@@ -29,7 +30,7 @@ Point input_point()
 Line input_line()
 {
     Line l;
-  p1.l=input_point();
-  p2.l=input_point();
+  l.p1=input_point();
+  l.p2=input_point();
   return l;
 }
