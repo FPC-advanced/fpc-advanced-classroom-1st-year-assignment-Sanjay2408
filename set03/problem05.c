@@ -28,7 +28,7 @@ void erotosthenes_sieve(int n, int a[n])
     int i;
  for(int i=2;i<=n;i++)
  {
-  if(isprime)
+  if()
  }
 }
 void output(int n, int a[n])
