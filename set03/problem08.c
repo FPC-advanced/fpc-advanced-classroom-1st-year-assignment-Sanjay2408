@@ -19,7 +19,8 @@ int main()
 {
 Polygon p;
 p.sides=input_n();
-input
+input_polygon(&p);
+find_perimeter()
 return 0;
 }
 int input_n()
