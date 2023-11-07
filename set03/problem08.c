@@ -1,3 +1,4 @@
+#include<stdio.h>
 typedef struct point 
 {
  float x,y;
