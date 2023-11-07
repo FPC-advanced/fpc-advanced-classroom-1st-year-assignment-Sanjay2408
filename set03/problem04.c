@@ -23,18 +23,19 @@ int find_fibo(int n)
   for(i=1;i<=n;i++)
    {
      if(i<=1)
-     {
-      fibo=0;
-     }
- else
+      {
+       fibo=0;
+      }
+     else
      if(i<=2 && i>1)
+      {
+       fibo=1;
+      }
+     else
      {
-         fibo=1;
-     }
-     else{
-         fibo = x1 + x2;
-         x1 = x2;
-         x2 = fibo;
+      fibo = x1 + x2;
+      x1 = x2;
+      x2 = fibo;
      }
  }
  return fibo;
