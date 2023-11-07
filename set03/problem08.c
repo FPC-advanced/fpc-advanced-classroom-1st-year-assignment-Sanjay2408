@@ -10,7 +10,7 @@ typedef struct polygon
 } Polygon;
 int input_n();
 Point input_point(char *promt_msg);
-int input_polygon(Polygon *p);
+void input_polygon(Polygon *p);
 float find_distance(Point a, Point b);
 void find_perimeter(Polygon* p);
 void output(Polygon p);
@@ -27,7 +27,7 @@ int input_n()
  scanf("%d",&n);
  return n;
 }
-int input_polygon(Polygon *p)
+void input_polygon(Polygon *p)
 {
  int i;
   for(i=0;i<p;i++)
@@ -35,6 +35,5 @@ int input_polygon(Polygon *p)
     printf("Enter the coordinates of point %d (x,y)\n",i);
     scanf("%d",&p.x);
     scanf("%d",&p.y)
-    return p;
   }
 }
