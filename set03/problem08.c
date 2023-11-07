@@ -28,6 +28,10 @@ int input_n()
  scanf("%d",&n);
  return n;
 }
+Point input_point()
+{
+    
+}
 void input_polygon(Polygon *p)
 {
  int i;
