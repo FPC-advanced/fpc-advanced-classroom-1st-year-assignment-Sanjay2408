@@ -37,6 +37,6 @@ Line input_line()
 void find_length(Line *l)
 {
  float distance;
- distance=sqrt((x-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+ distance=sqrt((p2.x-p1.x)*(x2-x1)+(y2-y1)*(y2-y1));
 
 }
