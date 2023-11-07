@@ -14,11 +14,12 @@ void find_length(Line *l);
 void output(Line l);
 int main()
 {
+    Point 
     return 0;
 }
 Point input_point()
 {
     Point p1,p2;
     scanf("%f %f",p1.x,p1.y);
-    scanf("%f %f")
+    scanf("%f %f",p2.x,p2.y);
 }
