@@ -10,7 +10,7 @@ typedef struct polygon
  float perimeter;
 } Polygon;
 int input_n();
-Point input_point(char *promt_msg);
+Point input_point();
 void input_polygon(Polygon *p);
 float find_distance(Point a, Point b);
 void find_perimeter(Polygon* p);
@@ -30,7 +30,7 @@ int input_n()
 }
 Point input_point()
 {
-    
+
 }
 void input_polygon(Polygon *p)
 {
