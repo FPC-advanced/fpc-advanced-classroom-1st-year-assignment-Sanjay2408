@@ -31,7 +31,7 @@ int input_n()
 Point input_point()
 {
   Point p;
-  scanf("%f %f",p->x,p->y);\
+  scanf("%f %f",&p.x,&p.y);
   return p;
 }
 void input_polygon(Polygon *p)
