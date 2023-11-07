@@ -41,7 +41,7 @@ void output(int n, int result)
   printf("%d is a composite number",n);
  }
  else 
- if(result ==1)
+ if(result==1)
  {
   printf("%d is not a composite number",n);
  }  
