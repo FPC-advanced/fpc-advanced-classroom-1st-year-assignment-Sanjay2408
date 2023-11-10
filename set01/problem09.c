@@ -12,23 +12,22 @@ int main()
 }
 float input()
 {
-float n;
-printf("Enter the number:\n");
-scanf("%f",&n);
-return n;
+    float n;
+    printf("Enter the number:\n");
+    scanf("%f",&n);
+    return n;
 }
 float square_root(float n)
 {
- float x,epsilon;
- x=n/2;
- epsilon = 0.000001;
- while((x*x-n) > epsilon || (n-x*x)> epsilon)
- {
-     x=0.5*(x+n/x);
- }
- return x;
+    float x,epsilon;
+    x=n/2;
+    epsilon = 0.000001;
+    while((x*x-n) > epsilon || (n-x*x)> epsilon){
+        x=0.5*(x+n/x);
+    }
+    return x;
 }
 void output(float n,float sqrroot)
 {
- printf("The square root of %f is %f\n",n,sqrroot);
+    printf("The square root of %f is %f\n",n,sqrroot);
 }
