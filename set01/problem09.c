@@ -12,10 +12,10 @@ int main()
 }
 float input()
 {
- float n;
- printf("Enter the number:\n");
- scanf("%f",&n);
- return n;
+float n;
+printf("Enter the number:\n");
+scanf("%f",&n);
+return n;
 }
 float square_root(float n)
 {
