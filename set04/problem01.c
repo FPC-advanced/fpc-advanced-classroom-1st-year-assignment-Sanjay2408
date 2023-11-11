@@ -6,6 +6,7 @@ int main()
 {
 int num1,den1,num2,den2,res_num,res_den;
 input(&num1,&den1,&num2,&den2);
+add()
 
 return  0;
 }
@@ -19,5 +20,5 @@ void input(int *num1, int *den1, int *num2, int *den2)
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
     res_num = num1 + num2;
-    res_d 
+    res_den = den1 + den2; 
 }
