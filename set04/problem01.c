@@ -16,7 +16,8 @@ void input(int *num1, int *den1, int *num2, int *den2)
     printf("Enter the numerator and denominator of first fraction:\n");
     scanf("%d %d",num2,den2);
 }
-void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den);
+void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
 {
-    res_num=
+    res_num = num1 + num2;
+    res_d 
 }
