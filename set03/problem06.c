@@ -13,7 +13,7 @@ int main()
 }
 void input_string(char* a, char* b)
 {
- printf("Enter two strings\n");
+ printf("Enter a strings\n");
  scanf("%c %c",a ,b);
 }
 int sub_str_index(char* string, char* substring)
