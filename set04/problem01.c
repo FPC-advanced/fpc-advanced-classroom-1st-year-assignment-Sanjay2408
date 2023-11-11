@@ -6,7 +6,7 @@ int main()
 {
 int num1,den1,num2,den2,res_num,res_den;
 input(&num1,&den1,&num2,&den2);
-add()
+add(num1,den1,num2,den2,&res_num,&res_den)
 
 return  0;
 }
