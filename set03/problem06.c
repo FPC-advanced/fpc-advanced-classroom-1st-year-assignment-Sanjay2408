@@ -14,9 +14,9 @@ int main()
 void input_string(char* a, char* b)
 {
  printf("Enter a string:\n");
- scanf("%c",a);
+ scanf("%c",&a);
  printf("Enter a substring to find:\n");
- scanf("%c",b);
+ scanf("%c",&b);
 }
 int sub_str_index(char* string, char* substring)
 {
