@@ -8,3 +8,42 @@ Compilation started at 11/7/2023, 7:47:27 PM
 Compilation finished at 11/7/2023, 7:47:27 PM
 Compilation started at 11/7/2023, 7:48:09 PM
 Compilation finished at 11/7/2023, 7:48:09 PM
+Compilation started at 11/11/2023, 7:48:20 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:9:15: warning: passing argument 1 of 'input_string' makes pointer from integer without a cast [-Wint-conversion]
+  input_string(a,b);
+               ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:2:6: note: expected 'char *' but argument is of type 'char'
+ void input_string(char* a, char* b);
+      ^~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:9:17: warning: passing argument 2 of 'input_string' makes pointer from integer without a cast [-Wint-conversion]
+  input_string(a,b);
+                 ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:2:6: note: expected 'char *' but argument is of type 'char'
+ void input_string(char* a, char* b);
+      ^~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:10:22: warning: passing argument 1 of 'sub_str_index' makes pointer from integer without a cast [-Wint-conversion]
+  index=sub_str_index(string,substring);
+                      ^~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:3:5: note: expected 'char *' but argument is of type 'char'
+ int sub_str_index(char* string, char* substring);
+     ^~~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:10:29: warning: passing argument 2 of 'sub_str_index' makes pointer from integer without a cast [-Wint-conversion]
+  index=sub_str_index(string,substring);
+                             ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:3:5: note: expected 'char *' but argument is of type 'char'
+ int sub_str_index(char* string, char* substring);
+     ^~~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:11:9: warning: passing argument 1 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+  output(string,substring,index);
+         ^~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:4:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string, char *substring, int index);
+      ^~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:11:16: warning: passing argument 2 of 'output' makes pointer from integer without a cast [-Wint-conversion]
+  output(string,substring,index);
+                ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:4:6: note: expected 'char *' but argument is of type 'char'
+ void output(char *string, char *substring, int index);
+      ^~~~~~
+Compilation finished at 11/11/2023, 7:48:20 AM
