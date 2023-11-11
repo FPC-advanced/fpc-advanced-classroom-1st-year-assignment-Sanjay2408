@@ -1,0 +1,9 @@
+Compilation started at 11/11/2023, 8:20:20 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'add':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:22:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_num = num1 + num2;
+             ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:23:13: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+     res_den = den1 + den2;
+             ^
+Compilation finished at 11/11/2023, 8:20:20 AM
