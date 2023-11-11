@@ -86,3 +86,5 @@ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\prob
  void output(char *string, char *substring, int index);
       ^~~~~~
 Compilation finished at 11/11/2023, 7:49:07 AM
+Compilation started at 11/11/2023, 7:51:42 AM
+Compilation finished at 11/11/2023, 7:51:42 AM
