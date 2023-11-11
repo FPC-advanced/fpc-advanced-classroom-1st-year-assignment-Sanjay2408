@@ -24,6 +24,8 @@ int sub_str_index(char* string, char* substring)
     for(i=0;string[i] != '\0;i++')
     {
         for(j=0;substring[j] != '\0' && string[i+j]== substring[j];j++);
-        if(substring[j])
+        if(substring[j]=='\0')
+        return i;
     }
+    return -1;
 }
