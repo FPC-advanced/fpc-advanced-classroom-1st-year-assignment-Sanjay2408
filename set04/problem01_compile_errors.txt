@@ -37,3 +37,5 @@ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\prob
          res_den = (den1 * den2);
                  ^
 Compilation finished at 11/13/2023, 11:06:20 AM
+Compilation started at 11/13/2023, 11:06:49 AM
+Compilation finished at 11/13/2023, 11:06:49 AM
