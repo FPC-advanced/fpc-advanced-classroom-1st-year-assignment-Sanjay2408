@@ -39,6 +39,6 @@ void output(char *string, char *substring, int index)
     }
     else
     {
-        printf("The index of %s is  not a substring of %s",substring,string)
+        printf("The index of %s is  not a substring of %s",substring,string);
     }
 }
