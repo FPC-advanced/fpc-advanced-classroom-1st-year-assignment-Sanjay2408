@@ -26,10 +26,10 @@ int sub_str_index(char* string, char* substring)
   for(j=0;substring[j] != '\0' && string[i+j]== substring[j];j++);
   if(substring[j]==string[i])
   {
-  return i;
+  return j;
   }
  }
- return -1;
+ return 0;
 }
 void output(char *string, char *substring, int index)
 {
