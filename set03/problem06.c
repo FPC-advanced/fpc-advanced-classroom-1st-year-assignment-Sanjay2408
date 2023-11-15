@@ -29,9 +29,10 @@ int sub_str_index(char* string, char* substring)
   return j;
   }
  }
- return 0;
+ return -1;
 }
 void output(char *string, char *substring, int index)
+if
 {
  printf("The index of %s in %s is %d\n",substring ,string,index);
 }
