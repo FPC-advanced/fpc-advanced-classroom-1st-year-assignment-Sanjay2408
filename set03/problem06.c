@@ -35,7 +35,10 @@ void output(char *string, char *substring, int index)
 {
     if (index != -1)
     {
-     printf("The index of %s in %s is %d\n",substring ,string,index);
+        printf("The index of %s in %s is %d\n",substring ,string,index);
     }
-    
+    else
+    {
+        printf("The index of %s is  not a ")
+    }
 }
