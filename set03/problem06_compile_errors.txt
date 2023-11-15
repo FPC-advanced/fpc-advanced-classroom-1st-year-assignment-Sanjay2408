@@ -210,3 +210,30 @@ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\prob
  int sub_str_index(char* string, char* substring);
      ^~~~~~~~~~~~~
 Compilation finished at 11/15/2023, 4:12:16 PM
+Compilation started at 11/15/2023, 4:12:32 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:9:15: warning: passing argument 1 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_string(&string,&substring);
+               ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:2:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char* a, char* b);
+      ^~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:9:23: warning: passing argument 2 of 'input_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  input_string(&string,&substring);
+                       ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:2:6: note: expected 'char *' but argument is of type 'char (*)[100]'
+ void input_string(char* a, char* b);
+      ^~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:10:22: warning: passing argument 1 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+  index=sub_str_index(&string,&substring);
+                      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:3:5: note: expected 'char *' but argument is of type 'char (*)[100]'
+ int sub_str_index(char* string, char* substring);
+     ^~~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:10:30: warning: passing argument 2 of 'sub_str_index' from incompatible pointer type [-Wincompatible-pointer-types]
+  index=sub_str_index(&string,&substring);
+                              ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set03\problem06.c:3:5: note: expected 'char *' but argument is of type 'char (*)[100]'
+ int sub_str_index(char* string, char* substring);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/15/2023, 4:12:32 PM
