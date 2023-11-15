@@ -16,7 +16,7 @@ int main()
 }
 Point input()
 {
-    Point a,b;
+    Point ;
     printf("Enter the coordinates:");
-    scanf("%f%f",&)
+    scanf("%f%f",&x.a)
 }
