@@ -4,7 +4,7 @@ int sub_str_index(char* string, char* substring);
 void output(char *string, char *substring, int index);
 int main()
 {
- char a,b,string[100],substring[100];
+ char string[100],substring[100];
  int index;
  input_string(&a,&b);
  index=sub_str_index(&string,&substring);
