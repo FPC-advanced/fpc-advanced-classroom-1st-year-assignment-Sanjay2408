@@ -27,6 +27,7 @@ int sub_str_index(char* string, char* substring)
   if(substring[j]==string[i+j])
   {
   return i;
+  }
  }
  return -1;
 }
