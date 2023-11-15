@@ -18,5 +18,5 @@ Point input()
 {
     Point a,b;
     printf("Enter the coordinates:");
-    scanf("%f%f",)
+    scanf("%f%f",&)
 }
