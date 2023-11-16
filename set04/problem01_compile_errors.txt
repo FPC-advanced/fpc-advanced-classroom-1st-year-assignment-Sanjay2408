@@ -43,3 +43,12 @@ Compilation started at 11/13/2023, 11:07:42 AM
 Compilation finished at 11/13/2023, 11:07:42 AM
 Compilation started at 11/13/2023, 11:08:02 AM
 Compilation finished at 11/13/2023, 11:08:02 AM
+Compilation started at 11/16/2023, 6:00:58 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'add':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:36:22: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+             *res_num = res_num;
+                      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:37:22: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+             *res_den = res_den;
+                      ^
+Compilation finished at 11/16/2023, 6:00:58 PM
