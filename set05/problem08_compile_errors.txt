@@ -1,0 +1,35 @@
+Compilation started at 11/16/2023, 4:54:31 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c: In function 'find_camel_weight':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:35:66: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     c[n].weight = pi * c[n].radius * c[n].radius * c[n].radius * sqrt(c[n].height * c[n].length);
+                                                                  ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:35:66: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:35:66: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 4:54:31 PM
+Compilation started at 11/16/2023, 4:59:12 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c: In function 'find_camel_weight':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:42:66: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     c[n].weight = pi * c[n].radius * c[n].radius * c[n].radius * sqrt(c[n].height * c[n].length);
+                                                                  ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:42:66: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:42:66: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 4:59:13 PM
+Compilation started at 11/16/2023, 5:03:25 PM
+Compilation finished at 11/16/2023, 5:03:26 PM
+Compilation started at 11/16/2023, 5:10:33 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:16:11: warning: passing argument 1 of 'input' makes integer from pointer without a cast [-Wint-conversion]
+     input(&n,c,&truck_weight);
+           ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.c:7:6: note: expected 'int' but argument is of type 'int *'
+ void input(int n, Camel c[n], float *truck_weight);
+      ^~~~~
+Compilation finished at 11/16/2023, 5:10:33 PM
+Compilation started at 11/16/2023, 5:19:19 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 5:19:20 PM
+Compilation started at 11/16/2023, 5:19:49 PM
+Compilation finished at 11/16/2023, 5:19:49 PM
+Compilation started at 11/16/2023, 5:21:10 PM
+Compilation finished at 11/16/2023, 5:21:10 PM
