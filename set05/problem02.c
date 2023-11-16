@@ -23,5 +23,5 @@ float find_weight(float radius, float height, float length)
 }
 void output(float radius, float height, float length, float weight)
 {
-    printf("The weight of the camel with radius: %0.1f, height: 1.0, length: 1.0 is 3.1415")
+    printf("The weight of the camel with radius: %0.1f, height: %0.1f, length: %0.1f is ")
 }
