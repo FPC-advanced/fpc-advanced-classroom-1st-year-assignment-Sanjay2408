@@ -33,7 +33,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
     {
         if(*res_den%i == 0 && *res_num%i == 0)
         {
-            
+            *res_num = 
         }
     }
 }
