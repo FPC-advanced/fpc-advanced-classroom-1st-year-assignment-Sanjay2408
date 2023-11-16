@@ -21,7 +21,7 @@ int main()
 }
 void input(int *n, Camel c[], float *truck_weight)
 {   
-    printf("Enter the number of camels:");
+    printf("Enter the number of camels:\n");
     scanf("%d",n);
     for(int i=0;i< *n;i++)
     {
