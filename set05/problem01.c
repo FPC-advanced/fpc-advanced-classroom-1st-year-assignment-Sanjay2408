@@ -28,7 +28,7 @@ Point input()
 }
 void dist(Point a, Point b, float *res)
 {
-  *res =sqrt( ( b.x - a.x ) * ( b.x - a.x )+(b.y - a.y)*() );
+  *res =sqrt( ( b.x - a.x ) * ( b.x - a.x )+( b.y - a.y ) * ( b.y - a.y ) );
 }
 void output(Point a, Point b, float res)
 {
