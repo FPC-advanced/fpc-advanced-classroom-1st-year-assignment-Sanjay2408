@@ -28,5 +28,5 @@ Point input()
 }
 void output(Point a, Point b, float res)
 {
-  Printf("The distance between %")
+  Printf("The distance between (%0.2f,%0.2f) and   ")
 }
