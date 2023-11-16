@@ -25,6 +25,7 @@ Point input()
   Point P;
   printf("Enter the coordinates of (x,y):");
   scanf("%f  %f",&P.x,&P.y);
+  return P;
 }
 void dist(Point a, Point b, float *res)
 {
