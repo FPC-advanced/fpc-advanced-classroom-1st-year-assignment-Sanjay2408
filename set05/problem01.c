@@ -33,5 +33,5 @@ void dist(Point a, Point b, float *res)
 }
 void output(Point a, Point b, float res)
 {
-  printf("The distance between (%0.2f,%0.2f) and (%0.2f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
+  printf("The distance between (%0.1f,%0.1f) and (%0.1f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
 }
