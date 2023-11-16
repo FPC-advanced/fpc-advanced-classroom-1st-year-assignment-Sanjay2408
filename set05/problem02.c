@@ -8,7 +8,7 @@ int main()
     float radius,height,length,weight;
     void input_camel_details(radius,height,length);
     weight=find_weight(radius,height,length);
-    output(radius)
+    output(radius,height,length,weight);
     return 0;
 }
 void input_camel_details(float *radius, float *height, float *length)
