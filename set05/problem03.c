@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+
+
 struct camel {
 	float radius, height, length,weight;
 };
@@ -7,3 +9,5 @@ struct camel {
 typedef struct camel Camel;
 
 Camel input();
+void find_weight(Camel *c); 
+void output(Camel c);
