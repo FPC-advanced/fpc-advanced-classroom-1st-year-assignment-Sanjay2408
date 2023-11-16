@@ -16,3 +16,5 @@ C:\Users\SANJAY~1\AppData\Local\Temp\ccVQM4xi.o: In function `output':
 c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set05/problem01.c:35: undefined reference to `Printf'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/16/2023, 2:06:14 PM
+Compilation started at 11/16/2023, 2:06:30 PM
+Compilation finished at 11/16/2023, 2:06:31 PM

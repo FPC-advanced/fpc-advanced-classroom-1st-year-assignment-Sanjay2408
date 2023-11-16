@@ -28,9 +28,9 @@ Point input()
 }
 void dist(Point a, Point b, float *res)
 {
-  *res =sqrt( ( b.x - a.x ) * ( b.x - a.x )+( b.y - a.y ) * ( b.y - a.y ) );
+  *res =sqrt( ( b->x - a->x ) * ( b.x - a.x )+( b.y - a.y ) * ( b.y - a.y ) );
 }
 void output(Point a, Point b, float res)
 {
-  Printf("The distance between (%0.2f,%0.2f) and (%0.2f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
+  printf("The distance between (%0.2f,%0.2f) and (%0.2f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
 }
