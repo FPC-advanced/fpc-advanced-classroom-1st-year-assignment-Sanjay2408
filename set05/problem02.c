@@ -18,5 +18,5 @@ float find_weight(float radius, float height, float length)
 {
     float weight,pi;
     pi = 3.142;
-    weight = pi * radius^3 * sqrt(height * length)
+    weight = pi * radius*radius*radius * sqrt(height * length)
 }
