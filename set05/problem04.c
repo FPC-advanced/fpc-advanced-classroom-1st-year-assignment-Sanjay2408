@@ -37,6 +37,7 @@ int find_mood(float radius, float height, float length)
 void output(float radius, float height, float length, int mood)
 {
     if(mood == 0)
+    
     {
         printf("Camel is Sick \n");
     }
