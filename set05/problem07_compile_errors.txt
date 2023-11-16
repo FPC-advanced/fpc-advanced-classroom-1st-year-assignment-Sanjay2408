@@ -1,0 +1,37 @@
+Compilation started at 11/16/2023, 4:10:47 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:9:11: warning: passing argument 1 of 'input' makes pointer from integer without a cast [-Wint-conversion]
+     input(name);
+           ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:2:6: note: expected 'char *' but argument is of type 'char'
+ void input(char *name);
+      ^~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:10:23: warning: passing argument 1 of 'has_nice_name' makes pointer from integer without a cast [-Wint-conversion]
+     res=has_nice_name(name);
+                       ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:3:5: note: expected 'char *' but argument is of type 'char'
+ int has_nice_name(char *name);
+     ^~~~~~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c: In function 'has_nice_name':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:24:13: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+     char ch=tolower(name[i]);
+             ^~~~~~~
+Compilation finished at 11/16/2023, 4:10:47 PM
+Compilation started at 11/16/2023, 4:12:02 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c: In function 'has_nice_name':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:24:13: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+     char ch=tolower(name[i]);
+             ^~~~~~~
+Compilation finished at 11/16/2023, 4:12:02 PM
+Compilation started at 11/16/2023, 4:12:21 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c: In function 'has_nice_name':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:24:13: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+     char ch=tolower(name[i]);
+             ^~~~~~~
+Compilation finished at 11/16/2023, 4:12:22 PM
+Compilation started at 11/16/2023, 4:14:41 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c: In function 'has_nice_name':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem07.c:24:13: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+     char ch=tolower(name[i]);
+             ^~~~~~~
+Compilation finished at 11/16/2023, 4:14:41 PM
