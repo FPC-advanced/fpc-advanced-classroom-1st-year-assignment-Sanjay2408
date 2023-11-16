@@ -7,7 +7,8 @@ int main()
     float radius,height,length;
     int mood;
     input_camel_details(&radius,&height,&length);
-    mood=find_mood(radius,height)
+    mood=find_mood(radius,height,length);
+    output(radius,height,length,mood)
     return 0;
 }
 void input_camel_details(float *radius, float *height, float *length)
