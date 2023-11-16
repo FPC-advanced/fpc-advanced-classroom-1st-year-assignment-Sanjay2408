@@ -40,6 +40,7 @@ void output(float radius, float height, float length, int mood)
     if(mood == 0)
     {
         printf("Camel is Sick \n");
+    }
     else 
     if(mood == 0)
     {
