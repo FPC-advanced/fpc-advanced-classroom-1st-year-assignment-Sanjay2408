@@ -1,0 +1,6 @@
+Compilation started at 11/16/2023, 2:23:26 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem02.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem02.c:9:5: warning: parameter names (without types) in function declaration
+     void input_camel_details(radius,height,length);
+     ^~~~
+Compilation finished at 11/16/2023, 2:23:27 PM
