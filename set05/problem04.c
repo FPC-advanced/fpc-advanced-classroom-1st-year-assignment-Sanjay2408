@@ -8,7 +8,7 @@ int main()
     int mood;
     input_camel_details(&radius,&height,&length);
     mood=find_mood(radius,height,length);
-    output(radius,height,length,);
+    output(radius,height,length);
     return 0;
 }
 void input_camel_details(float *radius, float *height, float *length)
@@ -32,8 +32,9 @@ int find_mood(float radius, float height, float length)
         return -1;
     }
 }
-void output(float radius, float height, float length, int mood)
+void output(float radius, float height, float length)
 {
+    int mood;
     if(mood == 0)
     {
         printf("Camel is Sick \n");
