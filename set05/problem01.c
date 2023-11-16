@@ -12,11 +12,21 @@ void dist(Point a, Point b, float *res);
 void output(Point a, Point b, float res);
 int main()
 {
-    return 0;
+  Point a,b;
+  float res;
+  a=input();
+  b=input();
+  dist(a,b,&res);   
+  output(a,b,res);
+  return 0;
 }
 Point input()
 {
-    Point x,y;
-    printf("Enter the coordinates:");
-    scanf("%f%f",&x.);
+    Point P;
+    printf("Enter the coordinates of (x,y):");
+    scanf("%f  %f",&P.x,&P.y);
+}
+void output(Point a, Point b, float res)
+{
+  Printf("The distance between %")
 }
