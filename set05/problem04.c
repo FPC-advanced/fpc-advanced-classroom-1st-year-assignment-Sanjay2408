@@ -40,12 +40,12 @@ void output(float radius, float height, float length)
         printf("Camel is Sick \n");
     }
     else 
-    if(mood == 0)
+    if(mood == 1)
     {
         printf("Camel is Happy \n");
     } 
     else
-    if(mood == 0)
+    if(mood == -1)
     {
         printf("Camel is Tense \n");
     } 
