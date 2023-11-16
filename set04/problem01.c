@@ -29,6 +29,7 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den)
         *res_num = ( num1 * den2 ) + ( num2 * den1 );
         *res_den = (den1 * den2);
     }
+    for(i=2;i<)
 }
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den)
 {
