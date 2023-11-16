@@ -12,6 +12,10 @@ void find_weight(Camel *c);
 void output(Camel c);
 int main()
 {
-    
+
     return 0;
+}
+Camel input()
+{
+    
 }
