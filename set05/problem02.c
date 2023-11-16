@@ -6,11 +6,11 @@ void output(float radius, float height, float length, float weight);
 int main()
 {
     float radius,height,length,weight;
-    void input_camel_details(radius,&height,&length);
+    void input_camel_details(radius,height,length);
     return 0;
 }
 void input_camel_details(float *radius, float *height, float *length)
 {
  printf("Enter the radius,height and length of the Camel:\n");
- scanf("%f %f %f,radius,height,length");
+ scanf("%f %f %f,&radius,height,length);
 }
