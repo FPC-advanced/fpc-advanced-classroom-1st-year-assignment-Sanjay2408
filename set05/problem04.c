@@ -36,18 +36,18 @@ int find_mood(float radius, float height, float length)
     return mood;
 }
 void output(float radius, float height, float length, int mood)
-[
+{
     if(mood == 0)
     {
         printf("Camel is Sick \n");
     else 
     if(mood == 0)
     {
-        printf("Camel is  \n");
+        printf("Camel is Happy \n");
     } 
     else
     if(mood == 0)
     {
-        printf("Camel is  \n");
+        printf("Camel is Tense \n");
     } 
-]
+    }
