@@ -20,6 +20,8 @@ int find_mood(float radius, float height, float length)
 {
     if(radius<height<length)
     {
-        return 
+        return 0;
     }
+    else
+    if(height<)
 }
