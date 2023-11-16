@@ -21,3 +21,7 @@ float find_weight(float radius, float height, float length)
     weight = pi * radius*radius*radius * sqrt(height * length);
     return weight;
 }
+void output(float radius, float height, float length, float weight)
+{
+    printf("")
+}
