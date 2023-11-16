@@ -6,6 +6,7 @@ void output(float radius, float height, float length, float weight);
 int main()
 {
     
+    void input_camel_details(&radius,&height,&length);
     return 0;
 }
 void input_camel_details(float *radius, float *height, float *length)
