@@ -9,5 +9,6 @@ int main
 }
 void input_camel_details(float *radius, float *height, float *length)
 {
- printf("")
+ printf("Enter the radius,height and length of the Camel:\n");
+ 
 }
