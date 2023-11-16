@@ -26,6 +26,10 @@ Point input()
     printf("Enter the coordinates of (x,y):");
     scanf("%f  %f",&P.x,&P.y);
 }
+void dist(Point a, Point b, float *res)
+{
+  
+}
 void output(Point a, Point b, float res)
 {
   Printf("The distance between (%0.2f,%0.2f) and (%0.2f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
