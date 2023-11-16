@@ -19,5 +19,5 @@ Camel input()
 {
     Camel C;
     printf("Enter the radius,height,length of the camel:\n");
-    scanf()
+    scanf("%f,%f,%f",C.radius,C.he)
 }
