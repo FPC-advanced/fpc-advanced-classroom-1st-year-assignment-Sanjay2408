@@ -7,3 +7,12 @@ C:\Users\SANJAY~1\AppData\Local\Temp\ccmoJqih.o: In function `output':
 c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set05/problem01.c:35: undefined reference to `Printf'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/16/2023, 2:05:51 PM
+Compilation started at 11/16/2023, 2:06:13 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem01.c: In function 'output':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem01.c:35:3: warning: implicit declaration of function 'Printf' [-Wimplicit-function-declaration]
+   Printf("The distance between (%0.2f,%0.2f) and (%0.2f,%0.2f) is %0.2f\n",a.x,a.y,b.x,b.y,res);
+   ^~~~~~
+C:\Users\SANJAY~1\AppData\Local\Temp\ccVQM4xi.o: In function `output':
+c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set05/problem01.c:35: undefined reference to `Printf'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/16/2023, 2:06:14 PM
