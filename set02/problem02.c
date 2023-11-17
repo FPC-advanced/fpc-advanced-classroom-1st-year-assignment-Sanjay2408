@@ -26,9 +26,9 @@ int check_scalene(int a, int b, int c)
  {
   return 0;
  }
-else 
-  if(a!=b || b!=c || a!=c)
-   {
+ else 
+ if(a!=b || b!=c || a!=c)
+ {
      return 1;
    }
    }
