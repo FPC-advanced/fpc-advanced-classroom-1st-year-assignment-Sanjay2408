@@ -29,8 +29,8 @@ int check_scalene(int a, int b, int c)
  else 
  if(a!=b || b!=c || a!=c)
  {
-     return 1;
-   }
+  return 1;
+ }
    }
 void output(int a, int b, int c, int isscalene)
 {
