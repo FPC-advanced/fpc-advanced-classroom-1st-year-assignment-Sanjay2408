@@ -14,18 +14,18 @@ int main()
 }
 int input_side()
 {
- int x;
- printf("Enter the sides of the triangle\n");
- scanf("%d",&x);
- return x;
+  int x;
+  printf("Enter the sides of the triangle\n");
+  scanf("%d",&x);
+  return x;
 }
 int check_scalene(int a, int b, int c)
 {
  int isscalene;
- if (a!=b && b!=c && a!=c)
-    {
-        return 0;
-    }
+ if(a!=b && b!=c && a!=c)
+ {
+  return 0;
+ }
 else 
   if(a!=b || b!=c || a!=c)
    {
