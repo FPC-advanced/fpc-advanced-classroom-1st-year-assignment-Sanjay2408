@@ -27,12 +27,12 @@ int stringcompare(char *string1, char *string2)
     {
       return 1;
     }
-   else 
-   if(string1[i]<string2[i])
+    else 
+    if(string1[i]<string2[i])
     {
       return 0;
     }
-   else
+    else
     {
       return -1;
     }
