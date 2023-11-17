@@ -12,15 +12,15 @@ Triangle find_smallest_triangle(int n, Triangle t[n]);
 void output(int n, Triangle t[n], Triangle smallest);
 int main()
 {
- int n;
- n = input_n();
- Triangle triangles[n];
- input_n_triangles(n,triangles);
- find_area(triangles);
- find_n_areas(n,triangles);
- Triangle smallest = find_smallest_triangle(n,triangles);
- output(n,triangles,smallest);
- return 0;
+  int n;
+  n = input_n();
+  Triangle triangles[n];
+  input_n_triangles(n,triangles);
+  find_area(triangles);
+  find_n_areas(n,triangles);
+  Triangle smallest = find_smallest_triangle(n,triangles);
+  output(n,triangles,smallest);
+  return 0;
 }
 int input_n()
 {
