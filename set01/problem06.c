@@ -14,7 +14,7 @@ void input(int *a, int *b, int *c)
 {
   int x;
   printf("Enter three numbers\n");
-  scanf("%d%d%d",a,b,c);
+  scanf("%d %d %d",a,b,c);
 }
 void compare(int a, int b, int c, int *largest)
 {
