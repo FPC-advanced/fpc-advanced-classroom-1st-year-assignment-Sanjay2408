@@ -36,7 +36,7 @@ int stringcompare(char *string1, char *string2)
     {
       return -1;
     }
- }
+  }
 }
 void output(char *string1, char *string2, int result)
  {
