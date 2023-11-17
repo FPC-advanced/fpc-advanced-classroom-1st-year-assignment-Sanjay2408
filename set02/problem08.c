@@ -24,29 +24,29 @@ int main()
 }
 int input_n()
 {
- int n;
- printf("Enter the number of triangles:\n");
- scanf("%d",&n);
- return n;
+  int n;
+  printf("Enter the number of triangles:\n");
+  scanf("%d",&n);
+  return n;
 }
 Triangle input_triangle()
 {
- Triangle t;
- printf("Enter the base and altitude of the triangle:\n");
- scanf("%f %f",&t.base,&t.altitude);
- return t;
+  Triangle t;
+  printf("Enter the base and altitude of the triangle:\n");
+  scanf("%f %f",&t.base,&t.altitude);
+  return t;
 }
 void input_n_triangles(int n, Triangle t[n])
 {
  int i;
  for(i=0;i<n;i++)
-  {
-    t[i] = input_triangle();
-  }
+ {
+  t[i] = input_triangle();
+ }
 }
 void find_area(Triangle *t)
 {
- t->area=0.5 * t->base * t->altitude;
+  t->area=0.5 * t->base * t->altitude;
 }
 void find_n_areas(int n, Triangle t[n])
 {
