@@ -5,20 +5,20 @@ int sum_composite_numbers(int n, int a[n]);
 void output(int sum);
 int main()
 {
- int n,sum;
- n=input_array_size();
- int a[n];
- input_array(n,a);
- sum = sum_composite_numbers(n,a);
- output(sum);
- return 0;
+  int n,sum;
+  n=input_array_size();
+  int a[n];
+  input_array(n,a);
+  sum = sum_composite_numbers(n,a);
+  output(sum);
+  return 0;
 }
 int input_array_size()
 {
- int n;
- printf("Enter the size of array\n");
- scanf("%d",&n);
- return n;
+  int n;
+  printf("Enter the size of array\n");
+  scanf("%d",&n);
+  return n;
 }
 void input_array(int n, int a[n])
 {
