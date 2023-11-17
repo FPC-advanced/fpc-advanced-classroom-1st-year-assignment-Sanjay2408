@@ -12,21 +12,21 @@ int main()
 }
 int input_n()
 {
- int n;
- printf("Enter the value of n\n");
- scanf("%d",&n);
- return n;
+    int n;
+    printf("Enter the value of n\n");
+    scanf("%d",&n);
+    return n;
 }
 int sum_n_nos(int n)
 {
- int i=1,sum=0;
-for(i=1;i<=n;i++)
- {
-     sum=sum+i;
- }
- return sum;
+    int i=1,sum=0;
+    for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    return sum;
 }
 void output(int n,int sum)
 {
- printf("the sum of %d numbers is %d",n,sum);
+    printf("the sum of %d numbers is %d",n,sum);
 }
