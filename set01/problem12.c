@@ -37,18 +37,18 @@ Complex input_complex()
 
 void input_n_complex(int n, Complex c[n])
 {
- int i;
- for(i=0;i<n;i++)
+  int i;
+  for(i=0;i<n;i++)
   {
-    c[i]=input_complex();
+   c[i]=input_complex();
   }
 }
 Complex add(Complex a, Complex b)
 {
- Complex sum;
- sum.real=a.real+b.real;
- sum.imaginary=a.imaginary+b.imaginary;
- return sum;
+  Complex sum;
+  sum.real=a.real+b.real;
+  sum.imaginary=a.imaginary+b.imaginary;
+  return sum;
 }
 Complex add_n_complex(int n, Complex c[n])
 {
