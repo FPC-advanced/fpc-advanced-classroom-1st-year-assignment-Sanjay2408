@@ -4,11 +4,11 @@ void add(int a, int b, int *sum);
 void output(int a, int b, int sum);
 int main()
 {
- int a,b,sum,x;
- input(&a,&b);
- add(a,b,&sum);
- output(a,b,sum);
- return 0;
+    int a,b,sum,x;
+    input(&a,&b);
+    add(a,b,&sum);
+    output(a,b,sum);
+    return 0;
 }
 void input(int *a, int *b)
 {
