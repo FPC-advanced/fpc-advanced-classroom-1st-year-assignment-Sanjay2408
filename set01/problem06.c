@@ -12,20 +12,20 @@ int main()
 }
 void input(int *a, int *b, int *c)
 {
- int x;
- printf("Enter three numbers\n");
- scanf("%d%d%d",a,b,c);
+  int x;
+  printf("Enter three numbers\n");
+  scanf("%d%d%d",a,b,c);
 }
 void compare(int a, int b, int c, int *largest)
 {
   if(a>=b && a>=c)
   {
-      *largest=a;
+    *largest=a;
   }
   else
   if(b>=c)
   {
-      *largest=b;
+    *largest=b;
   }
   else
   {
@@ -34,5 +34,5 @@ void compare(int a, int b, int c, int *largest)
 }
 void output(int a,int b,int c,int largest)
 {
- printf("the largest of %d,%d and %d is %d",a,b,c,largest);
+  printf("the largest of %d,%d and %d is %d",a,b,c,largest);
 }
