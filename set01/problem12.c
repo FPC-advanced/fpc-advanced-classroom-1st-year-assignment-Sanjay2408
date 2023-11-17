@@ -12,13 +12,13 @@ Complex add_n_complex(int n, Complex c[n]);
 void output(int n, Complex c[n], Complex result);
 int main()
 {
- int n;
- n=get_n();
- Complex C[n],sum;
- input_n_complex(n,C);
- sum=add_n_complex(n,C);
- output(n,C,sum);
- return 0;
+  int n;
+  n=get_n();
+  Complex C[n],sum;
+  input_n_complex(n,C);
+  sum=add_n_complex(n,C);
+  output(n,C,sum);
+  return 0;
 }
 int get_n()
 {
