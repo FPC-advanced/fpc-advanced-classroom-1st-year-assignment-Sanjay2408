@@ -18,4 +18,7 @@ warning: Source file is more recent than executable.
 8	    n=input_n();
 +r
 The program being debugged has been started already.
+Start it from the beginning? (y or n) Program not restarted.
++run
+The program being debugged has been started already.
 Start it from the beginning? (y or n) 
