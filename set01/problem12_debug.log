@@ -1,0 +1,97 @@
++l
+warning: Source file is more recent than executable.
+5	};
+6	typedef struct _complex Complex;
+7	int get_n();
+8	Complex input_complex();
+9	void input_n_complex(int n, Complex c[n]);
+10	Complex add(Complex a, Complex b);
+11	Complex add_n_complex(int n, Complex c[n]);
+12	void output(int n, Complex c[n], Complex result);
+13	int main()
+14	{
++l
+15	  int n;
+16	  n=get_n();
+17	  Complex C[n],sum;
+18	  input_n_complex(n,C);
+19	  sum=add_n_complex(n,C);
+20	  output(n,C,sum);
+21	  return 0;
+22	}
+23	int get_n()
+24	{
++l
+25	  int n;
+26	  printf("Enter size:\n");
+27	  scanf("%d",&n);
+28	  return n;
+29	}
+30	Complex input_complex()
+31	{
+32	  Complex x;
+33	  printf("Enter real and imaginary number:\n");
+34	  scanf("%f%f",&x.real,&x.imaginary);
++l
+35	  return x;
+36	}
+37	
+38	void input_n_complex(int n, Complex c[n])
+39	{
+40	  int i;
+41	  for(i=0;i<n;i++)
+42	  {
+43	   c[i]=input_complex();
+44	  }
++l
+45	}
+46	Complex add(Complex a, Complex b)
+47	{
+48	  Complex sum;
+49	  sum.real=a.real+b.real;
+50	  sum.imaginary=a.imaginary+b.imaginary;
+51	  return sum;
+52	}
+53	Complex add_n_complex(int n, Complex c[n])
+54	{
++l
+55	 int i;
+56	 Complex sum;
+57	 sum.imaginary=0;
+58	 sum.real=0;
+59	 for(i=0;i<n;i++)
+60	 {
+61	  sum=add(sum,c[i]);
+62	 }
+63	 return sum;
+64	}
++b 13
+Breakpoint 1 at 0x401477: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem12.c, line 13.
++b 65
+Breakpoint 2 at 0x401646: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem12.c, line 65.
++r
+Starting program: c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem12.exe 
+[New Thread 12020.0x4b14]
+[New Thread 12020.0x6468]
+
+Breakpoint 1, 0x00401477 in main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem12.c:14
+14	{
++n
+16	  n=get_n();
++n
+17	  Complex C[n],sum;
++n
+18	  input_n_complex(n,C);
++n
+19	  sum=add_n_complex(n,C);
++n
+20	  output(n,C,sum);
++n
+
+Breakpoint 2, output (n=2, c=0x61fed0, result=...)
+    at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem12.c:68
+68	 for(i=1;i<n;i++)
++n
+70	  printf("%f + i%f +",c[i].real,c[i].imaginary);
++n
+68	 for(i=1;i<n;i++)
