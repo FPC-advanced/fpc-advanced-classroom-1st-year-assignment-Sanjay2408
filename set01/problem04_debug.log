@@ -26,3 +26,16 @@ Breakpoint 1, main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignm
 12	}
 +n
 0x00401288 in __register_frame_info ()
++cd "c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01"
+"c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01": Invalid argument.
++gdb ./problem06
+Undefined command: "gdb".  Try "help".
++c
+Continuing.
+[Inferior 1 (process 23068) exited normally]
++set logging file problem06_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem04_debug.log.
++set trace-commands on
