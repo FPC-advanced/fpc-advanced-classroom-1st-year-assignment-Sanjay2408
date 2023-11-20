@@ -1,0 +1,21 @@
++b 6
+Breakpoint 1 at 0x40146e: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c, line 6.
++b 28
+Breakpoint 2 at 0x4014fe: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c, line 28.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:6
+2       breakpoint     keep y   0x004014fe in sum_n_nos 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:28
++r
+Starting program: c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem07.exe 
+[New Thread 16860.0x1410]
+[New Thread 16860.0x22e4]
+
+Breakpoint 1, main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:8
+warning: Source file is more recent than executable.
+8	    n=input_n();
++r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) 
