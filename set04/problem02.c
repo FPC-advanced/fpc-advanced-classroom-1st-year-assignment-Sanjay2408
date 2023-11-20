@@ -2,4 +2,7 @@
 typedef struct {
     int num, den;
 } Fraction;
-
+int main()
+{
+    
+}
