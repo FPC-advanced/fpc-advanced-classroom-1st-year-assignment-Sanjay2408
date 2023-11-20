@@ -1,0 +1,24 @@
++b 5
+Breakpoint 1 at 0x40146e: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem04.c, line 5.
++b 6
+Note: breakpoint 1 also set at pc 0x40146e.
+Breakpoint 2 at 0x40146e: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem04.c, line 6.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x0040146e in main 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem04.c:5
+2       breakpoint     keep y   0x0040146e in main 
+                                           at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem04.c:6
++r
+Starting program: c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem04.exe 
+[New Thread 23068.0x62f8]
+[New Thread 23068.0x491c]
+
+Breakpoint 1, main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem04.c:8
+8	    input(&a,&b);
++n
+9	    add(a,b,&sum);
++n
+10	    output(a,b,sum);
++n
+11	    return 0;
