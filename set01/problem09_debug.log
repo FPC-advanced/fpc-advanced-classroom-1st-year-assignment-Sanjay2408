@@ -1,0 +1,17 @@
++run
+Starting program: c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem09.exe 
+[New Thread 21192.0x2474]
+[New Thread 21192.0x5958]
+[Inferior 1 (process 21192) exited normally]
++n
+The program is not being run.
++n
+The program is not being run.
++r
+Starting program: c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01/./problem09.exe 
+[New Thread 3784.0x67a8]
+[New Thread 3784.0x1088]
+[Inferior 1 (process 3784) exited normally]
++n
+The program is not being run.
++q
