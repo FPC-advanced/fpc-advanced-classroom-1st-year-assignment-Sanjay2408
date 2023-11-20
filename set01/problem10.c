@@ -27,18 +27,18 @@ int stringcompare(char *string1, char *string2)
 }
 void output(char *string1, char *string2, int result)
  {
-  // if(result==1)
-  // {
-  //   printf("%s is greater than %s\n",string1,string2);
-  // }
-  // else
-  // if(result==0)
-  // {
-  //   printf("%s is greater than %s\n",string2,string1);
-  // }
-  // else
-  // {
-  //   printf("Both the strings are equal %s=%s",string1,string2);
-  // }
-  printf("%d",result);
+  if(result<)
+  {
+    printf("%s is greater than %s\n",string1,string2);
+  }
+  else
+  if(result==0)
+  {
+    printf("%s is greater than %s\n",string2,string1);
+  }
+  else
+  {
+    printf("Both the strings are equal %s=%s",string1,string2);
+  }
+  
 }
