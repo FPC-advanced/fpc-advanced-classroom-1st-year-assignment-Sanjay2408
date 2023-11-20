@@ -22,3 +22,7 @@ Breakpoint 1, main () at c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignm
 10	    output(a,b,sum);
 +n
 11	    return 0;
++step
+12	}
++n
+0x00401288 in __register_frame_info ()
