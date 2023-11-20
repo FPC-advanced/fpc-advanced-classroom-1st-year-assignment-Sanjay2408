@@ -2,3 +2,15 @@ Compilation started at 10/31/2023, 11:25:05 AM
 Compilation finished at 10/31/2023, 11:25:06 AM
 Compilation started at 11/6/2023, 9:58:59 AM
 Compilation finished at 11/6/2023, 9:58:59 AM
+Compilation started at 11/20/2023, 9:40:01 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c: In function 'input_n':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:16:38: error: unknown type name 'r'
+     printf("Enter the value of n\n");r
+                                      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:17:11: error: expected declaration specifiers or '...' before string constant
+     scanf("%d",&n);
+           ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set01\problem07.c:17:16: error: expected declaration specifiers or '...' before '&' token
+     scanf("%d",&n);
+                ^
+Compilation finished at 11/20/2023, 9:40:02 AM
