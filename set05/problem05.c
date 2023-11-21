@@ -8,6 +8,7 @@ int main()
     int x;
     float result;
     x = input();
+    borga_x(x);
     return 0;
 }
 int input()
@@ -27,6 +28,7 @@ for(int i=1;i<x;i++)
  term = pow(x,i)/factorial;
  result+=term;
 }
+return result;
 }
 void output(int x, float result)
 {
