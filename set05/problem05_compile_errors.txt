@@ -1,2 +1,11 @@
 Compilation started at 11/21/2023, 2:56:37 PM
 Compilation finished at 11/21/2023, 2:56:38 PM
+Compilation started at 11/21/2023, 2:59:11 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem05.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set05\problem05.c:11:12: warning: implicit declaration of function 'borga_x' [-Wimplicit-function-declaration]
+     result=borga_x(x);
+            ^~~~~~~
+C:\Users\SANJAY~1\AppData\Local\Temp\ccwohTn2.o: In function `main':
+c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set05/problem05.c:11: undefined reference to `borga_x'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/21/2023, 2:59:11 PM

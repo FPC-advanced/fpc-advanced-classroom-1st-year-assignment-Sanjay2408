@@ -8,7 +8,8 @@ int main()
     int x;
     float result;
     x = input();
-    borga_x(x);
+    result=borga_x(x);
+    output(x,result);
     return 0;
 }
 int input()
