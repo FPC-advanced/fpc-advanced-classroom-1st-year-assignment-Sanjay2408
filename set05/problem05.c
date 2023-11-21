@@ -1,5 +1,5 @@
 #include <stdio.h>
-#
+#include <math.h>
 int input();
 float borga_X(int x);
 void output(int x, float result);
