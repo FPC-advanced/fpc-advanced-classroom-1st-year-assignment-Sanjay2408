@@ -7,41 +7,40 @@ int main()
     char name[100];
     int res;
     input(name);
-    res=has_nice_name(name);
+    res = has_nice_name(name);
     output(res);
     return 0;
 }
 void input(char *name)
 {
     printf("Enter a name:\n");
-    scanf("%s",name);
+    scanf("%s", name);
 }
 int has_nice_name(char *name)
 {
- int v=0,c=0;
-for(int i=0;name[i]!='\0';i++)
-{
-    char ch=tolower(name[i]);
-    if(ch =='a' || ch =='e'|| ch=='i'|| ch=='o'|| ch=='u')
+    int v = 0, c = 0;
+    for (int i = 0; name[i] != '\0'; i++)
     {
-        v++;
+        char ch = tolower(name[i]);
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+        {
+            v++;
+        }
+        else if (ch >= 'a' && ch <= 'z')
+        {
+            c++;
+        }
     }
-    else 
-    if(ch >= 'a' && ch <= 'z')
+    if (v >= 2 && c >= 2)
     {
-        c++;
+        return 0;
     }
-}
-if (v>=2 && c>=2)
-{
-    return 0;
-}
-else
-    return 1;
+    else
+        return 1;
 }
 void output(int res)
 {
-    if(res == 0)
+    if (res == 0)
     {
         printf("The camel has a nice name");
     }
