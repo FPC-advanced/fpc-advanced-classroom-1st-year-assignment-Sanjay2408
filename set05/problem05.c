@@ -20,6 +20,7 @@ float borga_X(int x)
 {
  float result;
 //  1 + (x^1)/3! + (x^2)/5! + (x^3)/7! + ...
+
 }
 void output(int x, float result)
 {
