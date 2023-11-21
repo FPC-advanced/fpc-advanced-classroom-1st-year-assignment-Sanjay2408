@@ -21,10 +21,11 @@ int input()
 }
 float borga_X(int x)
 {
- float result=1;
- float term;
- float factorial=1;
-for(int i=1;i<=x;i++)
+ float result=1.0;
+ float term=1.0;
+ float factorial=1.0;
+ int i=1;
+while(fabs)
 {
  factorial *= 2 * i* ( 2 * i - 1);
  term = pow(x,2 * i - 1)/factorial;
