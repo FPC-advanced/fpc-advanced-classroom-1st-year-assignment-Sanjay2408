@@ -9,3 +9,5 @@ C:\Users\SANJAY~1\AppData\Local\Temp\ccwohTn2.o: In function `main':
 c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set05/problem05.c:11: undefined reference to `borga_x'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/21/2023, 2:59:11 PM
+Compilation started at 11/21/2023, 2:59:39 PM
+Compilation finished at 11/21/2023, 2:59:39 PM
