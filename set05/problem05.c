@@ -23,7 +23,7 @@ float borga_X(int x)
 //  1 + (x^1)/3! + (x^2)/5! + (x^3)/7! + ...
 for(int i=1;i<x;i++)
 {
-
+ v+=(i pow)
 }
 }
 void output(int x, float result)
