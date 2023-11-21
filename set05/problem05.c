@@ -26,8 +26,8 @@ float borga_X(int x)
  float factorial=1;
 for(int i=1;i<=x;i++)
 {
- factorial = factorial*(2*i-1)*(2*i);
- term = pow(x,i)/factorial;
+ factorial *= (2 * i - 1) * ( 2 * i);
+ term = pow(x,2 * i - 1)/factorial;
  result+=term;
 }
 return result;
