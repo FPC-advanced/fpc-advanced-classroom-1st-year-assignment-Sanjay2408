@@ -22,7 +22,7 @@ int input()
 float borga_X(int x)
 {
  float result=1;
- float term=1;
+ float term;
  float factorial=1;
 for(int i=1;i<=x;i++)
 {
