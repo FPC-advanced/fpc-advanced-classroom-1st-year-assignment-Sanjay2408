@@ -25,7 +25,7 @@ float borga_X(int x)
  float term=1.0;
  float factorial=1.0;
  int i=1;
-while(fabs(term)>=0.0000001)
+while(fabs(term)>0.0000001)
 {
  factorial *= 2 * i* ( 2 * i - 1);
  term = pow(x,2 * i - 1)/factorial;
