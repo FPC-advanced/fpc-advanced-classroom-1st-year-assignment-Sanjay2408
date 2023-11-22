@@ -15,3 +15,7 @@ int main()
 {
     return 0;
 }
+int input_n()
+{
+    printf()
+}
