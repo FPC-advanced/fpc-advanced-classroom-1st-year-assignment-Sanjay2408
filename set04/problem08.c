@@ -22,3 +22,7 @@ int input_n()
     scanf("%d",num);
     scanf("%d",den);
 }
+Fraction input_fraction()
+{
+    
+}
