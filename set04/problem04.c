@@ -6,6 +6,9 @@ float evaluate_polynomial(int n, float a[n+1], float x);
 void output(int n, float a[n+1], float x, float result);
 int main()
 {
+    int n;
+    n=input_degree();
+    float a[n+1]
     return 0;
 }
 int input_degree()
