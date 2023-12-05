@@ -4,7 +4,11 @@ typedef struct {
 } Fraction;
 int main()
 {
-    Fraction 
+    Fraction x,y,z,smallest;
+    x=input();
+    y=input();
+    z=input();
+    smallest=
 }
 Fraction input()
 {
