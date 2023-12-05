@@ -36,5 +36,5 @@ Fraction smallest(Fraction x,Fraction y,Fraction z)
  int a=(x.num * y.den * z.den);
  int b=(y.num * x.den * z.den);
  int c=(z.num * x.den * y.den);
- 
+ Fraction r=(a)
 }
