@@ -9,5 +9,10 @@ int main()
 }
 void input_string(char *a)
 {
- scanf("%99[^\n],a")
+ scanf("%99[^\n],a");
+}
+int count_words(char *string)
+{
+    int c=0;
+    char *tok
 }
