@@ -4,7 +4,8 @@ int nCr(int n, int r);
 void output(int n, int r, int result);
 int main()
 {
-
+ int n,c,ncr;
+ input_n_and_r
  return 0;
 }
 void input_n_and_r(int *n, int *r)
