@@ -1,0 +1,48 @@
+Compilation started at 12/5/2023, 7:04:44 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:8:7: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     x=input();
+       ^~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:8:6: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     x=input();
+      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:9:6: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     y=input();
+      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:10:6: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     z=input();
+      ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:11:14: warning: implicit declaration of function 'smallest2' [-Wimplicit-function-declaration]
+     smallest=smallest2(x,y,z);
+              ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:11:13: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     smallest=smallest2(x,y,z);
+             ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:12:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(x,y,z,smallest);
+     ^~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c: At top level:
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:15:10: error: conflicting types for 'input'
+ Fraction input()
+          ^~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:8:7: note: previous implicit declaration of 'input' was here
+     x=input();
+       ^~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c: In function 'lcm2':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:38:12: warning: implicit declaration of function 'lccm' [-Wimplicit-function-declaration]
+     return lccm(lcm(a,b),c);
+            ^~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c: At top level:
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:40:10: error: conflicting types for 'smallest2'
+ Fraction smallest2(Fraction x,Fraction y,Fraction z)
+          ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:11:14: note: previous implicit declaration of 'smallest2' was here
+     smallest=smallest2(x,y,z);
+              ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:48:6: warning: conflicting types for 'output'
+ void output(Fraction x,Fraction y,Fraction z,Fraction r)
+      ^~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem02.c:12:5: note: previous implicit declaration of 'output' was here
+     output(x,y,z,smallest);
+     ^~~~~~
+Compilation finished at 12/5/2023, 7:04:45 AM
