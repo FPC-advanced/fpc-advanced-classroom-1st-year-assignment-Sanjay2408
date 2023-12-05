@@ -26,7 +26,7 @@ int find_fibo(int n)
     {
       fibo = 0;
     }
-    else if (i <= 2 && i > 1)
+    else if (i <= 2 )
     {
       fibo = 1;
     }
