@@ -18,5 +18,8 @@ int hcf(int a,int b)
  {
     return a;
  }
- 
+ else
+ {
+    return hcf(b,a%b);
+ }
 }
