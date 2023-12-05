@@ -31,4 +31,7 @@ int lcm2(int a,int b,int c)
 {
     return lccm(lcm(a,b),c);
 }
-Fraction smallest(Fraction a,Fraction b,Fraction c)
+Fraction smallest(Fraction x,Fraction y,Fraction z)
+{
+ int a
+}
