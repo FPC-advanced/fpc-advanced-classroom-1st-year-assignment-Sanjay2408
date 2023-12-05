@@ -23,7 +23,7 @@ int hcf(int a,int b)
     return hcf(b,a%b);
  }
 }
-int lcm(int a,int b);
+int lcm(int a,int b)
 {
-    return (a*b)/hcf(b,a*b)
+    return (a*b)/hcf(b,a%b);
 }
