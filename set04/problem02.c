@@ -7,3 +7,7 @@ int main()
     
 }
 Fraction input()
+{
+    Fraction x;
+    scanf()
+}
