@@ -32,7 +32,7 @@ int find_largest_index(int n, int a[n])
 {
     int i,j=a[0];
     int k=0;
-    for(i=1;i<n;i++)
+    for(i=0;i<n;i++)
     {
         if(a[i]>j)
         {
