@@ -21,6 +21,6 @@ int nCr(int n, int r)
 }
 void output(int n, int r, int result)
 {
- printf("for n=%d and r=%d,n")
+ printf("for n=%d and r=%d,nCr = %d\n",n,r,result);
 }
 
