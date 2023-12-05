@@ -2,16 +2,7 @@
 typedef struct {
     int num, den;
 } Fraction;
-int main()
-{
-    Fraction x,y,z,smallest;
-    x=input();
-    y=input();
-    z=input();
-    smallest=smallest2(x,y,z);
-    output(x,y,z,smallest);
-    return 0;
-}
+
 Fraction input()
 {
     Fraction x;
@@ -48,4 +39,14 @@ Fraction smallest2(Fraction x,Fraction y,Fraction z)
 void output(Fraction x,Fraction y,Fraction z,Fraction r)
 {
     printf("The smallest out of %d/%d,%d/%d and %d/%d is %d/%d.\n",x.num,x.den,y.num,y.den,z.num,z.den,r.num,r.den);
+}
+int main()
+{
+    Fraction x,y,z,smallest;
+    x=input();
+    y=input();
+    z=input();
+    smallest=smallest2(x,y,z);
+    output(x,y,z,smallest);
+    return 0;
 }
