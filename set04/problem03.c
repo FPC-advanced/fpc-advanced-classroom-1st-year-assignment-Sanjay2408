@@ -20,8 +20,10 @@ int nCr(int n, int r)
  int i,ncr =1;
  for(i=1;i<=r;i++)
  {
-    ncr *= (n-1)
+    ncr *= (n-i+1);
+    ncr/=i;
  }
+ return ncr;
 }
 void output(int n, int r, int result)
 {
