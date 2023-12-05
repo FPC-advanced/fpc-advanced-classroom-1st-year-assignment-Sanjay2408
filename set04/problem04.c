@@ -11,5 +11,7 @@ int main()
 int input_degree()
 {
     int n;
-    printf()
+    printf("Enter degree:");
+    scanf("%d",&n);
+    return n;
 }
