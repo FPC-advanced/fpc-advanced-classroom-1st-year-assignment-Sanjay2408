@@ -34,4 +34,5 @@ int lcm2(int a,int b,int c)
 Fraction smallest(Fraction x,Fraction y,Fraction z)
 {
  int a=(x.num * y.den * z.den);
+ int b=(y.num * x.den * z.den)
 }
