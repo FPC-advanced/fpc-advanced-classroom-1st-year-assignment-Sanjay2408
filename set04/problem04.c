@@ -41,5 +41,5 @@ float evaluate_polynomial(int n, float a[n+1], float x)
 }
 void output(int n, float a[n+1], float x, float result)
 {
-    printf("%.2f\n",result)
+    printf("%.2f\n",result);
 }
