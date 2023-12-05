@@ -5,7 +5,10 @@ int find_largest_index(int n, int a[n]);
 void output(int index);
 int main()
 { 
-    int x
+    int x,index;
+    x=input_size();
+    int a[x];
+    input_array()
 
     return 0;
 }
