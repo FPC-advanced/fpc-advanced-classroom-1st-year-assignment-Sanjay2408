@@ -24,3 +24,7 @@ void input_coefficients(int n, float a[n])
     }
 }
 float input_x()
+{
+    float x;
+    printf("Enter the number you want ")
+}
