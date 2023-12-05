@@ -54,3 +54,59 @@ c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\prob
 Compilation finished at 11/16/2023, 6:00:58 PM
 Compilation started at 11/16/2023, 6:03:53 PM
 Compilation finished at 11/16/2023, 6:03:53 PM
+Compilation started at 12/5/2023, 11:08:33 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:10:5: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     gcd( &res_num, &res_den);
+     ^~~
+C:\Users\SANJAY~1\AppData\Local\Temp\ccu3tIl2.o: In function `main':
+c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set04/problem01.c:10: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/5/2023, 11:08:34 AM
+Compilation started at 12/5/2023, 11:08:56 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:10:5: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+     gcd( &res_num, &res_den);
+     ^~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'add':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:45:22: warning: passing argument 1 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd=find_gcd(res_num,res_den);
+                      ^~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:22:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:45:30: warning: passing argument 2 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd=find_gcd(res_num,res_den);
+                              ^~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:22:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+C:\Users\SANJAY~1\AppData\Local\Temp\cccHkrwO.o: In function `main':
+c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/set04/problem01.c:10: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/5/2023, 11:08:56 AM
+Compilation started at 12/5/2023, 11:09:16 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:10:5: warning: implicit declaration of function 'find_gcd' [-Wimplicit-function-declaration]
+     find_gcd( &res_num, &res_den);
+     ^~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'add':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:45:22: warning: passing argument 1 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd=find_gcd(res_num,res_den);
+                      ^~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:22:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:45:30: warning: passing argument 2 of 'find_gcd' makes integer from pointer without a cast [-Wint-conversion]
+     int gcd=find_gcd(res_num,res_den);
+                              ^~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:22:5: note: expected 'int' but argument is of type 'int *'
+ int find_gcd(int a, int b)
+     ^~~~~~~~
+Compilation finished at 12/5/2023, 11:09:16 AM
+Compilation started at 12/5/2023, 11:10:24 AM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\set04\problem01.c:10:5: warning: implicit declaration of function 'find_gcd' [-Wimplicit-function-declaration]
+     find_gcd( &res_num, &res_den);
+     ^~~~~~~~
+Compilation finished at 12/5/2023, 11:10:24 AM
