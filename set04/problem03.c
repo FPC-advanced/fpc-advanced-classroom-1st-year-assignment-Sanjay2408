@@ -6,6 +6,8 @@ int main()
 {
  int n,r,ncr;
  input_n_and_r(&n,&r);
+ ncr = nCr(n,r);
+ output(n,r,ncr);
 
  return 0;
 }
