@@ -118,9 +118,7 @@ The index of the largest number in the array is 2
 
 ***Function Declarations***
 ```c
-void input_string(char *a);
-int count_words(char *string);
-void output(char *string, int no_words);
+
 ```
 
 ***Input***
