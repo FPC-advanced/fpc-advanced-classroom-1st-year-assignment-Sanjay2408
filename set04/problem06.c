@@ -7,7 +7,9 @@ int main()
 {
     char str[100];
     int word=0;
-    input
+    input_string(str);
+    word = count_words(str);
+    output(str,word);
     return 0;
 }
 void input_string(char *a)
