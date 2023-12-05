@@ -5,7 +5,9 @@ int count_words(char *string);
 void output(char *string, int no_words);
 int main()
 {
-    char str
+    char str[100];
+    int word=0;
+    input
     return 0;
 }
 void input_string(char *a)
