@@ -4,29 +4,28 @@ int nCr(int n, int r);
 void output(int n, int r, int result);
 int main()
 {
- int n,r,result;
- input_n_and_r(&n,&r);
- result = nCr(n,r);
- output(n,r,result);
- return 0;
+   int n, r, result;
+   input_n_and_r(&n, &r);
+   result = nCr(n, r);
+   output(n, r, result);
+   return 0;
 }
 void input_n_and_r(int *n, int *r)
 {
-printf("Enter the value of n ,r:\n");
-scanf("%d%d",n,r);
+   printf("Enter the value of n ,r:\n");
+   scanf("%d%d", n, r);
 }
 int nCr(int n, int r)
 {
- int i,ncr =1;
- for(i=1;i<=r;i++)
- {
-    ncr *= (n-i+1);
-    ncr/=i;
- }
- return ncr;
+   int i, ncr = 1;
+   for (i = 1; i <= r; i++)
+   {
+      ncr *= (n - i + 1);
+      ncr /= i;
+   }
+   return ncr;
 }
 void output(int n, int r, int result)
 {
- printf("for n=%d and r=%d,nCr = %d\n",n,r,result);
+   printf("for n=%d and r=%d,nCr = %d\n", n, r, result);
 }
-
