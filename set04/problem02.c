@@ -9,6 +9,8 @@ int main()
     y=input();
     z=input();
     smallest=smallest2(x,y,z);
+    output(x,y,z,smallest);
+    return 0;
 }
 Fraction input()
 {
