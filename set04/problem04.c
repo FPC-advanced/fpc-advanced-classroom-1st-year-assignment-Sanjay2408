@@ -2,7 +2,7 @@
 int input_degree();
 void input_coefficients(int n, float a[n+1]);
 float input_x();
-float evaluate_polynomial(int n, float a[n]+1, float x);
+float evaluate_polynomial(int n, float a[n+1], float x);
 void output(int n, float a[n+1], float x, float result);
 int main()
 {
@@ -41,5 +41,5 @@ float evaluate_polynomial(int n, float a[n+1], float x)
 }
 void output(int n, float a[n+1], float x, float result)
 {
-    printf("%")
+    printf("%.2f\n",result)
 }
