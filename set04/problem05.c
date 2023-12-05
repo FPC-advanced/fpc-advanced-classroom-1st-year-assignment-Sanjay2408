@@ -38,3 +38,6 @@ int find_largest_index(int n, int a[n])
     return k;
 }
 void output(int index)
+{
+    printf("The index of the largest number in the array is %d")
+}
