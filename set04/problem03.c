@@ -14,7 +14,7 @@ scanf("%d%d",n,r);
 }
 int nCr(int n, int r)
 {
-
+ 
 }
 void output(int n, int r, int result)
 {
