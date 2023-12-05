@@ -12,3 +12,7 @@ Fraction input()
     scanf("%d%d",&x.num,&x.den);
     return x;
 }
+int compute(int a,int b)
+{
+    
+}
