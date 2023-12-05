@@ -181,7 +181,7 @@ void output(int n, Fraction f[n], Fraction sum);
 ```
 
 ***Input***
-```
+```1
 3
 4 3
 8 9
