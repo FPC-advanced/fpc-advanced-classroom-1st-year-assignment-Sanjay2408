@@ -5,6 +5,7 @@ int count_words(char *string);
 void output(char *string, int no_words);
 int main()
 {
+    char str
     return 0;
 }
 void input_string(char *a)
@@ -21,8 +22,8 @@ int count_words(char *string)
         tok=strtok(NULL," ");
     }
     return c;
+}
     void output(char *string, int no_words)
     {
         printf("The number of words is %d\n",no_words);
     }
-}
