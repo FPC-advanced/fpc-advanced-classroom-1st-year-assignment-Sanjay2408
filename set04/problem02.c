@@ -27,3 +27,4 @@ int lcm(int a,int b)
 {
     return (a*b)/hcf(b,a%b);
 }
+int lcm2()
