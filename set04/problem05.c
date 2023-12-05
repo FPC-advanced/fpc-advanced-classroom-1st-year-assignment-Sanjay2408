@@ -8,7 +8,9 @@ int main()
     int x,index;
     x=input_size();
     int a[x];
-    input_array()
+    input_array(x,a);
+    index=find_largest_index(x,a);
+    output()
 
     return 0;
 }
