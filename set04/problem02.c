@@ -40,3 +40,6 @@ Fraction smallest(Fraction x,Fraction y,Fraction z)
  return r;
 }
 void output(Fraction x,Fraction y,Fraction z)
+{
+    printf("The smallest out of %d/%d,%d/%d and ")
+}
