@@ -39,3 +39,4 @@ Fraction smallest(Fraction x,Fraction y,Fraction z)
  Fraction r=(a<b)?((a<c)?x:z):((b<c)?y:z);
  return r;
 }
+void output(Fraction x,Fraction y,Fraction z)
