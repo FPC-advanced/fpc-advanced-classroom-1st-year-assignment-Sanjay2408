@@ -9,7 +9,10 @@ int main()
     int n;
     n=input_degree();
     float a[n+1],z=0,x=0;
-    input_coefficients(n,a)
+    input_coefficients(n,a);
+    x=input_x();
+    z = 
+
     return 0;
 }
 int input_degree()
