@@ -9,5 +9,5 @@ int main()
 }
 void input_string(char *a)
 {
- scanf("%99")
+ scanf("%99[^\n],a")
 }
