@@ -22,4 +22,7 @@ int count_words(char *string)
     }
     return c;
     void output(char *string, int no_words)
+    {
+        printf("The number of words is %d")
+    }
 }
