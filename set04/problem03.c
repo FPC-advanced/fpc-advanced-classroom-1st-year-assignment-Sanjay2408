@@ -5,5 +5,10 @@ void output(int n, int r, int result);
 int main()
 {
 
-retuy
+ return 0;
 }
+void input_n_and_r(int *n, int *r)
+{
+
+}
+
