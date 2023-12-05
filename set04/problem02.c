@@ -8,7 +8,7 @@ int main()
     x=input();
     y=input();
     z=input();
-    smallest=
+    smallest=smallest2(x,y,z);
 }
 Fraction input()
 {
@@ -35,7 +35,7 @@ int lcm2(int a,int b,int c)
 {
     return lccm(lcm(a,b),c);
 }
-Fraction smallest(Fraction x,Fraction y,Fraction z)
+Fraction smallest2(Fraction x,Fraction y,Fraction z)
 {
  int a=(x.num * y.den * z.den);
  int b=(y.num * x.den * z.den);
