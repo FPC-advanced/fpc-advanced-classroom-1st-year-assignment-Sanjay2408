@@ -16,5 +16,6 @@ int input_size()
 }
 void input_array(int n, int a[n])
 {
-    printf("")
+    printf("Enter %d elements into the array:\n",n);
+    for(int )
 }
