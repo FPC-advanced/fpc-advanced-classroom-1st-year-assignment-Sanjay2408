@@ -11,7 +11,8 @@ int main()
     float a[n+1],z=0,x=0;
     input_coefficients(n,a);
     x=input_x();
-    z = 
+    z = evaluate_polynomial(n,a,x);
+    output(n,a,x,z);
 
     return 0;
 }
