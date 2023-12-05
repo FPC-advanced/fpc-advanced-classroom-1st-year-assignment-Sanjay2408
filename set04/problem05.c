@@ -22,3 +22,7 @@ void input_array(int n, int a[n])
         scanf("%d",&a[i]);
     }
 }
+int find_largest_index(int n, int a[n])
+{
+    int i,=a[0];
+}
