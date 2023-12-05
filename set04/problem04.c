@@ -18,5 +18,8 @@ int input_degree()
 void input_coefficients(int n, float a[n])
 {
     printf("Enter %d coefficients:\n",n+1);
-    for()
+    for(int i=0;i<(n+1);i++)
+    {
+        scanf("%f")
+    }
 }
