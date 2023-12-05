@@ -8,7 +8,7 @@ int main()
 {
     int n;
     n=input_degree();
-    float a[n+1]
+    float a[n+1],z=0,
     return 0;
 }
 int input_degree()
