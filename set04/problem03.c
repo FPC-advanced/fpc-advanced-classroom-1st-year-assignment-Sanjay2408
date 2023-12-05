@@ -4,10 +4,10 @@ int nCr(int n, int r);
 void output(int n, int r, int result);
 int main()
 {
- int n,r,ncr;
+ int n,r,result;
  input_n_and_r(&n,&r);
  result = nCr(n,r);
- output(n,r,ncr);
+ output(n,r,result);
  return 0;
 }
 void input_n_and_r(int *n, int *r)
@@ -17,7 +17,8 @@ scanf("%d%d",n,r);
 }
 int nCr(int n, int r)
 {
- 
+ int i,ncr =1;
+ for()
 }
 void output(int n, int r, int result)
 {
