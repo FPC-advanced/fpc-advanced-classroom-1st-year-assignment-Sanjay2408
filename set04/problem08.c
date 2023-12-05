@@ -13,7 +13,10 @@ Fraction add_n_fractions(int n, Fraction f[n]);
 void output(int n, Fraction f[n], Fraction sum);
 int main()
 {
-    
+    int n;
+    n=input_n();
+    Fraction f[n];
+    input
     return 0;
 }
 int input_n()
