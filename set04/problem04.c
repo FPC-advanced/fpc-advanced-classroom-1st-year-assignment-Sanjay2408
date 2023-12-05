@@ -30,3 +30,7 @@ float input_x()
     scanf("%f",&x);
     return x;
 }
+float evaluate_polynomial(int n, float a[n], float x)
+{
+    float z=
+}
