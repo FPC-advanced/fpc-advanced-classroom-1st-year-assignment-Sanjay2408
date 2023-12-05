@@ -37,5 +37,6 @@ float evaluate_polynomial(int n, float a[n], float x)
     {
         z=(z*x)+a[i];
     }
-    return r;
+    return z;
 }
+void output()
