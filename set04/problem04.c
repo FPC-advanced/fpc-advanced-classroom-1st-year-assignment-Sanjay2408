@@ -39,4 +39,7 @@ float evaluate_polynomial(int n, float a[n], float x)
     }
     return z;
 }
-void output()
+void output(int n, float a[n], float x, float result)
+{
+    printf("")
+}
