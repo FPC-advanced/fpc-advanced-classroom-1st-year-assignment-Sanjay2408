@@ -24,5 +24,7 @@ void input_array(int n, int a[n])
 }
 int find_largest_index(int n, int a[n])
 {
-    int i,=a[0];
+    int i,j=a[0];
+    int k=0;
+    for(i=0;i<n;i++)
 }
