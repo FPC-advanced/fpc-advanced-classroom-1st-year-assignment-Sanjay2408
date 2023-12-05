@@ -17,10 +17,7 @@ int main()
 }
 int input_n()
 {
-    int num,den;
-    printf("Enter the numerator and denominator of the fraction:/n");
-    scanf("%d",num);
-    scanf("%d",den);
+    
 }
 Fraction input_fraction()
 {
