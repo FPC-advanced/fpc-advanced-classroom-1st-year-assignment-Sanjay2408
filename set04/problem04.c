@@ -32,5 +32,6 @@ float input_x()
 }
 float evaluate_polynomial(int n, float a[n], float x)
 {
-    float z=
+    float z=a[n];
+    for(int i=n-1;i>=0;i--)
 }
