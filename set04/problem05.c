@@ -30,7 +30,11 @@ int find_largest_index(int n, int a[n])
     {
         if(a[i]>j)
         {
-            j=a[i]
+            j=a[i];
+            k=i;
+
         }
     }
+    return k;
 }
+void output(int index)
