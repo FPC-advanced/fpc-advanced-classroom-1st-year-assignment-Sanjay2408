@@ -13,7 +13,6 @@ int main()
     x=input_x();
     z = evaluate_polynomial(n,a,x);
     output(n,a,x,z);
-
     return 0;
 }
 int input_degree()
