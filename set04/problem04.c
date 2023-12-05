@@ -15,3 +15,7 @@ int input_degree()
     scanf("%d",&n);
     return n;
 }
+void input_coefficients(int n, float a[n])
+{
+    printf("")
+}
