@@ -4,8 +4,9 @@ void input_array(int n, int a[n]);
 int find_largest_index(int n, int a[n]);
 void output(int index);
 int main()
-{
-    
+{ 
+    int x
+
     return 0;
 }
 int input_size()
