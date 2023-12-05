@@ -18,6 +18,8 @@ int count_words(char *string)
     while(tok!='\0')
     {
         c++;
-        tok=strtok(NULL,"")
+        tok=strtok(NULL," ");
     }
+    return c;
+    void output(char *string, int no_words)
 }
