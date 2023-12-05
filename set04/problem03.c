@@ -18,7 +18,10 @@ scanf("%d%d",n,r);
 int nCr(int n, int r)
 {
  int i,ncr =1;
- for()
+ for(i=1;i<=r;i++)
+ {
+    ncr *= (n-1)
+ }
 }
 void output(int n, int r, int result)
 {
