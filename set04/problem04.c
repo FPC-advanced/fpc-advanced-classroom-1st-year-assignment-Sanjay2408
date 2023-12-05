@@ -5,3 +5,7 @@ float input_x();
 float evaluate_polynomial(int n, float a[n], float x);
 void output(int n, float a[n], float x, float result);
 int main()
+{
+    return 0;
+}
+int input_degree()
