@@ -4,7 +4,7 @@ typedef struct {
 } Fraction;
 int main()
 {
-    
+    Fraction 
 }
 Fraction input()
 {
@@ -39,7 +39,7 @@ Fraction smallest(Fraction x,Fraction y,Fraction z)
  Fraction r=(a<b)?((a<c)?x:z):((b<c)?y:z);
  return r;
 }
-void output(Fraction x,Fraction y,Fraction z)
+void output(Fraction x,Fraction y,Fraction z,Fraction r)
 {
     printf("The smallest out of %d/%d,%d/%d and %d/%d is %d/%d.\n",x.num,x.den,y.num,y.den,z.num,z.den,r.num,r.den);
 }
