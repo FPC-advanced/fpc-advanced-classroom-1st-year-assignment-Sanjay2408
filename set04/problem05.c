@@ -10,8 +10,7 @@ int main()
     int a[x];
     input_array(x,a);
     index=find_largest_index(x,a);
-    output()
-
+    output(index);
     return 0;
 }
 int input_size()
