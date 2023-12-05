@@ -9,5 +9,6 @@ int main()
 Fraction input()
 {
     Fraction x;
-    scanf()
+    scanf("%d%d",&x.num,&x.den);
+    return x;
 }
