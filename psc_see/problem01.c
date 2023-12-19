@@ -31,7 +31,7 @@ int factorial(int x)
             return 2;
             break;
         }
-        else if (x % i == 0)
+        else if (x %(i*i+1) == 0)
         {
             
         }
