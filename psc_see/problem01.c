@@ -33,7 +33,7 @@ int factorial(int x)
         }
         else if (x %(i*i+1) == 0)
         {
-            
+            fact = i+1;
         }
         else
         {
