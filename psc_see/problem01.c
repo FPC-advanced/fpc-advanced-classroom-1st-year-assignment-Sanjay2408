@@ -21,7 +21,7 @@ int factorial(int x)
 {
  for(int i=x;i<=x/2;i--)
  {
-    if (i=i*(i-1)
+    if (i==i*(i-1))
 }
 }
 void output(int x,int fact)
