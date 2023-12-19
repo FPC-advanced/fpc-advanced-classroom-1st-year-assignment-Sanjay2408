@@ -17,3 +17,7 @@ int input()
     scanf("%d",&x);
     return x;
 }
+int factorial(int x)
+{
+ 
+}
