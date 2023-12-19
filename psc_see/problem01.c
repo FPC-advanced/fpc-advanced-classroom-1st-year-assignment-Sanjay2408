@@ -19,22 +19,33 @@ int input()
 }
 int factorial(int x)
 {
-    int fact=0;
- for(int i=1;i<=x/2;i++)
- {
+    int fact;
+    for(int i=1;i<=x/2;i++)
+    {
+        if ((x==1)||(x==2))
+        {
+            return 1;
+            break;
+        }
+    else
     if (x%i == 0)
     {
-        fact == i ;
+        fact = i ;
     }
-}
+    else
+    {
+        break;
+    }
+ }
+
 return fact;
 }
 void output(int x,int fact)
 {
-    
-    
+    if(fact != 1)
+    {
         printf("The factorial of %d(%d!)\n",x,fact);
-    // }
-    // else
-    // printf("%d is not a factorial number\n",x);
+    }
+    else
+    printf("%d is not a factorial number\n",x);
 }

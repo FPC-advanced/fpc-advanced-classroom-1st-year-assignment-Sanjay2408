@@ -1,0 +1,157 @@
+Compilation started at 12/19/2023, 12:06:24 PM
+Compilation finished at 12/19/2023, 12:06:25 PM
+Compilation started at 12/19/2023, 12:07:17 PM
+Compilation finished at 12/19/2023, 12:07:17 PM
+Compilation started at 12/19/2023, 12:23:57 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:46:23: warning: passing argument 1 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(a[j]);
+                       ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int b[]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:23:58 PM
+Compilation started at 12/19/2023, 12:24:54 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:48:23: warning: passing argument 1 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(a[j]);
+                       ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int b[]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:24:54 PM
+Compilation started at 12/19/2023, 12:26:02 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:48:23: warning: passing argument 1 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(a[j]);
+                       ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int b[]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:26:02 PM
+Compilation started at 12/19/2023, 12:33:25 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:33:25 PM
+Compilation started at 12/19/2023, 12:38:51 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:38:51 PM
+Compilation started at 12/19/2023, 12:38:58 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:38:58 PM
+Compilation started at 12/19/2023, 12:39:14 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:39:14 PM
+Compilation started at 12/19/2023, 12:39:42 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:39:42 PM
+Compilation started at 12/19/2023, 12:43:20 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:43:20 PM
+Compilation started at 12/19/2023, 12:44:57 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:44:58 PM
+Compilation started at 12/19/2023, 12:45:36 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:45:36 PM
+Compilation started at 12/19/2023, 12:46:20 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 12:46:21 PM
+Compilation started at 12/19/2023, 12:48:13 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:48:14 PM
+Compilation started at 12/19/2023, 12:48:43 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:47:25: warning: passing argument 2 of 'factorial_numbers' makes pointer from integer without a cast [-Wint-conversion]
+     factorial_numbers(j,a[j]);
+                         ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:5:6: note: expected 'int *' but argument is of type 'int'
+ void factorial_numbers(int n,int b[n]);
+      ^~~~~~~~~~~~~~~~~
+Compilation finished at 12/19/2023, 12:48:43 PM
+Compilation started at 12/19/2023, 1:12:42 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'main':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:11:5: warning: implicit declaration of function 'array_elements' [-Wimplicit-function-declaration]
+     array_elements(n,a);
+     ^~~~~~~~~~~~~~
+C:\Users\SANJAY~1\AppData\Local\Temp\cc8EhYrH.o: In function `main':
+c:/FPC_Advanced/fpc-advanced-classroom-1st-year-assignment-Sanjay2408/psc_see/problem02.c:11: undefined reference to `array_elements'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 1:12:42 PM
+Compilation started at 12/19/2023, 1:13:08 PM
+Compilation finished at 12/19/2023, 1:13:09 PM
+Compilation started at 12/19/2023, 1:14:05 PM
+Compilation finished at 12/19/2023, 1:14:05 PM
