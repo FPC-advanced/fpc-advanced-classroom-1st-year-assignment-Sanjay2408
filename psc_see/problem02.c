@@ -25,3 +25,7 @@ void array_elements(int n,int a[n])
         scanf("%d",a[i]);
     }
 }
+int factorial(int n,int a[n])
+{
+    
+}
