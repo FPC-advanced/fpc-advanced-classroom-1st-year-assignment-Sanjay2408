@@ -37,5 +37,5 @@ void output(int x,int fact)
         printf("The factorial of %d(%d!)\n",x,fact);
     }
     else
-    printf("")
+    printf("%d is not a factorial number\n");
 }
