@@ -24,9 +24,11 @@ int factorial(int x)
  {
     if (x==i*(i-1))
     {
-        fact=
+        fact==i;
     }
+    break;
 }
+
 }
 void output(int x,int fact)
 {
