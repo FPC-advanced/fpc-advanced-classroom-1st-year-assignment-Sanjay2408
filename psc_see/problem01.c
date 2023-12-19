@@ -28,7 +28,7 @@ int factorial(int x)
             break;
         }
     else
-    if ((x==1))
+    if ((x==2))
         {
             return 2;
             break;
