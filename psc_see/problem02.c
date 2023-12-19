@@ -19,5 +19,8 @@ int array_size()
 }
 void array_elements(int n)
 {
-    
+    for(i=0;i<n;i++)
+    {
+        printf("Enter the element ")
+    }
 }
