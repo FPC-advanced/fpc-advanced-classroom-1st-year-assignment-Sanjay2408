@@ -26,7 +26,6 @@ int factorial(int x)
     {
         fact == i ;
     }
-        break;
 }
 return fact;
 }
