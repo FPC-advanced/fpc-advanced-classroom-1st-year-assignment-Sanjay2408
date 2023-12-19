@@ -21,3 +21,7 @@ int factorial(int x)
 {
  
 }
+void output(int x,int fact)
+{
+    
+}
