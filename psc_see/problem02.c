@@ -7,3 +7,7 @@ int main()
 {
     return 0;
 }
+int array_size()
+{
+    
+}
