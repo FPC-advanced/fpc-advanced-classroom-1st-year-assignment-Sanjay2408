@@ -34,7 +34,7 @@ int factorial(int x)
             break;
         }
      else
-    if (x%i == 0)
+     if (x%i == 0)
     {
         fact = i ;
     }
