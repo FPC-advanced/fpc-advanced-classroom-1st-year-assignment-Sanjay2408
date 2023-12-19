@@ -8,5 +8,7 @@ int main()
 }
 int input()
 {
-    printf("Enter the ")
+    int n;
+    printf("Enter the number to find its factorial:\n");
+    scanf
 }
