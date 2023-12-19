@@ -19,9 +19,9 @@ int input()
 }
 int factorial(int x)
 {
- 
+ for(int i=0;in;)
 }
 void output(int x,int fact)
 {
-    
+
 }
