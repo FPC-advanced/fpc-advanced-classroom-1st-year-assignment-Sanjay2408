@@ -19,7 +19,7 @@ int input()
 }
 int factorial(int x)
 {
-    int fact;
+    int fact,temp;
     if ((x == 1))
     {
         return 0;
@@ -33,7 +33,7 @@ int factorial(int x)
         }
         else if (x % i == 0)
         {
-            fact = i;
+            t
         }
         else
         {
