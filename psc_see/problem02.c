@@ -19,9 +19,9 @@ int array_size()
 }
 void array_elements(int n)
 {
-    for(i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         printf("Enter the element for a[%d]\n",i);
-        scanf("%d")
+        scanf("%d",a[i]);
     }
 }
