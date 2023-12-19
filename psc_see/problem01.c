@@ -19,7 +19,7 @@ int input()
 }
 int factorial(int x)
 {
- for(int i=x;i<=x;i--)
+ for(int i=x;i<=x/2;i--)
  [
     
  ]
