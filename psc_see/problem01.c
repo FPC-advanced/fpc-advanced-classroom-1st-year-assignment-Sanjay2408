@@ -20,14 +20,12 @@ int input()
 int factorial(int x)
 {
     int fact;
-    for(int i=1;i<=x/2;i++)
-    {
-        if ((x==1))
+    if ((x==1))
         {
             return 0;
-            break;
         }
-    else
+    for(int i=1;i<=x/2;i++)
+    {
     if ((x==2))
         {
             return 2;
