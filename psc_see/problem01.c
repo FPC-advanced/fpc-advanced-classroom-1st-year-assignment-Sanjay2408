@@ -24,7 +24,7 @@ int factorial(int x)
  {
     if ( x == (i-1) * i )
     {
-        i == ;
+        i == fact ;
     }
         break;
 }
