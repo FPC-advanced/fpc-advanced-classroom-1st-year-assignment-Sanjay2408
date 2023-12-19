@@ -22,9 +22,9 @@ int factorial(int x)
     int fact=0;
  for(int i=1;i<=x/2;i--)
  {
-    if (x%1 == 0)
+    if (x%i == 0)
     {
-        i == fact ;
+        fact == i ;
     }
         break;
 }
