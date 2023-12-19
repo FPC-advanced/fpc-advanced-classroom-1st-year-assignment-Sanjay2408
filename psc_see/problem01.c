@@ -33,7 +33,7 @@ int factorial(int x)
         }
         else if (x % i == 0)
         {
-            t
+            i*i+1
         }
         else
         {
