@@ -32,5 +32,5 @@ return fact;
 }
 void output(int x,int fact)
 {
- printf("Thefactorial of %d is ()")
+ printf("Thefactorial of %d is (%d!)\n",x,fact);
 }
