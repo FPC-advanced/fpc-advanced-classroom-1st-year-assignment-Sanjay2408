@@ -28,9 +28,9 @@ int factorial(int x)
     }
     break;
 }
-
+return fact;
 }
 void output(int x,int fact)
 {
-
+ printf("Thefactorial of %d is ()")
 }
