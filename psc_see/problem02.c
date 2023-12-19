@@ -9,5 +9,6 @@ int main()
 }
 int array_size()
 {
-    
+    printf("Enter the array size:\n");
+    scanf("%d",&n)
 }
