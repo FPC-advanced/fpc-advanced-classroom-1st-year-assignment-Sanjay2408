@@ -26,7 +26,7 @@ int factorial(int x)
     }
     for (int i = 1; i <= x / 2; i++)
     {
-        i=i
+        i=i*i;
         if ((x == 2))
         {
             return 2;
