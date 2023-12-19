@@ -23,8 +23,10 @@ int factorial(int x)
  for(int i=0;i<=x/2;i++)
  {
     if ( x == (i-1) * i )
-        
-    
+    {
+        i == ;
+    }
+        break;
 }
 return fact;
 }
