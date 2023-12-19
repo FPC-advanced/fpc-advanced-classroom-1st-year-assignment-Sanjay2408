@@ -21,6 +21,7 @@ void array_elements(int n)
 {
     for(i=0;i<n;i++)
     {
-        printf("Enter the element ")
+        printf("Enter the element for a[%d]\n",i);
+        scanf("%d")
     }
 }
