@@ -22,7 +22,7 @@ int factorial(int x)
     int fact;
  for(int i=x;i<=x/2;i--)
  {
-    if (x==i*(i-1))
+    if (xn==i * (i-1) )
     {
         fact==i;
     }
