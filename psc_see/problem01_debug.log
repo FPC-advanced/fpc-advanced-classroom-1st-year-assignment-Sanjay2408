@@ -1,0 +1,4 @@
++b 20
+Breakpoint 1 at 0x4014d2: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c, line 20.
++b 31
+Breakpoint 2 at 0x4014f0: file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c, line 31.
