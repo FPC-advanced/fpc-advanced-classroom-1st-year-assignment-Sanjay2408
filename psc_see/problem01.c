@@ -19,11 +19,11 @@ int input()
 }
 int factorial(int x)
 {
-    int fact;
+    int fact=0;
  for(int i=0;i<=x/2;i++)
  {
     if ( x == (i-1) * i )
-        fact==i;
+        
     
 }
 return fact;
