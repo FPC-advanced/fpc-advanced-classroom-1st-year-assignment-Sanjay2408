@@ -20,7 +20,7 @@ int input()
 int factorial(int x)
 {
     int fact=0;
- for(int i=0;i<=x/2;i++)
+ for(int i=x;i<=x/2;i--)
  {
     if ( x == (i-1) * i )
     {
