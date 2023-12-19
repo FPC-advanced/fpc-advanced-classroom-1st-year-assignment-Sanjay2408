@@ -31,10 +31,10 @@ return fact;
 }
 void output(int x,int fact)
 {
-     fact
-    {
+    
+    
         printf("The factorial of %d(%d!)\n",x,fact);
-    }
-    else
-    printf("%d is not a factorial number\n",x);
+    // }
+    // else
+    // printf("%d is not a factorial number\n",x);
 }
