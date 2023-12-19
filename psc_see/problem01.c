@@ -6,7 +6,8 @@ int main()
 {
     int x,fact;
     x=input();
-    
+    fact = factorial(x);
+    output(x,fact);
     return 0;
 }
 int input()
