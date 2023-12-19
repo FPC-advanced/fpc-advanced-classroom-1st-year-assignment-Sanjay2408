@@ -1,6 +1,6 @@
 #include <stdio.h>
 int array_size();
-void array_elements(int n);
+void array_elements(int n,int a[n]);
 int factorial(int n,int a[n]);
 void output(int n,int a[n],int fact);
 int main()
@@ -17,7 +17,7 @@ int array_size()
     scanf("%d",&n);
     return n;
 }
-void array_elements(int n)
+void array_elements(int n,int a[n])
 {
     for(int i=0;i<n;i++)
     {
