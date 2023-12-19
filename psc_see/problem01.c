@@ -22,12 +22,18 @@ int factorial(int x)
     int fact;
     for(int i=1;i<=x/2;i++)
     {
-        if ((x==1)||(x==2))
+        if ((x==1))
         {
             return 0;
             break;
         }
     else
+    if ((x==1))
+        {
+            return 2;
+            break;
+        }
+     else
     if (x%i == 0)
     {
         fact = i ;
