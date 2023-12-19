@@ -19,9 +19,13 @@ int input()
 }
 int factorial(int x)
 {
+    int fact;
  for(int i=x;i<=x/2;i--)
  {
-    if (i==i*(i-1))
+    if (x==i*(i-1))
+    {
+        fact=
+    }
 }
 }
 void output(int x,int fact)
