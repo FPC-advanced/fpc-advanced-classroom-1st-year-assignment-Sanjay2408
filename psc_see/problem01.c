@@ -20,9 +20,9 @@ int input()
 int factorial(int x)
 {
     int fact;
- for(int i=x;i<=x/2;i--)
+ for(int i=0;i<=x/2;i++)
  {
-    if (xn==i * (i-1) )
+    if ( x == i * (i-1) )
     {
         fact==i;
     }
