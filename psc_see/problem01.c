@@ -33,5 +33,9 @@ return fact;
 void output(int x,int fact)
 {
     if (fact == x/2)
- printf("The factorial of %d(%d!)\n",x,fact);
+    {
+        printf("The factorial of %d(%d!)\n",x,fact);
+    }
+    else
+    printf("")
 }
