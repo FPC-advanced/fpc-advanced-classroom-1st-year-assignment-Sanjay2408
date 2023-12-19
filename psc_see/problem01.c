@@ -24,8 +24,9 @@ int factorial(int x)
     {
         return 0;
     }
-    for (int i = 1; i <= x / 2; i*i)
+    for (int i = 1; i <= x / 2; i++)
     {
+        i=i
         if ((x == 2))
         {
             return 2;
