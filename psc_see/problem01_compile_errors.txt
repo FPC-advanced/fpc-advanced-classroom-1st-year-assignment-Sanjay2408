@@ -72,3 +72,9 @@ Compilation started at 12/19/2023, 2:21:32 PM
 Compilation finished at 12/19/2023, 2:21:32 PM
 Compilation started at 12/19/2023, 2:22:14 PM
 Compilation finished at 12/19/2023, 2:22:15 PM
+Compilation started at 12/19/2023, 2:24:58 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 2:24:58 PM
+Compilation started at 12/19/2023, 2:25:06 PM
+Compilation finished at 12/19/2023, 2:25:06 PM

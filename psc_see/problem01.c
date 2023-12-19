@@ -40,7 +40,6 @@ int factorial(int x)
     {
         break;
     }
-    break;
  }
 
 return fact;
