@@ -20,7 +20,7 @@ int input()
 int factorial(int x)
 {
     int fact=0;
- for(int i=1;i<=x/2;i--)
+ for(int i=1;i<=x/2;i++)
  {
     if (x%i == 0)
     {
@@ -37,5 +37,5 @@ void output(int x,int fact)
         printf("The factorial of %d(%d!)\n",x,fact);
     }
     else
-    printf("%d is not a factorial number\n");
+    printf("%d is not a factorial number\n",x);
 }
