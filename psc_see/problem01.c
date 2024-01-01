@@ -24,7 +24,10 @@ int factorial(int x)
     {
         return fact;
     }
-    for(int i)
+    for(int i=2;i<=x;i++)
+    {
+        fact*=i;
+    }
    return fact;
 }
 void output(int x, int fact)
