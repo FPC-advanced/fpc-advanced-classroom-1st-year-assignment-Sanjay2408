@@ -39,6 +39,10 @@ int factorial(int x)
         }
     }
     }
+    else 
+    {
+        return 1;
+    }
     return fact;
 }
 void output(int x, int fact)
