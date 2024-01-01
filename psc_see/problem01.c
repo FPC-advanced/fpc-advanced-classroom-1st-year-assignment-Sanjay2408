@@ -31,7 +31,7 @@ int findFactorialFactor(int x) {
     if (factorial == x) {
         return i;
     } else {
-        return 0;  // Not a factorial number
+        return 0;  
     }
 }
 
