@@ -30,12 +30,12 @@ int factorial(int x)
     }
     for(int j=1;j>=x;j++)
     {
-        j=j*(j+1)
+        j=j*(j+1);
     for (int i = x; i >= x ; i--)
     {
-        if(i == j*(j+1) )
+        if(i == j )
         {
-         return j
+         return j;
         }
     }
     }
