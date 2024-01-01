@@ -22,29 +22,9 @@ int factorial(int x)
     int fact = 1;
     if (x == 0 || x==1)
     {
-        return 1;
+        return fact;
     }
-    else if (x == 2)
-    {
-        return 2;
-    }
-    for(int j=1;j>=x;j++)
-    {
-        j=j*(j+1);
-    for (int i = x; i >= x ; i--)
-    {
-        if(i == j )
-        {
-         return j;
-        }
-         else 
-    {
-        return 1;
-        break;
-    }
-    
-    }
-    }
+    for(int i)
    return fact;
 }
 void output(int x, int fact)
