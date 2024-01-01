@@ -19,8 +19,8 @@ int input()
 }
 int factorial(int x)
 {
-    int fact;
-    if (x == 1)
+    int fact = 1;
+    if (x == 0 || x==1)
     {
         return 1;
     }
