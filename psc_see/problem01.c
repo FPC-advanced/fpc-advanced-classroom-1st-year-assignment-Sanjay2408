@@ -28,10 +28,12 @@ int factorial(int x)
     {
         return 2;
     }
-    for(int j=1;j>=x;)
+    for(int j=1;j>=x;j++)
+    {
     for (int i = x; i >= x ; i--)
     {
-        
+        i == j*j
+    }
     }
     return fact;
 }
