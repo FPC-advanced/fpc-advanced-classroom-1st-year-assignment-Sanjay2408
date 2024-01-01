@@ -27,7 +27,6 @@ int findFactorialFactor(int x) {
         i++;
         factorial *= i;
     }
-
     if (factorial == x) {
         return i;
     } else {
