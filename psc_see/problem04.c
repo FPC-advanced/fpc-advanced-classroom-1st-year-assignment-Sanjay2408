@@ -1,43 +1,43 @@
 #include <stdio.h>
 
 int input();
-int isFactorial(int x);
-void output(int x, int isFact, int fact);
+int findFactorialFactor(int x);
+void output(int x, int factor);
 
 int main() {
-    int x, isFact, fact;
+    int x, factor;
     x = input();
-    isFact = isFactorial(x);
-    if (isFact) {
-        fact = x;
-        output(x, isFact, fact);
-    } else {
-        output(x, isFact, 0);
-    }
+    factor = findFactorialFactor(x);
+    output(x, factor);
     return 0;
 }
 
 int input() {
     int x;
-    printf("Enter the number to check if it's a factorial number:\n");
+    printf("Enter the number to find its factorial factor:\n");
     scanf("%d", &x);
     return x;
 }
 
-int isFactorial(int x) {
-    int i = 1, fact = 1;
+int findFactorialFactor(int x) {
+    int i = 1;
+    int factorial = 1;
 
-    while (fact < x) {
+    while (factorial < x) {
         i++;
-        fact *= i;
+        factorial *= i;
     }
 
-    return (fact == x);
+    if (factorial == x) {
+        return i;
+    } else {
+        return 0;  // Not a factorial number
+    }
 }
 
-void output(int x, int isFact, int fact) {
-    if (isFact) {
-        printf("%d is a factorial number, and its factor is %d!\n", x, fact);
+void output(int x, int factor) {
+    if (factor != 0) {
+        printf("%d is a factorial number, %d!\n", x, factor);
     } else {
         printf("%d is not a factorial number\n", x);
     }
