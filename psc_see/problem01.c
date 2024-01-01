@@ -32,7 +32,10 @@ int factorial(int x)
     {
     for (int i = x; i >= x ; i--)
     {
-        i == j*j
+        if(i == j*j)
+        {
+            
+        }
     }
     }
     return fact;
