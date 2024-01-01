@@ -37,7 +37,7 @@ int findFactorialFactor(int x) {
 
 void output(int x, int factor) {
     if (factor != 0) {
-        printf("%d is a factorial number, %d!\n", x, factor);
+        printf("It is a factorial number, %d(%d!)\n", x, factor);
     } else {
         printf("%d is not a factorial number\n", x);
     }
