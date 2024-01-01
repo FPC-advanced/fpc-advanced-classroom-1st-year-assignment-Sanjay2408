@@ -37,13 +37,15 @@ int factorial(int x)
         {
          return j;
         }
-    }
-    }
-    else 
+         else 
     {
         return 1;
+        break;
     }
-    return fact;
+    
+    }
+    }
+   return fact;
 }
 void output(int x, int fact)
 {
