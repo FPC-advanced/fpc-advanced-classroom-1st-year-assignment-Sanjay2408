@@ -103,3 +103,141 @@ Compilation started at 12/19/2023, 2:39:05 PM
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/19/2023, 2:39:05 PM
+Compilation started at 12/19/2023, 2:39:28 PM
+Compilation finished at 12/19/2023, 2:39:29 PM
+Compilation started at 12/19/2023, 2:41:04 PM
+Compilation finished at 12/19/2023, 2:41:04 PM
+Compilation started at 12/19/2023, 2:45:05 PM
+Compilation finished at 12/19/2023, 2:45:05 PM
+Compilation started at 12/19/2023, 2:46:07 PM
+Compilation finished at 12/19/2023, 2:46:08 PM
+Compilation started at 12/19/2023, 2:51:11 PM
+Compilation finished at 12/19/2023, 2:51:11 PM
+Compilation started at 12/19/2023, 2:51:21 PM
+Compilation finished at 12/19/2023, 2:51:22 PM
+Compilation started at 12/19/2023, 2:51:44 PM
+Compilation finished at 12/19/2023, 2:51:45 PM
+Compilation started at 12/19/2023, 2:52:40 PM
+Compilation finished at 12/19/2023, 2:52:40 PM
+Compilation started at 12/19/2023, 2:53:12 PM
+Compilation finished at 12/19/2023, 2:53:12 PM
+Compilation started at 12/19/2023, 2:55:48 PM
+Compilation finished at 12/19/2023, 2:55:49 PM
+Compilation started at 12/19/2023, 2:56:58 PM
+Compilation finished at 12/19/2023, 2:56:58 PM
+Compilation started at 12/19/2023, 2:57:35 PM
+Compilation finished at 12/19/2023, 2:57:36 PM
+Compilation started at 12/19/2023, 2:58:45 PM
+Compilation finished at 12/19/2023, 2:58:46 PM
+Compilation started at 12/19/2023, 3:00:36 PM
+Compilation finished at 12/19/2023, 3:00:37 PM
+Compilation started at 12/19/2023, 3:00:51 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:00:51 PM
+Compilation started at 12/19/2023, 3:00:58 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:00:58 PM
+Compilation started at 12/19/2023, 3:01:16 PM
+Compilation finished at 12/19/2023, 3:01:17 PM
+Compilation started at 12/19/2023, 3:02:10 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/19/2023, 3:02:10 PM
+Compilation started at 12/19/2023, 3:02:27 PM
+Compilation finished at 12/19/2023, 3:02:28 PM
+Compilation started at 12/19/2023, 3:02:51 PM
+Compilation finished at 12/19/2023, 3:02:51 PM
+Compilation started at 12/19/2023, 3:03:18 PM
+Compilation finished at 12/19/2023, 3:03:19 PM
+Compilation started at 12/19/2023, 3:05:42 PM
+Compilation finished at 12/19/2023, 3:05:42 PM
+Compilation started at 12/19/2023, 3:05:58 PM
+Compilation finished at 12/19/2023, 3:05:58 PM
+Compilation started at 12/19/2023, 3:06:04 PM
+Compilation finished at 12/19/2023, 3:06:05 PM
+Compilation started at 12/19/2023, 3:08:59 PM
+Compilation finished at 12/19/2023, 3:09:00 PM
+Compilation started at 12/19/2023, 3:09:36 PM
+Compilation finished at 12/19/2023, 3:09:36 PM
+Compilation started at 12/19/2023, 3:12:19 PM
+Compilation finished at 12/19/2023, 3:12:20 PM
+Compilation started at 12/19/2023, 3:14:23 PM
+Compilation finished at 12/19/2023, 3:14:23 PM
+Compilation started at 12/19/2023, 3:30:19 PM
+Compilation finished at 12/19/2023, 3:30:19 PM
+Compilation started at 12/19/2023, 3:30:31 PM
+Compilation finished at 12/19/2023, 3:30:31 PM
+Compilation started at 12/19/2023, 3:31:15 PM
+Compilation finished at 12/19/2023, 3:31:16 PM
+Compilation started at 12/19/2023, 3:32:53 PM
+Compilation finished at 12/19/2023, 3:32:53 PM
+Compilation started at 12/19/2023, 3:34:40 PM
+Compilation finished at 12/19/2023, 3:34:40 PM
+Compilation started at 12/19/2023, 3:40:29 PM
+Compilation finished at 12/19/2023, 3:40:29 PM
+Compilation started at 12/19/2023, 3:42:28 PM
+Compilation finished at 12/19/2023, 3:42:28 PM
+Compilation started at 12/19/2023, 3:43:01 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c:56:1: error: expected declaration or statement at end of input
+ }
+ ^
+Compilation finished at 12/19/2023, 3:43:02 PM
+Compilation started at 12/19/2023, 3:43:54 PM
+Compilation finished at 12/19/2023, 3:43:55 PM
+Compilation started at 12/19/2023, 3:44:26 PM
+Compilation finished at 12/19/2023, 3:44:26 PM
+Compilation started at 12/19/2023, 3:46:04 PM
+Compilation finished at 12/19/2023, 3:46:05 PM
+Compilation started at 12/19/2023, 3:46:25 PM
+Compilation finished at 12/19/2023, 3:46:25 PM
+Compilation started at 12/19/2023, 3:47:18 PM
+Compilation finished at 12/19/2023, 3:47:18 PM
+Compilation started at 12/19/2023, 3:48:14 PM
+Compilation finished at 12/19/2023, 3:48:14 PM
+Compilation started at 12/19/2023, 3:48:35 PM
+Compilation finished at 12/19/2023, 3:48:35 PM
+Compilation started at 12/19/2023, 3:48:47 PM
+Compilation finished at 12/19/2023, 3:48:47 PM
+Compilation started at 12/19/2023, 3:48:55 PM
+Compilation finished at 12/19/2023, 3:48:56 PM
+Compilation started at 12/19/2023, 3:49:03 PM
+Compilation finished at 12/19/2023, 3:49:03 PM
+Compilation started at 12/19/2023, 3:52:04 PM
+Compilation finished at 12/19/2023, 3:52:05 PM
+Compilation started at 12/19/2023, 3:55:33 PM
+Compilation finished at 12/19/2023, 3:55:33 PM
+Compilation started at 12/19/2023, 3:56:39 PM
+Compilation finished at 12/19/2023, 3:56:39 PM
+Compilation started at 12/19/2023, 3:57:49 PM
+Compilation finished at 12/19/2023, 3:57:50 PM
+Compilation started at 12/19/2023, 3:58:42 PM
+Compilation finished at 12/19/2023, 3:58:43 PM
+Compilation started at 12/19/2023, 4:20:19 PM
+Compilation finished at 12/19/2023, 4:20:19 PM
+Compilation started at 12/19/2023, 4:21:03 PM
+Compilation finished at 12/19/2023, 4:21:03 PM
+Compilation started at 12/19/2023, 4:21:37 PM
+Compilation finished at 12/19/2023, 4:21:37 PM
+Compilation started at 12/19/2023, 4:21:54 PM
+Compilation finished at 12/19/2023, 4:21:55 PM
+Compilation started at 12/19/2023, 4:22:08 PM
+Compilation finished at 12/19/2023, 4:22:08 PM
+Compilation started at 12/19/2023, 4:23:04 PM
+Compilation finished at 12/19/2023, 4:23:04 PM
+Compilation started at 12/19/2023, 4:24:17 PM
+Compilation finished at 12/19/2023, 4:24:17 PM
+Compilation started at 12/19/2023, 4:24:46 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem01.c:33:26: error: expected expression before ')' token
+         if ( x%i == 0 && )
+                          ^
+Compilation finished at 12/19/2023, 4:24:46 PM
+Compilation started at 12/19/2023, 4:24:53 PM
+Compilation finished at 12/19/2023, 4:24:54 PM
+Compilation started at 12/19/2023, 4:25:09 PM
+Compilation finished at 12/19/2023, 4:25:09 PM
+Compilation started at 12/21/2023, 1:03:54 PM
+Compilation finished at 12/21/2023, 1:03:55 PM

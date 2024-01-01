@@ -19,29 +19,19 @@ int input()
 }
 int factorial(int x)
 {
-    int fact,temp;
-    if ((x == 1))
+    int fact;
+    if (x == 1)
     {
         return 0;
     }
-    for (int i = 1; i <= x / 2; i++)
+    else if (x == 2)
     {
-        i=i*i;
-        if ((x == 2))
-        {
-            return 2;
-            break;
-        }
-        else if (x %i == 0)
-        {
-            fact = i;
-        }
-        else
-        {
-            break;
-        }
+        return 2;
     }
-
+    for (int i = x; i >= x ; i--)
+    {
+        if()
+    }
     return fact;
 }
 void output(int x, int fact)
