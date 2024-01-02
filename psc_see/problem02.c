@@ -37,9 +37,8 @@ void factorial(int n, int a[n], int b[n])
         i++;
         factorial *= i;
     }
-    if (factorial == a[i]) {
+    if (factorial == a[i]) 
         return i;
-    }
      else  {
         break;
         }
