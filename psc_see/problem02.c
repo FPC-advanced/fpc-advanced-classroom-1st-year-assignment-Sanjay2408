@@ -3,7 +3,7 @@
 int array_size();
 void array_values(int n, int a[n]);
 void factorial(int n, int a[n], int b[n]);
-void output(int n, int b[n]);
+void output(int n, int b[n],int a[n]);
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     array_values(n, a);
     int b[n];
     factorial(n, a, b);
-    output(n, b);
+    output(n, b,a);
     return 0;
 }
 
@@ -56,7 +56,7 @@ void factorial(int n, int a[n], int b[n])
     }
 }
 
-void output(int n, int b[n])
+void output(int n, int b[n],int a[n])
 {
     printf("The factorials are: \n");
     for (int i = 0; i < n; i++)
