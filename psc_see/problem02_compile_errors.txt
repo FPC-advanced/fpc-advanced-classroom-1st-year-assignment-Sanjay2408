@@ -169,3 +169,15 @@ Compilation started at 12/19/2023, 4:57:27 PM
 Compilation finished at 12/19/2023, 4:57:28 PM
 Compilation started at 12/21/2023, 1:05:12 PM
 Compilation finished at 12/21/2023, 1:05:13 PM
+Compilation started at 1/2/2024, 7:08:57 PM
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c: In function 'factorial':
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:41:16: warning: 'return' with a value, in function returning void
+         return i;
+                ^
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:32:6: note: declared here
+ void factorial(int n, int a[n], int b[n])
+      ^~~~~~~~~
+c:\FPC_Advanced\fpc-advanced-classroom-1st-year-assignment-Sanjay2408\psc_see\problem02.c:42:9: error: break statement not within loop or switch
+         break;
+         ^~~~~
+Compilation finished at 1/2/2024, 7:08:58 PM

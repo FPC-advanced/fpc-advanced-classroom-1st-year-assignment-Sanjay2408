@@ -39,7 +39,8 @@ void factorial(int n, int a[n], int b[n])
     }
     if (factorial == a[i]) 
         return i;
-        
+        break;
+}
 void output(int n, int b[n])
 {
     printf("The numbers are: \n");
