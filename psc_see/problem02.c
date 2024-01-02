@@ -31,29 +31,17 @@ void array_values(int n, int a[n])
 }
 void factorial(int n, int a[n], int b[n])
 {
-    int fact = 0;
-    for (int j = 0; j < n; j++)
-    {
-        for (int i = 1; i < a[i] / 2; i++)
-        
-        {
-            if (a[i]==1)
-            {
-                b[j]=a[i];
-            }
-            if (a[i]==2)
-            {
-                b[j]=a[i];
-            }
-            if (a[j] % i  == 0 && a[j] == i*(i+1))
-            {
-                fact = i;
-            }
-            if (fact == (i * i+1))
-            {
-                b[j] = a[j];
-            }
-        }
+   int i = 1;
+    int factorial = 1;
+
+    while (factorial < x) {
+        i++;
+        factorial *= i;
+    }
+    if (factorial == x) {
+        return i;
+    } else {
+        return 0;  
     }
 }
 void output(int n, int b[n])
