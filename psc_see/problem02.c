@@ -40,8 +40,9 @@ void factorial(int n, int a[n], int b[n])
     }
     if (factorial == a[i]) {
         return i;
+    }
      else {
-        break
+        break;
         }
     }
 }
