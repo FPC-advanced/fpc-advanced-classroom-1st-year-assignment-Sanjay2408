@@ -31,9 +31,8 @@ void array_values(int n, int a[n])
 }
 void factorial(int n, int a[n], int b[n])
 {
-   int i = 1;
+    int i = 1;
     int factorial = 1;
-
     while (factorial < a[i]) {
         i++;
         factorial *= i;
@@ -41,7 +40,7 @@ void factorial(int n, int a[n], int b[n])
     if (factorial == a[i]) {
         return i;
     }
-     else {
+     else  {
         break;
         }
     }
