@@ -51,7 +51,7 @@ void factorial(int n, int a[n], int b[n])
         }
         else
         {
-            b[i] = -1; // indicating that there is no factorial for the given number
+            b[i] = -1; 
         }
     }
 }
