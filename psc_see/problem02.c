@@ -34,11 +34,11 @@ void factorial(int n, int a[n], int b[n])
    int i = 1;
     int factorial = 1;
 
-    while (factorial < x) {
+    while (factorial < a[i]) {
         i++;
         factorial *= i;
     }
-    if (factorial == x) {
+    if (factorial == a[i]) {
         return i;
     } else {
         return 0;  
