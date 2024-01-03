@@ -77,3 +77,4 @@ team compare_teams(team a,team b);
     if 
 }
 // should find answer for this tmr
+// i need to code this with around 400 lines correctly
