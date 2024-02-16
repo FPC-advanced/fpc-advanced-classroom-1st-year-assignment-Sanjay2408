@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+// Write a function to find if a given number is a factorial number.
+// 1(0!) and (1!), 2(2!), 6(3!)#include <stdio.h>
 int input();
 int findFactorialFactor(int x);
 void output(int x, int factor);

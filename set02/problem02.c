@@ -5,9 +5,9 @@ void output(int a, int b, int c, int isscalene);
 int main()
 {
   int a, b, c, x, isscalene;
-  a = input_side(x);
-  b = input_side(x);
-  c = input_side(x);
+  a = input_side();
+  b = input_side();
+  c = input_side();
   isscalene = check_scalene(a, b, c);
   output(a, b, c, isscalene);
   return 0;

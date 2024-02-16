@@ -1,5 +1,6 @@
+// Write function to return all factorial numbers in an array of numbers.
+// Hint:  Pass two arrays to the function.
 #include <stdio.h>
-
 int array_size();
 void array_values(int n, int a[n]);
 void factorial(int n, int a[n], int b[n]);

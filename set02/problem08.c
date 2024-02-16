@@ -14,12 +14,12 @@ int main()
 {
   int n;
   n = input_n();
-  Triangle triangles[n];
-  input_n_triangles(n,triangles);
-  find_area(triangles);
-  find_n_areas(n,triangles);
-  Triangle smallest = find_smallest_triangle(n,triangles);
-  output(n,triangles,smallest);
+  Triangle triangle[n];
+  input_n_triangles(n,triangle);
+  find_area(triangle);
+  find_n_areas(n,triangle);
+  Triangle smallest = find_smallest_triangle(n,triangle);
+  output(n,triangle,smallest);
   return 0;
 }
 int input_n()
