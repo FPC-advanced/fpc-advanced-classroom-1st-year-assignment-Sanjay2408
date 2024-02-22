@@ -97,26 +97,28 @@
 
 
 #include <stdio.h>
+int frita_jersey();
 
-int frita_id(){
-  static int f_id = -1;
-  f_id++;
-  return f_id;
-}
 
 typedef struct _fritacole {
-  int frita_id;
+  int frita_jersey;
   char name[100];
   float height;
 } fritacole;
 
+int frita_jersey(){
+  static int f_jersey = -1;
+  f_jersey++;
+  return f_jersey;
+}
+
 typedef struct foul {
-  int frita_id;
+  int frita_jersey;
   char name[100];
 } fouls;
 
 typedef struct points {
-int frita_id;
+int frita_jersey;
 char name[100];
 } points;
 
@@ -131,7 +133,7 @@ typedef struct _team {
 } team;
 
 typedef struct _game {
-  int id;
+  int jersey;
   team teams[2];
 } game;
 
@@ -151,7 +153,7 @@ void inpteam(team *a, int numplayers) {
   printf("Enter the name of the team\n");
   scanf("%s", a->name);
   for (int i = 0; i < a->numplayers; i++) {
-    a->players[i].frita_id=frita_id();
+    a->players[i].frita_jersey=frita_jersey();
     inpfricta(&a->players[i]);
   }
 }
@@ -159,7 +161,7 @@ void inpteam(team *a, int numplayers) {
 
 void inpgame(game *a) {
   printf("please enter game number: \n");
-  scanf("%d",&a->id);
+  scanf("%d",&a->jersey);
   int numplayers;
   printf("Enter the number of players for each team\n");
   scanf("%d", &numplayers);
@@ -173,8 +175,8 @@ void inpgame(game *a) {
 int inpfouls(game *a,int j) {
   scanf("%d", &a->teams[j].numfouls);
   for (int i = 0; i < a->teams[j].numfouls; i++) {
-    printf("Enter the id of the fritacole who fouled: \n");
-    scanf("%d",&a->teams[j].fouls[i].frita_id);
+    printf("Enter the jersey of the fritacole who fouled: \n");
+    scanf("%d",&a->teams[j].fouls[i].frita_jersey);
   }
   return a->teams[j].numfouls;
 }
@@ -183,8 +185,8 @@ int inpfouls(game *a,int j) {
 int inppoints(game *a,int j) {
   scanf("%d", &a->teams[j].numpoints);
   for (int i = 0; i < a->teams[j].numpoints; i++) {
-    printf("Enter the id of the fritacole who scored: \n");
-    scanf("%d", &a->teams[j].points[i].frita_id);
+    printf("Enter the jersey of the fritacole who scored: \n");
+    scanf("%d", &a->teams[j].points[i].frita_jersey);
   }
   return a->teams[j].numpoints;
 }
@@ -212,13 +214,13 @@ void verifyadvantage(game *a) {
 
 
 void verify_win(game *a) {
-  printf("team 1 data: \n");
+  printf("team 1 info: \n");
   for(int i=0;i<a->teams[0].numplayers;i++){
-    printf("name: %s ,id: %d\n",a->teams[0].players[i].name,a->teams[0].players[i].frita_id);
+    printf("name: %s ,jersey no: %d\n",a->teams[0].players[i].name,a->teams[0].players[i].frita_jersey);
   }
-  printf("team 2 data: \n");
+  printf("team 2 info: \n");
   for(int i=0;i<a->teams[1].numplayers;i++){
-    printf("name: %s ,id: %d\n",a->teams[1].players[i].name,a->teams[1].players[i].frita_id);
+    printf("name: %s ,jersey no: %d\n",a->teams[1].players[i].name,a->teams[1].players[i].frita_jersey);
   }
 
   printf("\n\nenter the points for team %s: \n", a->teams[0].name);
@@ -242,20 +244,20 @@ void output(game *a){
   printf("The number of fouls scored by each team are: \n");
   printf("Team 1: %d\n",a->teams[0].numfouls);
   for(int i=0;i<a->teams[0].numfouls;i++){
-    printf("name: %s, id: %d\n",a->teams[0].players[a->teams[0].fouls[i].frita_id].name,a->teams[0].fouls[i].frita_id);
+    printf("name: %s, jersey: %d\n",a->teams[0].players[a->teams[0].fouls[i].frita_jersey].name,a->teams[0].fouls[i].frita_jersey);
   }
   printf("Team 2: %d\n",a->teams[1].numfouls);
   for(int i=0;i<a->teams[1].numfouls;i++){
-    printf("name: %s, id: %d\n",a->teams[1].players[a->teams[1].fouls[i].frita_id].name,a->teams[1].fouls[i].frita_id);
+    printf("name: %s, jersey: %d\n",a->teams[1].players[a->teams[1].fouls[i].frita_jersey].name,a->teams[1].fouls[i].frita_jersey);
   }
   printf("\nThe number of points scored by each team are: \n");
   printf("\nTeam 1: %d\n",a->teams[0].numpoints);
   for(int i=0;i<a->teams[0].numpoints;i++){
-    printf("name: %s, id: %d\n",a->teams[0].players[a->teams[0].points[i].frita_id].name,a->teams[0].points[i].frita_id);
+    printf("name: %s, jersey: %d\n",a->teams[0].players[a->teams[0].points[i].frita_jersey].name,a->teams[0].points[i].frita_jersey);
   }
   printf("\nTeam 2: %d\n",a->teams[1].numpoints);
   for(int i=0;i<a->teams[1].numpoints;i++){
-    printf("name: %s, id: %d \n",a->teams[1].players[a->teams[1].points[i].frita_id].name,a->teams[1].points[i].frita_id);
+    printf("name: %s, jersey: %d \n",a->teams[1].players[a->teams[1].points[i].frita_jersey].name,a->teams[1].points[i].frita_jersey);
   }
 
 }
